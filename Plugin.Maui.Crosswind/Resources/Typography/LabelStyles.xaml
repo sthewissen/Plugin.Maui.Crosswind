@@ -1,0 +1,121 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plugin.Maui.Crosswind.Resources.Typography.LabelStyles">
+
+    <!-- Text Alignment -->
+    <Style Class="text-left" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+    </Style>
+    <Style Class="text-center" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+    <Style Class="text-right" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+    </Style>
+    <Style Class="text-justify" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Justify" />
+    </Style>
+
+    <!-- Text Size -->
+    <Style Class="text-xs" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource SizeXs}" />
+    </Style>
+    <Style Class="text-sm" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource SizeSm}" />
+    </Style>
+    <Style Class="text-base" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource SizeMd}" />
+    </Style>
+    <Style Class="text-lg" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource SizeLg}" />
+    </Style>
+    <Style Class="text-xl" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource SizeXl}" />
+    </Style>
+    <Style Class="text-2xl" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size2Xl}" />
+    </Style>
+    <Style Class="text-3xl" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size3Xl}" />
+    </Style>
+    <Style Class="text-4xl" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size4Xl}" />
+    </Style>
+    <Style Class="text-5xl" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size5Xl}" />
+    </Style>
+    <Style Class="text-6xl" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size6Xl}" />
+    </Style>
+
+    <!-- Font Type -->
+    <Style Class="font-sans" TargetType="Label">
+        <Setter Property="FontFamily" Value="Sans-Serif" />
+    </Style>
+    <Style Class="font-serif" TargetType="Label">
+        <Setter Property="FontFamily" Value="Serif" />
+    </Style>
+    <Style Class="font-mono" TargetType="Label">
+        <Setter Property="FontFamily" Value="Monospace" />
+    </Style>
+
+    <!-- Text Tranforms -->
+    <Style Class="uppercase" TargetType="Label">
+        <Setter Property="TextTransform" Value="Uppercase" />
+    </Style>
+    <Style Class="lowercase" TargetType="Label">
+        <Setter Property="TextTransform" Value="Lowercase" />
+    </Style>
+
+    <!-- Line Heights -->
+    <Style Class="leading-none" TargetType="Label">
+        <Setter Property="LineHeight" Value="1.0" />
+    </Style>
+    <Style Class="leading-tight" TargetType="Label">
+        <Setter Property="LineHeight" Value="1.25" />
+    </Style>
+    <Style Class="leading-snug" TargetType="Label">
+        <Setter Property="LineHeight" Value="1.375" />
+    </Style>
+    <Style Class="leading-normal" TargetType="Label">
+        <Setter Property="LineHeight" Value="1.5" />
+    </Style>
+    <Style Class="leading-relaxed" TargetType="Label">
+        <Setter Property="LineHeight" Value="1.625" />
+    </Style>
+    <Style Class="leading-loose" TargetType="Label">
+        <Setter Property="LineHeight" Value="2.0" />
+    </Style>
+
+    <!-- Letter Spacing -->
+    <Style Class="tracking-tighter" TargetType="Label">
+        <Setter Property="CharacterSpacing" Value="-0.5" />
+    </Style>
+    <Style Class="tracking-tight" TargetType="Label">
+        <Setter Property="CharacterSpacing" Value="-0.25" />
+    </Style>
+    <Style Class="tracking-normal" TargetType="Label">
+        <Setter Property="CharacterSpacing" Value="0" />
+    </Style>
+    <Style Class="tracking-wide" TargetType="Label">
+        <Setter Property="CharacterSpacing" Value="0.25" />
+    </Style>
+    <Style Class="tracking-wider" TargetType="Label">
+        <Setter Property="CharacterSpacing" Value="0.5" />
+    </Style>
+    <Style Class="tracking-widest" TargetType="Label">
+        <Setter Property="CharacterSpacing" Value="1.0" />
+    </Style>
+
+    <!-- Attributes & decorations -->
+    <Style Class="italic" TargetType="Label">
+        <Setter Property="FontAttributes" Value="Italic" />
+    </Style>
+    <Style Class="underline" TargetType="Label">
+        <Setter Property="TextDecorations" Value="Underline" />
+    </Style>
+    <Style Class="line-through" TargetType="Label">
+        <Setter Property="TextDecorations" Value="Strikethrough" />
+    </Style>
+
+</ResourceDictionary>

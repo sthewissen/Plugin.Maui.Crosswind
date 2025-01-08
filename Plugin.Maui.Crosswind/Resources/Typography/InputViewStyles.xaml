@@ -1,0 +1,95 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plugin.Maui.Crosswind.Resources.Typography.InputViewStyles">
+
+    <!-- Text Alignment -->
+    <Style Class="text-left" TargetType="InputView">
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+    </Style>
+    <Style Class="text-center" TargetType="InputView">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+    <Style Class="text-right" TargetType="InputView">
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+    </Style>
+    <Style Class="text-justify" TargetType="InputView">
+        <Setter Property="HorizontalTextAlignment" Value="Justify" />
+    </Style>
+
+    <!-- Text Size -->
+    <Style Class="text-xs" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource SizeXs}" />
+    </Style>
+    <Style Class="text-sm" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource SizeSm}" />
+    </Style>
+    <Style Class="text-base" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource SizeMd}" />
+    </Style>
+    <Style Class="text-lg" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource SizeLg}" />
+    </Style>
+    <Style Class="text-xl" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource SizeXl}" />
+    </Style>
+    <Style Class="text-2xl" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource Size2Xl}" />
+    </Style>
+    <Style Class="text-3xl" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource Size3Xl}" />
+    </Style>
+    <Style Class="text-4xl" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource Size4Xl}" />
+    </Style>
+    <Style Class="text-5xl" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource Size5Xl}" />
+    </Style>
+    <Style Class="text-6xl" TargetType="InputView">
+        <Setter Property="FontSize" Value="{StaticResource Size6Xl}" />
+    </Style>
+
+    <!-- Font Type -->
+    <Style Class="font-sans" TargetType="InputView">
+        <Setter Property="FontFamily" Value="Sans-Serif" />
+    </Style>
+    <Style Class="font-serif" TargetType="InputView">
+        <Setter Property="FontFamily" Value="Serif" />
+    </Style>
+    <Style Class="font-mono" TargetType="InputView">
+        <Setter Property="FontFamily" Value="Monospace" />
+    </Style>
+
+    <!-- Text Tranforms -->
+    <Style Class="uppercase" TargetType="InputView">
+        <Setter Property="TextTransform" Value="Uppercase" />
+    </Style>
+    <Style Class="lowercase" TargetType="InputView">
+        <Setter Property="TextTransform" Value="Lowercase" />
+    </Style>
+
+    <!-- Letter Spacing -->
+    <Style Class="tracking-tighter" TargetType="InputView">
+        <Setter Property="CharacterSpacing" Value="-0.5" />
+    </Style>
+    <Style Class="tracking-tight" TargetType="InputView">
+        <Setter Property="CharacterSpacing" Value="-0.25" />
+    </Style>
+    <Style Class="tracking-normal" TargetType="InputView">
+        <Setter Property="CharacterSpacing" Value="0" />
+    </Style>
+    <Style Class="tracking-wide" TargetType="InputView">
+        <Setter Property="CharacterSpacing" Value="0.25" />
+    </Style>
+    <Style Class="tracking-wider" TargetType="InputView">
+        <Setter Property="CharacterSpacing" Value="0.5" />
+    </Style>
+    <Style Class="tracking-widest" TargetType="InputView">
+        <Setter Property="CharacterSpacing" Value="1.0" />
+    </Style>
+
+    <!-- Attributes & decorations -->
+    <Style Class="italic" TargetType="InputView">
+        <Setter Property="FontAttributes" Value="Italic" />
+    </Style>
+
+</ResourceDictionary>

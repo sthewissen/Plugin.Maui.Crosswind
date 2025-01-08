@@ -17,7 +17,7 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 
-		!-- NuGet -->
+		<!-- NuGet -->
 		<IsPackable>True</IsPackable>
 		<PackageProjectUrl>https://github.com/sthewissen/Plugin.Maui.Crosswind</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/sthewissen/Plugin.Maui.Crosswind</RepositoryUrl>
@@ -45,10 +45,17 @@
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" IsImplicitlyDefined="true" />
 		<PackageReference Include="System.Management" Version="7.0.0" Condition="$(TargetFramework.Contains('-windows')) == true" />
 	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="**\*.xaml.cs">
+			<DependentUpon>%(Filename)</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
 	<!-- Package additions -->
 	<ItemGroup>
-		<None Include="..\..\nuget.png" PackagePath="icon.png" Pack="true" />
-		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\nuget.png" PackagePath="icon.png" Pack="true" />
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
