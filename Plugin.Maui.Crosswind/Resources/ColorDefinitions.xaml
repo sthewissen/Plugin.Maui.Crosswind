@@ -93,7 +93,7 @@
     <Color x:Key="Orange900">#7c2d12</Color>
     <Color x:Key="Orange950">#431407</Color>
 
-        <!-- Amber Colors -->
+    <!-- Amber Colors -->
     <Color x:Key="Amber50">#fffbeb</Color>
     <Color x:Key="Amber100">#fef3c7</Color>
     <Color x:Key="Amber200">#fde68a</Color>
@@ -171,7 +171,7 @@
     <Color x:Key="Teal900">#134e4a</Color>
     <Color x:Key="Teal950">#042f2e</Color>
 
-        <!-- Cyan Colors -->
+    <!-- Cyan Colors -->
     <Color x:Key="Cyan50">#ecfeff</Color>
     <Color x:Key="Cyan100">#cffafe</Color>
     <Color x:Key="Cyan200">#a5f3fc</Color>
