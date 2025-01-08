@@ -7,15 +7,15 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 
 ### Typography
 
-|            | `Button` | `Label` | `InputView`* | `Picker` | `DatePicker` | `TimePicker` | `RadioButton` |
-|-------------|--------|-------|-------|-------|-------|-------|-------|
-| Text alignment<br/>(e.g. `text-center`) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Text size<br/>(e.g.`text-sm`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ | ✅ |
-| Font type<br/>(e.g.`font-sans`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ | ✅ |
-| Text case<br/>(e.g.`uppercase`) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ |
-| Tracking<br/>(e.g.`tracking-wide`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ | ✅ |
-| Leading<br/>(e.g.`leading-snug`) | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Font attributes<br/>(e.g.`italic`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ | ✅ |
-| Text decorations<br/>(e.g.`underline`) | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+|            | `Button` | `Label` | `InputView`* | `Picker`<br/>`DatePicker`<br/>`TimePicker` | `RadioButton` |
+|-------------|--------|-------|-------|-------|-------|
+| Text alignment<br/>(e.g. `text-center`) | ❌ | ✅ | ✅ | ❌ | ❌ |
+| Text size<br/>(e.g.`text-sm`) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Font type<br/>(e.g.`font-sans`) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Text case<br/>(e.g.`uppercase`) | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Tracking<br/>(e.g.`tracking-wide`) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Leading<br/>(e.g.`leading-snug`) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Font attributes<br/>(e.g.`italic`) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Text decorations<br/>(e.g.`underline`) | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 *`InputView` covers the `Entry`, `Editor` and `SearchBar` controls.
