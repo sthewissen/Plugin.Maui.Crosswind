@@ -8,7 +8,7 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 ### Typography
 
 |            | `Button` | `Label` | `InputView`* | `Picker` | `DatePicker` | `TimePicker` | `RadioButton` |
-|-------------|--------|-------|-------|-------|-------|-------|
+|-------------|--------|-------|-------|-------|-------|-------|-------|
 | Text alignment<br/>(e.g. `text-center`) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Text size<br/>(e.g.`text-sm`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ | ✅ |
 | Font type<br/>(e.g.`font-sans`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ | ✅ |
