@@ -9,12 +9,12 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 
 |            | `Button` | `Label` | `InputView`* | `Picker` | `DatePicker` | `TimePicker` |
 |-------------|--------|-------|-------|-------|-------|-------|
-| Text alignment (`text-center`) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Text size (`text-sm`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
-| Font type (`font-sans`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
-| Text case (`uppercase`) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Tracking (`tracking-wide`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
-| Leading (`leading-snug`) | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Text decorations (`underline`) | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Text alignment<br/><small>(e.g. `text-center`)</small> | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Text size<br/><small>(e.g.`text-sm`)</small> | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
+| Font type<br/><small>(e.g.`font-sans`)</small> | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
+| Text case<br/><small>(e.g.`uppercase`)</small> | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Tracking<br/><small>(e.g.`tracking-wide`)</small> | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
+| Leading<br/><small>(e.g.`leading-snug`)</small> | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Text decorations<br/><small>(e.g.`underline`)</small> | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 *`InputView` covers the `Entry`, `Editor` and `SearchBar` controls.
