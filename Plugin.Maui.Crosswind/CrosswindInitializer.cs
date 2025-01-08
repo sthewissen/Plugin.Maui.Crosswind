@@ -10,6 +10,8 @@ public class CrosswindInitializer
             Application.Current.Resources.MergedDictionaries.Add(new Resources.ColorDefinitions());
             Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.LabelStyles());
             Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.ButtonStyles());
+            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.InputViewStyles());
+            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.PickerStyles());
         }
     }
 }

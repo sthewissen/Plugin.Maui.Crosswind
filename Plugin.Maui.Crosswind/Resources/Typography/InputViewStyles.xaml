@@ -3,16 +3,41 @@
                     x:Class="Plugin.Maui.Crosswind.Resources.Typography.InputViewStyles">
 
     <!-- Text Alignment -->
-    <Style Class="text-left" TargetType="InputView">
+    <!-- Unfortunately InputView doesn't implement ITextAlignment so we can't set HorizontalTextAlignment -->
+    <Style Class="text-left" TargetType="Entry">
         <Setter Property="HorizontalTextAlignment" Value="Start" />
     </Style>
-    <Style Class="text-center" TargetType="InputView">
+    <Style Class="text-center" TargetType="Entry">
         <Setter Property="HorizontalTextAlignment" Value="Center" />
     </Style>
-    <Style Class="text-right" TargetType="InputView">
+    <Style Class="text-right" TargetType="Entry">
         <Setter Property="HorizontalTextAlignment" Value="End" />
     </Style>
-    <Style Class="text-justify" TargetType="InputView">
+    <Style Class="text-justify" TargetType="Entry">
+        <Setter Property="HorizontalTextAlignment" Value="Justify" />
+    </Style>
+    <Style Class="text-left" TargetType="SearchBar">
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+    </Style>
+    <Style Class="text-center" TargetType="SearchBar">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+    <Style Class="text-right" TargetType="SearchBar">
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+    </Style>
+    <Style Class="text-justify" TargetType="SearchBar">
+        <Setter Property="HorizontalTextAlignment" Value="Justify" />
+    </Style>
+    <Style Class="text-left" TargetType="Editor">
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+    </Style>
+    <Style Class="text-center" TargetType="Editor">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+    </Style>
+    <Style Class="text-right" TargetType="Editor">
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+    </Style>
+    <Style Class="text-justify" TargetType="Editor">
         <Setter Property="HorizontalTextAlignment" Value="Justify" />
     </Style>
 

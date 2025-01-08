@@ -1,0 +1,73 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plugin.Maui.Crosswind.Resources.Typography.DatePickerStyles">
+
+    <!-- Text Size -->
+    <Style Class="text-xs" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource SizeXs}" />
+    </Style>
+    <Style Class="text-sm" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource SizeSm}" />
+    </Style>
+    <Style Class="text-base" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource SizeMd}" />
+    </Style>
+    <Style Class="text-lg" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource SizeLg}" />
+    </Style>
+    <Style Class="text-xl" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource SizeXl}" />
+    </Style>
+    <Style Class="text-2xl" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource Size2Xl}" />
+    </Style>
+    <Style Class="text-3xl" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource Size3Xl}" />
+    </Style>
+    <Style Class="text-4xl" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource Size4Xl}" />
+    </Style>
+    <Style Class="text-5xl" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource Size5Xl}" />
+    </Style>
+    <Style Class="text-6xl" TargetType="DatePicker">
+        <Setter Property="FontSize" Value="{StaticResource Size6Xl}" />
+    </Style>
+
+    <!-- Font Type -->
+    <Style Class="font-sans" TargetType="DatePicker">
+        <Setter Property="FontFamily" Value="Sans-Serif" />
+    </Style>
+    <Style Class="font-serif" TargetType="DatePicker">
+        <Setter Property="FontFamily" Value="Serif" />
+    </Style>
+    <Style Class="font-mono" TargetType="DatePicker">
+        <Setter Property="FontFamily" Value="Monospace" />
+    </Style>
+
+    <!-- Letter Spacing -->
+    <Style Class="tracking-tighter" TargetType="DatePicker">
+        <Setter Property="CharacterSpacing" Value="-0.5" />
+    </Style>
+    <Style Class="tracking-tight" TargetType="DatePicker">
+        <Setter Property="CharacterSpacing" Value="-0.25" />
+    </Style>
+    <Style Class="tracking-normal" TargetType="DatePicker">
+        <Setter Property="CharacterSpacing" Value="0" />
+    </Style>
+    <Style Class="tracking-wide" TargetType="DatePicker">
+        <Setter Property="CharacterSpacing" Value="0.25" />
+    </Style>
+    <Style Class="tracking-wider" TargetType="DatePicker">
+        <Setter Property="CharacterSpacing" Value="0.5" />
+    </Style>
+    <Style Class="tracking-widest" TargetType="DatePicker">
+        <Setter Property="CharacterSpacing" Value="1.0" />
+    </Style>
+
+    <!-- Attributes & decorations -->
+    <Style Class="italic" TargetType="DatePicker">
+        <Setter Property="FontAttributes" Value="Italic" />
+    </Style>
+
+</ResourceDictionary>

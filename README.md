@@ -7,14 +7,14 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 
 ### Typography
 
-|            | `Button` | `Label` | `InputView`* |
-|-------------|--------|-------|-------|
-| Text alignment (`text-center`) | ❌ | ✅ | ✅ |
-| Text size (`text-sm`) | ✅ | ✅ | ✅ |
-| Font type (`font-sans`) | ✅ | ✅ | ✅ |
-| Text case (`uppercase`) | ✅ | ✅ | ✅ |
-| Tracking (`tracking-wide`) | ✅ | ✅ | ✅ |
-| Leading (`leading-snug`) | ❌ | ✅ | ❌ |
-| Text decorations (`underline`) | ❌ | ✅ | ❌ |
+|            | `Button` | `Label` | `InputView`* | `Picker` | `DatePicker` | `TimePicker` |
+|-------------|--------|-------|-------|-------|-------|-------|
+| Text alignment (`text-center`) | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Text size (`text-sm`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
+| Font type (`font-sans`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
+| Text case (`uppercase`) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Tracking (`tracking-wide`) | ✅ | ✅ | ✅ | ✅ |  ✅ |  ✅ |
+| Leading (`leading-snug`) | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Text decorations (`underline`) | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 *`InputView` covers the `Entry`, `Editor` and `SearchBar` controls.
