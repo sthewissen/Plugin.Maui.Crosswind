@@ -13,7 +13,7 @@ Crosswind supports the following broad categories when it comes to styling:
 - [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Colors)
 - [Shadows](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Shadows)
 - [Spacing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Spacing)
-- [Transformations](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Transformations)
+- [Transforms](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Transforms)
 - [Typography](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Typography)
 - [Visibility](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Visibility)
 
@@ -191,6 +191,98 @@ Directional padding classes provide spacing within an element on specific sides 
 ### Notes
 Due to .NET MAUI's limitations with the `Margin` and `Padding` properties, which sets all four sides (top, bottom, left, and right) at once, individual margin and padding classes cannot be combined. For example, applying `mx-4` and `my-6` together is not supported, as one will override the other. Instead, use a single class to define the desired margin configuration.
 
+---
+
+## Transforms
+The transform classes provide several useful transformation styles for scaling, rotating, and translating objects in a MAUI application. These transformations can be applied to UI elements to modify their appearance and positioning. These classes all target `VisualElement`.
+
+### Rotation classes
+Rotation transformations allow you to rotate an element by a specified angle. These styles apply rotational transformations to your `VisualElement` objects.
+
+| Class | Rotation Value |
+|---|---|
+|`rotate-0`| Rotate the element `0` degrees |
+|`rotate-45`| Rotate the element `45` degrees |
+|`rotate-90`| Rotate the element `90` degrees |
+|`rotate-135`| Rotate the element `135` degrees |
+|`rotate-180`| Rotate the element `180` degrees |
+|`rotate-225`| Rotate the element `225` degrees |
+|`rotate-270`| Rotate the element `270` degrees |
+|`rotate-315`| Rotate the element `315` degrees |
+|`rotate-360`| Rotate the element `360` degrees |
+
+### Scale classes
+Scale transformations change the size of an element along one or more axes. The following styles allow you to apply different scaling factors to your `VisualElement` objects.
+
+| Class | Rotation Value |
+|---|---|
+|`scale-0`| Scale the element on both axis `0%` (make it invisible) |
+|`scale-50`| Scale the element on both axis `50%` |
+|`scale-75`| Scale the element on both axis `75%` |
+|`scale-90`| Scale the element on both axis `90%` |
+|`scale-95`| Scale the element on both axis `95%` |
+|`scale-100`| Scale the element on both axis `100%` |
+|`scale-105`| Scale the element on both axis `105%` |
+|`scale-110`| Scale the element on both axis `110%` |
+|`scale-125`| Scale the element on both axis `125%` |
+|`scale-150`| Scale the element on both axis `150%` |
+|`scale-175`| Scale the element on both axis `175%` |
+|`scale-200`| Scale the element on both axis `200%` |
+|`scale-x-0`| Scale the element on the X-axis `0%` (make it invisible) |
+|`scale-x-50`| Scale the element on the X-axis `50%` |
+|`scale-x-75`| Scale the element on the X-axis `75%` |
+|`scale-x-90`| Scale the element on the X-axis `90%` |
+|`scale-x-95`| Scale the element on the X-axis `95%` |
+|`scale-x-100`| Scale the element on the X-axis `100%` |
+|`scale-x-105`| Scale the element on the X-axis `105%` |
+|`scale-x-110`| Scale the element on the X-axis `110%` |
+|`scale-x-125`| Scale the element on the X-axis `125%` |
+|`scale-x-150`| Scale the element on the X-axis `150%` |
+|`scale-x-175`| Scale the element on the X-axis `175%` |
+|`scale-x-200`| Scale the element on the X-axis `200%` |
+|`scale-y-0`| Scale the element on the Y-axis `0%` (make it invisible) |
+|`scale-y-50`| Scale the element on the Y-axis `50%` |
+|`scale-y-75`| Scale the element on the Y-axis `75%` |
+|`scale-y-90`| Scale the element on the Y-axis `90%` |
+|`scale-y-95`| Scale the element on the Y-axis `95%` |
+|`scale-y-100`| Scale the element on the Y-axis `100%` |
+|`scale-y-105`| Scale the element on the Y-axis `105%` |
+|`scale-y-110`| Scale the element on the Y-axis `110%` |
+|`scale-y-125`| Scale the element on the Y-axis `125%` |
+|`scale-y-150`| Scale the element on the Y-axis `150%` |
+|`scale-y-175`| Scale the element on the Y-axis `175%` |
+|`scale-y-200`| Scale the element on the Y-axis `200%` |
+
+### Translate classes
+Translation transformations move an element along the X and Y axes, shifting its position by a specified number of dp units. The following styles define translations in both directions for your `VisualElement` objects.
+
+| Class | Rotation Value |
+|---|---|
+|`translate-x-0`| Translate the element on the X-axis `0` dp |
+|`translate-x-1`| Translate the element on the X-axis `4` dp |
+|`translate-x-2`| Translate the element on the X-axis `8` dp |
+|`translate-x-3`| Translate the element on the X-axis `12` dp |
+|`translate-x-4`| Translate the element on the X-axis `16` dp |
+|`translate-x-5`| Translate the element on the X-axis `20` dp |
+|`translate-x-6`| Translate the element on the X-axis `24` dp |
+|`translate-x-7`| Translate the element on the X-axis `28` dp |
+|`translate-x-8`| Translate the element on the X-axis `32` dp |
+|`translate-y-0`| Translate the element on the Y-axis `0` dp |
+|`translate-y-1`| Translate the element on the Y-axis `4` dp |
+|`translate-y-2`| Translate the element on the Y-axis `8` dp |
+|`translate-y-3`| Translate the element on the Y-axis `12` dp |
+|`translate-y-4`| Translate the element on the Y-axis `16` dp |
+|`translate-y-5`| Translate the element on the Y-axis `20` dp |
+|`translate-y-6`| Translate the element on the Y-axis `24` dp |
+|`translate-y-7`| Translate the element on the Y-axis `28` dp |
+|`translate-y-8`| Translate the element on the Y-axis `32` dp |
+
+*Example usage:*
+```xml
+<Button Class="scale-150" Text="Enlarged Button"/>
+<Button Class="rotate-45" Text="Rotated Button"/>
+<Button Class="translate-x-4 translate-y-4" Text="Translated Button"/>
+```
 ---
 
 ## Typography
