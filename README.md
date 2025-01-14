@@ -8,8 +8,13 @@
 
 Crosswind supports the following broad categories when it comes to styling:
 
+- [Alignment](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Alignment)
+- [Borders](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Borders)
 - [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Colors)
+- [Shadows](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Shadows)
 - [Spacing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Spacing)
+- [Transformations](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Transformations)
+- [Typography](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Typography)
 - [Visibility](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Visibility)
 
 ## Crosswind in action
@@ -195,13 +200,13 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 
 |            | `Button` | `Label` | `InputView`* | `Picker`<br/>`DatePicker`<br/>`TimePicker` | `RadioButton` |
 |-------------|--------|-------|-------|-------|-------|
-| Text alignment<br/>(e.g. `text-center`) | ❌ | ✅ | ✅ | ❌ | ❌ |
-| Text size<br/>(e.g.`text-sm`) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Font type<br/>(e.g.`font-sans`) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Text case<br/>(e.g.`uppercase`) | ✅ | ✅ | ✅ | ❌ | ✅ |
-| Tracking<br/>(e.g.`tracking-wide`) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Leading<br/>(e.g.`leading-snug`) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Font attributes<br/>(e.g.`italic`) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Text decorations<br/>(e.g.`underline`) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Font attributes | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Font type | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Leading | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Text alignment | ❌ | ✅ | ✅ | ❌ | ❌ |
+| Text case | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Text decorations | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Text size | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Tracking | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 *`InputView` covers the `Entry`, `Editor` and `SearchBar` controls.
