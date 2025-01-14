@@ -6,6 +6,12 @@
 - **Increase productivity:** Spend less time writing custom styles and more time building features.
 - **Improve maintainability:** Centralized and reusable styles make it easy to update designs and ensure consistency. You aren’t wasting energy inventing in class names. No more adding silly class names like `list-inner-wrapper` just to be able to style something, and no more agonizing over the perfect abstract name for something that’s really just a container.
 
+Crosswind supports the following broad categories when it comes to styling:
+
+- [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Colors)
+- [Spacing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Spacing)
+- [Visibility](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Visibility)
+
 ## Crosswind in action
 A picture is worth a thousand words, and seeing Crosswind in action can speak volumes about how it simplifies your UI styling. Below are examples of how you can create beautiful, consistent layouts in .NET MAUI using Crosswind classes. Each example includes a visual and the corresponding XAML code to show you just how easy it is to use.
 
