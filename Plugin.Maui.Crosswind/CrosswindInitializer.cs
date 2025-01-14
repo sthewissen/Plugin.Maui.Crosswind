@@ -22,7 +22,6 @@ public static class CrosswindInitializer
             Application.Current.Resources.MergedDictionaries.Add(new Resources.Spacing.ViewStyles());
 
             // TODO: Text colors
-            // TODO: Scale, Rotate, Translate
             // TODO: Borders (Style, Width, Radius, Color)
             // TODO: Shadows + Shadow Colors
             // TODO: Word Break
@@ -30,6 +29,10 @@ public static class CrosswindInitializer
             // TODO: Text Align
             // TODO: Sizing (Width, Height, MaxHeight, MinHeight, MaxWidth, MinWidth, Size)
 
+            
+            // Scale, Rotate, Translate
+            Application.Current.Resources.MergedDictionaries.Add(new Resources.Transforms.VisualElementStyles());
+            
             // Text sizes, colors etc.
             Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.LabelStyles());
             Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.ButtonStyles());
