@@ -1,3 +1,7 @@
+using Microsoft.Maui.Controls.StyleSheets;
+using System.IO;
+using System.Reflection;
+
 namespace Plugin.Maui.Crosswind;
 
 public static class CrosswindInitializer
@@ -7,39 +11,29 @@ public static class CrosswindInitializer
         // Merge Crosswind styles into the app's resource dictionary
         if (Application.Current?.Resources != null)
         {
-            // Predefined colors and sizes
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.ColorDefinitions());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.SizeDefinitions());
+            InitCssFromResource("styles.css");
 
-            // Background colors
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Colors.VisualElementStyles());
-
-            // Opacity, visibility, etc.
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Visibility.VisualElementStyles());
-            
-            // Margin and padding.
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Spacing.VisualElementStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Spacing.ViewStyles());
-
-            // TODO: Text colors
             // TODO: Borders (Style, Width, Radius, Color)
-            // TODO: Shadows + Shadow Colors
             // TODO: Word Break
             // TODO: Vertical Align
             // TODO: Sizing (Width, Height, MaxHeight, MinHeight, MaxWidth, MinWidth, Size)
 
-            
-            // Scale, Rotate, Translate
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Transforms.VisualElementStyles());
-            
-            // Text sizes, colors etc.
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.LabelStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.ButtonStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.InputViewStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.PickerStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.RadioButtonStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.DatePickerStyles());
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Typography.TimePickerStyles());
+            // Shadows + Shadow Colors
+            Application.Current.Resources.MergedDictionaries.Add(new Resources.Shadows.VisualElementStyles());
         }
+    }
+
+    private static void InitCssFromResource(string name)
+    {
+        // Determine path
+        var assembly = Assembly.GetExecutingAssembly();
+        var resourcePath = assembly.GetManifestResourceNames().SingleOrDefault(str => str.EndsWith(name));
+
+        if (resourcePath == null)
+            throw new ArgumentException("No valid CSS file found!");
+
+        using var stream = assembly.GetManifestResourceStream(resourcePath);
+        using var reader = new StreamReader(stream);
+        Application.Current.Resources.Add(StyleSheet.FromReader(reader));
     }
 }

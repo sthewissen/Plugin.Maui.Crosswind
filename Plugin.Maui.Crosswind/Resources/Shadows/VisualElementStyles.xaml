@@ -2,6 +2,47 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                     x:Class="Plugin.Maui.Crosswind.Resources.Shadows.VisualElementStyles">
 
+    <Style Class="shadow-sm" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow.Offset" Value="0,1" />
+        <Setter Property="Shadow.Opacity" Value="0.05" />
+        <Setter Property="Shadow.Brush" Value="Black" />
+        <Setter Property="Shadow.Radius" Value="2" />
+    </Style>
+    <Style Class="shadow" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow.Offset" Value="0,1" />
+        <Setter Property="Shadow.Opacity" Value="0.1" />
+        <Setter Property="Shadow.Brush" Value="Black" />
+        <Setter Property="Shadow.Radius" Value="3" />
+    </Style>
+    <Style Class="shadow-md" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow.Offset" Value="0,4" />
+        <Setter Property="Shadow.Opacity" Value="0.1" />
+        <Setter Property="Shadow.Brush" Value="Black" />
+        <Setter Property="Shadow.Radius" Value="6" />
+    </Style>
+    <Style Class="shadow-lg" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow">
+            <Shadow Offset="0,10" Opacity="0.1" Brush="Black" Radius="15" />
+        </Setter>
+    </Style>
+    <Style Class="shadow-xl" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow.Offset" Value="0,20" />
+        <Setter Property="Shadow.Opacity" Value="0.1" />
+        <Setter Property="Shadow.Brush" Value="Black" />
+        <Setter Property="Shadow.Radius" Value="25" />
+    </Style>
+    <Style Class="shadow-2xl" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow.Offset" Value="0,25" />
+        <Setter Property="Shadow.Opacity" Value="0.1" />
+        <Setter Property="Shadow.Brush" Value="Black" />
+        <Setter Property="Shadow.Radius" Value="50" />
+    </Style>
+    <Style Class="shadow-none" TargetType="VisualElement" ApplyToDerivedTypes="True">
+        <Setter Property="Shadow.Offset" Value="0,0" />
+        <Setter Property="Shadow.Brush" Value="{x:Null}" />
+        <Setter Property="Shadow.Radius" Value="0" />
+    </Style>
+
 
     <!-- Slate -->
     <Style Class="shadow-slate-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
