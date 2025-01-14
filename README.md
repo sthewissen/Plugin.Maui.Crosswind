@@ -65,7 +65,7 @@ In Crosswind, you can easily set background colors using utility classes that ma
 #### Border color classes
 
 #### Text color classes
-You can easily set text colors using utility classes that map to a predefined set of colors. Each text color class applies a specific color to the foreground of the text element. Please refer to the overview above for the supported colors. You can apply the text color classes in the `StyleClass` property of any `VisualElement`:
+You can easily set text colors using utility classes that map to a predefined set of colors. Each text color class applies a specific color to the foreground of the text element. Please refer to the overview above for the supported colors. You can apply the text color classes in the `StyleClass` property of any element that supports the `TextColor` property (see the compatibilty matrix for typography-related classes below).
 
 ```xml
 <Label StyleClass="text-fuchsia-800" Text="This is an element with nice text colors." />
