@@ -40,6 +40,7 @@ A picture is worth a thousand words, and seeing Crosswind in action can speak vo
 |Pink|![#fdf2f8](https://placehold.co/40x40/fdf2f8/FFF?text=\n+)|![#fce7f3](https://placehold.co/40x40/fce7f3/FFF?text=\n+)|![#fbcfe8](https://placehold.co/40x40/fbcfe8/FFF?text=\n+)|![#f9a8d4](https://placehold.co/40x40/f9a8d4/FFF?text=\n+)|![#f472b6](https://placehold.co/40x40/f472b6/FFF?text=\n+)|![#ec4899](https://placehold.co/40x40/ec4899/FFF?text=\n+)|![#db2777](https://placehold.co/40x40/db2777/FFF?text=\n+)|![#be185d](https://placehold.co/40x40/be185d/FFF?text=\n+)|![#9d174d](https://placehold.co/40x40/9d174d/FFF?text=\n+)|![#831843](https://placehold.co/40x40/831843/FFF?text=\n+)|![#500724](https://placehold.co/40x40/500724/FFF?text=\n+)|
 |Rose|![#fff1f2](https://placehold.co/40x40/fff1f2/FFF?text=\n+)|![#ffe4e6](https://placehold.co/40x40/ffe4e6/FFF?text=\n+)|![#fecdd3](https://placehold.co/40x40/fecdd3/FFF?text=\n+)|![#fda4af](https://placehold.co/40x40/fda4af/FFF?text=\n+)|![#fb7185](https://placehold.co/40x40/fb7185/FFF?text=\n+)|![#f43f5e](https://placehold.co/40x40/f43f5e/FFF?text=\n+)|![#e11d48](https://placehold.co/40x40/e11d48/FFF?text=\n+)|![#be123c](https://placehold.co/40x40/be123c/FFF?text=\n+)|![#9f1239](https://placehold.co/40x40/9f1239/FFF?text=\n+)|![#881337](https://placehold.co/40x40/881337/FFF?text=\n+)|![#4c0519](https://placehold.co/40x40/4c0519/FFF?text=\n+)|
 
+===
 
 ### Spacing
 The spacing utilities in Crosswind offer a consistent way to apply spacing in or around elements in your .NET MAUI application adhering to a 4 point grid system, ideal for your mobile apps.
@@ -160,6 +161,8 @@ Directional padding classes provide spacing within an element on specific sides 
 
 #### Notes
 Due to .NET MAUI's limitations with the `Margin` and `Padding` properties, which sets all four sides (top, bottom, left, and right) as at once, individual margin and padding classes cannot be combined. For example, applying `mx-4` and `my-6` together is not supported, as one will override the other. Instead, use a single class to define the desired margin configuration.
+
+===
 
 ### Visibility
 The visibility utilities in Crosswind provide simple classes to control the visibility and transparency of elements in your .NET MAUI application. These classes mimic the utility-first styling of Tailwind CSS, offering both visibility toggles and opacity adjustments. These classes all target `VisualElement`.
