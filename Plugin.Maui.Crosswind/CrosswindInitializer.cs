@@ -7,6 +7,7 @@ public static class CrosswindInitializer
         // Merge Crosswind styles into the app's resource dictionary
         if (Application.Current?.Resources != null)
         {
+            // Predefined colors and sizes
             Application.Current.Resources.MergedDictionaries.Add(new Resources.ColorDefinitions());
             Application.Current.Resources.MergedDictionaries.Add(new Resources.SizeDefinitions());
 
