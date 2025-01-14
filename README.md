@@ -26,6 +26,8 @@ A picture is worth a thousand words, and seeing Crosswind in action can speak vo
 
 ### Colors
 
+Crosswind includes the default Tailwind color palette out-of-the-box that is a great starting point if you don't have your own specific branding in mind. These colors can be used in various locations throughout Crosswind, such as background colors, text colors and border colors. The following overview shows all of the out-of-the-box colors you have access to.
+
 |Color|50|100|200|300|400|500|600|700|800|900|950|
 |---|---|---|---|---|---|---|---|---|---|---|---|
 |Slate|![#f8fafc](https://placehold.co/40x40/f8fafc/FFF?text=\n+)|![#f1f5f9](https://placehold.co/40x40/f1f5f9/FFF?text=\n+)|![#e2e8f0](https://placehold.co/40x40/e2e8f0/FFF?text=\n+)|![#cbd5e1](https://placehold.co/40x40/cbd5e1/FFF?text=\n+)|![#94a3b8](https://placehold.co/40x40/94a3b8/FFF?text=\n+)|![#64748b](https://placehold.co/40x40/64748b/FFF?text=\n+)|![#475569](https://placehold.co/40x40/475569/FFF?text=\n+)|![#334155](https://placehold.co/40x40/334155/FFF?text=\n+)|![#1e293b](https://placehold.co/40x40/1e293b/FFF?text=\n+)|![#0f172a](https://placehold.co/40x40/0f172a/FFF?text=\n+)|![#020617](https://placehold.co/40x40/020617/FFF?text=\n+)|
@@ -50,6 +52,24 @@ A picture is worth a thousand words, and seeing Crosswind in action can speak vo
 |Fuchsia|![#fdf4ff](https://placehold.co/40x40/fdf4ff/FFF?text=\n+)|![#fae8ff](https://placehold.co/40x40/fae8ff/FFF?text=\n+)|![#f5d0fe](https://placehold.co/40x40/f5d0fe/FFF?text=\n+)|![#f0abfc](https://placehold.co/40x40/f0abfc/FFF?text=\n+)|![#e879f9](https://placehold.co/40x40/e879f9/FFF?text=\n+)|![#d946ef](https://placehold.co/40x40/d946ef/FFF?text=\n+)|![#c026d3](https://placehold.co/40x40/c026d3/FFF?text=\n+)|![#a21caf](https://placehold.co/40x40/a21caf/FFF?text=\n+)|![#86198f](https://placehold.co/40x40/86198f/FFF?text=\n+)|![#701a75](https://placehold.co/40x40/701a75/FFF?text=\n+)|![#4a044e](https://placehold.co/40x40/4a044e/FFF?text=\n+)|
 |Pink|![#fdf2f8](https://placehold.co/40x40/fdf2f8/FFF?text=\n+)|![#fce7f3](https://placehold.co/40x40/fce7f3/FFF?text=\n+)|![#fbcfe8](https://placehold.co/40x40/fbcfe8/FFF?text=\n+)|![#f9a8d4](https://placehold.co/40x40/f9a8d4/FFF?text=\n+)|![#f472b6](https://placehold.co/40x40/f472b6/FFF?text=\n+)|![#ec4899](https://placehold.co/40x40/ec4899/FFF?text=\n+)|![#db2777](https://placehold.co/40x40/db2777/FFF?text=\n+)|![#be185d](https://placehold.co/40x40/be185d/FFF?text=\n+)|![#9d174d](https://placehold.co/40x40/9d174d/FFF?text=\n+)|![#831843](https://placehold.co/40x40/831843/FFF?text=\n+)|![#500724](https://placehold.co/40x40/500724/FFF?text=\n+)|
 |Rose|![#fff1f2](https://placehold.co/40x40/fff1f2/FFF?text=\n+)|![#ffe4e6](https://placehold.co/40x40/ffe4e6/FFF?text=\n+)|![#fecdd3](https://placehold.co/40x40/fecdd3/FFF?text=\n+)|![#fda4af](https://placehold.co/40x40/fda4af/FFF?text=\n+)|![#fb7185](https://placehold.co/40x40/fb7185/FFF?text=\n+)|![#f43f5e](https://placehold.co/40x40/f43f5e/FFF?text=\n+)|![#e11d48](https://placehold.co/40x40/e11d48/FFF?text=\n+)|![#be123c](https://placehold.co/40x40/be123c/FFF?text=\n+)|![#9f1239](https://placehold.co/40x40/9f1239/FFF?text=\n+)|![#881337](https://placehold.co/40x40/881337/FFF?text=\n+)|![#4c0519](https://placehold.co/40x40/4c0519/FFF?text=\n+)|
+
+#### Background color classes
+In Crosswind, you can easily set background colors using utility classes that map to a predefined set of colors. Each background color class applies a specific color to the background of the element. Please refer to the overview above for the supported colors. You can apply the background color classes in the `StyleClass` property of any `VisualElement`:
+
+```xml
+<VerticalStackLayout StyleClass="bg-slate-500">
+    <Label StyleClass="bg-rose-300" Text="This is a background colored element" />
+</VerticalStackLayout>
+```
+
+#### Border color classes
+
+#### Text color classes
+You can easily set text colors using utility classes that map to a predefined set of colors. Each text color class applies a specific color to the foreground of the text element. Please refer to the overview above for the supported colors. You can apply the text color classes in the `StyleClass` property of any `VisualElement`:
+
+```xml
+<Label StyleClass="text-fuchsia-800" Text="This is an element with nice text colors." />
+```
 
 ----
 
