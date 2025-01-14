@@ -26,7 +26,6 @@ public static class CrosswindInitializer
             // TODO: Shadows + Shadow Colors
             // TODO: Word Break
             // TODO: Vertical Align
-            // TODO: Text Align
             // TODO: Sizing (Width, Height, MaxHeight, MinHeight, MaxWidth, MinWidth, Size)
 
             
