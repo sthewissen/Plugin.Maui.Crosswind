@@ -1,0 +1,84 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plugin.Maui.Crosswind.Resources.Spacing.ViewStyles">
+
+    <!-- Margin -->
+    <Style Class="m-0" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0" />
+    </Style>
+    <Style Class="m-1" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="4" />
+    </Style>
+    <Style Class="m-2" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="8" />
+    </Style>
+    <Style Class="m-3" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="12" />
+    </Style>
+    <Style Class="m-4" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="16" />
+    </Style>
+    <Style Class="m-5" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="20" />
+    </Style>
+    <Style Class="m-6" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="24" />
+    </Style>
+    <Style Class="m-7" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="28" />
+    </Style>
+    <Style Class="m-8" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="32" />
+    </Style>
+
+    <!-- Single direction margins -->
+    <Style Class="mx-1" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="4,0,4,0" />
+    </Style>
+    <Style Class="my-1" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,4,0,4" />
+    </Style>
+    <Style Class="mx-2" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="8,0,8,0" />
+    </Style>
+    <Style Class="my-2" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,8,0,8" />
+    </Style>
+    <Style Class="mx-3" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="12,0,12,0" />
+    </Style>
+    <Style Class="my-3" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,12,0,12" />
+    </Style>
+    <Style Class="mx-4" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="16,0,16,0" />
+    </Style>
+    <Style Class="my-4" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,16,0,16" />
+    </Style>
+    <Style Class="mx-5" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="20,0,20,0" />
+    </Style>
+    <Style Class="my-5" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,20,0,20" />
+    </Style>
+    <Style Class="mx-6" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="24,0,24,0" />
+    </Style>
+    <Style Class="my-6" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,24,0,24" />
+    </Style>
+    <Style Class="mx-7" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="28,0,28,0" />
+    </Style>
+    <Style Class="my-7" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,28,0,28" />
+    </Style>
+    <Style Class="mx-8" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="32,0,32,0" />
+    </Style>
+    <Style Class="my-8" TargetType="View" ApplyToDerivedTypes="True">
+        <Setter Property="Margin" Value="0,32,0,32" />
+    </Style>
+
+</ResourceDictionary>

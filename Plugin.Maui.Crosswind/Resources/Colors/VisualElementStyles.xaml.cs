@@ -1,8 +1,8 @@
 namespace Plugin.Maui.Crosswind.Resources.Colors;
 
-public partial class ViewStyles : ResourceDictionary
+public partial class VisualElementStyles : ResourceDictionary
 {
-    public ViewStyles()
+    public VisualElementStyles()
     {
         InitializeComponent();
     }

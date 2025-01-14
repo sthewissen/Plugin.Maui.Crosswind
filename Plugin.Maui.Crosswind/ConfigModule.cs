@@ -4,7 +4,7 @@ public static class ConfigModule
 {
     public static MauiAppBuilder UseCrosswind(this MauiAppBuilder builder)
     {
-        builder.Services.AddSingleton<CrosswindInitializer>();
+        // builder.Services.AddSingleton<CrosswindInitializer>();
         
         //     .ConfigureFonts(fonts =>
         // {

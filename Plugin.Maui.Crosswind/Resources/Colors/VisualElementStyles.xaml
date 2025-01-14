@@ -1,774 +1,774 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                    x:Class="Plugin.Maui.Crosswind.Resources.Colors.ViewStyles">
+                    x:Class="Plugin.Maui.Crosswind.Resources.Colors.VisualElementStyles">
    
     <!-- Slate -->
-    <Style Class="bg-slate-50" TargetType="VisualElement">
+    <Style Class="bg-slate-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate50}" />
     </Style>
-    <Style Class="bg-slate-100" TargetType="VisualElement">
+    <Style Class="bg-slate-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate100}" />
     </Style>
-    <Style Class="bg-slate-200" TargetType="VisualElement">
+    <Style Class="bg-slate-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate200}" />
     </Style>
-    <Style Class="bg-slate-300" TargetType="VisualElement">
+    <Style Class="bg-slate-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate300}" />
     </Style>
-    <Style Class="bg-slate-400" TargetType="VisualElement">
+    <Style Class="bg-slate-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate400}" />
     </Style>
-    <Style Class="bg-slate-500" TargetType="VisualElement">
+    <Style Class="bg-slate-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate500}" />
     </Style>
-    <Style Class="bg-slate-600" TargetType="VisualElement">
+    <Style Class="bg-slate-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate600}" />
     </Style>
-    <Style Class="bg-slate-700" TargetType="VisualElement">
+    <Style Class="bg-slate-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate700}" />
     </Style>
-    <Style Class="bg-slate-800" TargetType="VisualElement">
+    <Style Class="bg-slate-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate800}" />
     </Style>
-    <Style Class="bg-slate-900" TargetType="VisualElement">
+    <Style Class="bg-slate-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate900}" />
     </Style>
-    <Style Class="bg-slate-950" TargetType="VisualElement">
+    <Style Class="bg-slate-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Slate950}" />
     </Style>
 
     <!-- Gray -->
-    <Style Class="bg-gray-50" TargetType="VisualElement">
+    <Style Class="bg-gray-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray50}" />
     </Style>
-    <Style Class="bg-gray-100" TargetType="VisualElement">
+    <Style Class="bg-gray-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray100}" />
     </Style>
-    <Style Class="bg-gray-200" TargetType="VisualElement">
+    <Style Class="bg-gray-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray200}" />
     </Style>
-    <Style Class="bg-gray-300" TargetType="VisualElement">
+    <Style Class="bg-gray-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray300}" />
     </Style>
-    <Style Class="bg-gray-400" TargetType="VisualElement">
+    <Style Class="bg-gray-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray400}" />
     </Style>
-    <Style Class="bg-gray-500" TargetType="VisualElement">
+    <Style Class="bg-gray-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray500}" />
     </Style>
-    <Style Class="bg-gray-600" TargetType="VisualElement">
+    <Style Class="bg-gray-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray600}" />
     </Style>
-    <Style Class="bg-gray-700" TargetType="VisualElement">
+    <Style Class="bg-gray-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray700}" />
     </Style>
-    <Style Class="bg-gray-800" TargetType="VisualElement">
+    <Style Class="bg-gray-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray800}" />
     </Style>
-    <Style Class="bg-gray-900" TargetType="VisualElement">
+    <Style Class="bg-gray-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray900}" />
     </Style>
-    <Style Class="bg-gray-950" TargetType="VisualElement">
+    <Style Class="bg-gray-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Gray950}" />
     </Style>
 
     <!-- Zinc -->
-    <Style Class="bg-zinc-50" TargetType="VisualElement">
+    <Style Class="bg-zinc-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc50}" />
     </Style>
-    <Style Class="bg-zinc-100" TargetType="VisualElement">
+    <Style Class="bg-zinc-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc100}" />
     </Style>
-    <Style Class="bg-zinc-200" TargetType="VisualElement">
+    <Style Class="bg-zinc-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc200}" />
     </Style>
-    <Style Class="bg-zinc-300" TargetType="VisualElement">
+    <Style Class="bg-zinc-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc300}" />
     </Style>
-    <Style Class="bg-zinc-400" TargetType="VisualElement">
+    <Style Class="bg-zinc-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc400}" />
     </Style>
-    <Style Class="bg-zinc-500" TargetType="VisualElement">
+    <Style Class="bg-zinc-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc500}" />
     </Style>
-    <Style Class="bg-zinc-600" TargetType="VisualElement">
+    <Style Class="bg-zinc-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc600}" />
     </Style>
-    <Style Class="bg-zinc-700" TargetType="VisualElement">
+    <Style Class="bg-zinc-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc700}" />
     </Style>
-    <Style Class="bg-zinc-800" TargetType="VisualElement">
+    <Style Class="bg-zinc-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc800}" />
     </Style>
-    <Style Class="bg-zinc-900" TargetType="VisualElement">
+    <Style Class="bg-zinc-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc900}" />
     </Style>
-    <Style Class="bg-zinc-950" TargetType="VisualElement">
+    <Style Class="bg-zinc-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Zinc950}" />
     </Style>
 
     <!-- Neutral -->
-    <Style Class="bg-neutral-50" TargetType="VisualElement">
+    <Style Class="bg-neutral-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral50}" />
     </Style>
-    <Style Class="bg-neutral-100" TargetType="VisualElement">
+    <Style Class="bg-neutral-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral100}" />
     </Style>
-    <Style Class="bg-neutral-200" TargetType="VisualElement">
+    <Style Class="bg-neutral-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral200}" />
     </Style>
-    <Style Class="bg-neutral-300" TargetType="VisualElement">
+    <Style Class="bg-neutral-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral300}" />
     </Style>
-    <Style Class="bg-neutral-400" TargetType="VisualElement">
+    <Style Class="bg-neutral-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral400}" />
     </Style>
-    <Style Class="bg-neutral-500" TargetType="VisualElement">
+    <Style Class="bg-neutral-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral500}" />
     </Style>
-    <Style Class="bg-neutral-600" TargetType="VisualElement">
+    <Style Class="bg-neutral-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral600}" />
     </Style>
-    <Style Class="bg-neutral-700" TargetType="VisualElement">
+    <Style Class="bg-neutral-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral700}" />
     </Style>
-    <Style Class="bg-neutral-800" TargetType="VisualElement">
+    <Style Class="bg-neutral-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral800}" />
     </Style>
-    <Style Class="bg-neutral-900" TargetType="VisualElement">
+    <Style Class="bg-neutral-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral900}" />
     </Style>
-    <Style Class="bg-neutral-950" TargetType="VisualElement">
+    <Style Class="bg-neutral-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Neutral950}" />
     </Style>
 
     <!-- Stone -->
-    <Style Class="bg-stone-50" TargetType="VisualElement">
+    <Style Class="bg-stone-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone50}" />
     </Style>
-    <Style Class="bg-stone-100" TargetType="VisualElement">
+    <Style Class="bg-stone-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone100}" />
     </Style>
-    <Style Class="bg-stone-200" TargetType="VisualElement">
+    <Style Class="bg-stone-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone200}" />
     </Style>
-    <Style Class="bg-stone-300" TargetType="VisualElement">
+    <Style Class="bg-stone-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone300}" />
     </Style>
-    <Style Class="bg-stone-400" TargetType="VisualElement">
+    <Style Class="bg-stone-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone400}" />
     </Style>
-    <Style Class="bg-stone-500" TargetType="VisualElement">
+    <Style Class="bg-stone-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone500}" />
     </Style>
-    <Style Class="bg-stone-600" TargetType="VisualElement">
+    <Style Class="bg-stone-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone600}" />
     </Style>
-    <Style Class="bg-stone-700" TargetType="VisualElement">
+    <Style Class="bg-stone-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone700}" />
     </Style>
-    <Style Class="bg-stone-800" TargetType="VisualElement">
+    <Style Class="bg-stone-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone800}" />
     </Style>
-    <Style Class="bg-stone-900" TargetType="VisualElement">
+    <Style Class="bg-stone-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone900}" />
     </Style>
-    <Style Class="bg-stone-950" TargetType="VisualElement">
+    <Style Class="bg-stone-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Stone950}" />
     </Style>
 
     <!-- Amber -->
-    <Style Class="bg-amber-50" TargetType="VisualElement">
+    <Style Class="bg-amber-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber50}" />
     </Style>
-    <Style Class="bg-amber-100" TargetType="VisualElement">
+    <Style Class="bg-amber-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber100}" />
     </Style>
-    <Style Class="bg-amber-200" TargetType="VisualElement">
+    <Style Class="bg-amber-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber200}" />
     </Style>
-    <Style Class="bg-amber-300" TargetType="VisualElement">
+    <Style Class="bg-amber-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber300}" />
     </Style>
-    <Style Class="bg-amber-400" TargetType="VisualElement">
+    <Style Class="bg-amber-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber400}" />
     </Style>
-    <Style Class="bg-amber-500" TargetType="VisualElement">
+    <Style Class="bg-amber-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber500}" />
     </Style>
-    <Style Class="bg-amber-600" TargetType="VisualElement">
+    <Style Class="bg-amber-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber600}" />
     </Style>
-    <Style Class="bg-amber-700" TargetType="VisualElement">
+    <Style Class="bg-amber-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber700}" />
     </Style>
-    <Style Class="bg-amber-800" TargetType="VisualElement">
+    <Style Class="bg-amber-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber800}" />
     </Style>
-    <Style Class="bg-amber-900" TargetType="VisualElement">
+    <Style Class="bg-amber-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber900}" />
     </Style>
-    <Style Class="bg-amber-950" TargetType="VisualElement">
+    <Style Class="bg-amber-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Amber950}" />
     </Style>
 
     <!-- Red -->
-    <Style Class="bg-red-50" TargetType="VisualElement">
+    <Style Class="bg-red-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red50}" />
     </Style>
-    <Style Class="bg-red-100" TargetType="VisualElement">
+    <Style Class="bg-red-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red100}" />
     </Style>
-    <Style Class="bg-red-200" TargetType="VisualElement">
+    <Style Class="bg-red-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red200}" />
     </Style>
-    <Style Class="bg-red-300" TargetType="VisualElement">
+    <Style Class="bg-red-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red300}" />
     </Style>
-    <Style Class="bg-red-400" TargetType="VisualElement">
+    <Style Class="bg-red-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red400}" />
     </Style>
-    <Style Class="bg-red-500" TargetType="VisualElement">
+    <Style Class="bg-red-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red500}" />
     </Style>
-    <Style Class="bg-red-600" TargetType="VisualElement">
+    <Style Class="bg-red-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red600}" />
     </Style>
-    <Style Class="bg-red-700" TargetType="VisualElement">
+    <Style Class="bg-red-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red700}" />
     </Style>
-    <Style Class="bg-red-800" TargetType="VisualElement">
+    <Style Class="bg-red-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red800}" />
     </Style>
-    <Style Class="bg-red-900" TargetType="VisualElement">
+    <Style Class="bg-red-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red900}" />
     </Style>
-    <Style Class="bg-red-950" TargetType="VisualElement">
+    <Style Class="bg-red-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Red950}" />
     </Style>
 
     <!-- Yellow -->
-    <Style Class="bg-yellow-50" TargetType="VisualElement">
+    <Style Class="bg-yellow-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow50}" />
     </Style>
-    <Style Class="bg-yellow-100" TargetType="VisualElement">
+    <Style Class="bg-yellow-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow100}" />
     </Style>
-    <Style Class="bg-yellow-200" TargetType="VisualElement">
+    <Style Class="bg-yellow-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow200}" />
     </Style>
-    <Style Class="bg-yellow-300" TargetType="VisualElement">
+    <Style Class="bg-yellow-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow300}" />
     </Style>
-    <Style Class="bg-yellow-400" TargetType="VisualElement">
+    <Style Class="bg-yellow-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow400}" />
     </Style>
-    <Style Class="bg-yellow-500" TargetType="VisualElement">
+    <Style Class="bg-yellow-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow500}" />
     </Style>
-    <Style Class="bg-yellow-600" TargetType="VisualElement">
+    <Style Class="bg-yellow-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow600}" />
     </Style>
-    <Style Class="bg-yellow-700" TargetType="VisualElement">
+    <Style Class="bg-yellow-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow700}" />
     </Style>
-    <Style Class="bg-yellow-800" TargetType="VisualElement">
+    <Style Class="bg-yellow-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow800}" />
     </Style>
-    <Style Class="bg-yellow-900" TargetType="VisualElement">
+    <Style Class="bg-yellow-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow900}" />
     </Style>
-    <Style Class="bg-yellow-950" TargetType="VisualElement">
+    <Style Class="bg-yellow-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Yellow950}" />
     </Style>
 
     <!-- Green -->
-    <Style Class="bg-green-50" TargetType="VisualElement">
+    <Style Class="bg-green-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green50}" />
     </Style>
-    <Style Class="bg-green-100" TargetType="VisualElement">
+    <Style Class="bg-green-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green100}" />
     </Style>
-    <Style Class="bg-green-200" TargetType="VisualElement">
+    <Style Class="bg-green-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green200}" />
     </Style>
-    <Style Class="bg-green-300" TargetType="VisualElement">
+    <Style Class="bg-green-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green300}" />
     </Style>
-    <Style Class="bg-green-400" TargetType="VisualElement">
+    <Style Class="bg-green-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green400}" />
     </Style>
-    <Style Class="bg-green-500" TargetType="VisualElement">
+    <Style Class="bg-green-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green500}" />
     </Style>
-    <Style Class="bg-green-600" TargetType="VisualElement">
+    <Style Class="bg-green-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green600}" />
     </Style>
-    <Style Class="bg-green-700" TargetType="VisualElement">
+    <Style Class="bg-green-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green700}" />
     </Style>
-    <Style Class="bg-green-800" TargetType="VisualElement">
+    <Style Class="bg-green-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green800}" />
     </Style>
-    <Style Class="bg-green-900" TargetType="VisualElement">
+    <Style Class="bg-green-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green900}" />
     </Style>
-    <Style Class="bg-green-950" TargetType="VisualElement">
+    <Style Class="bg-green-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Green950}" />
     </Style>
 
     <!-- Blue -->
-    <Style Class="bg-blue-50" TargetType="VisualElement">
+    <Style Class="bg-blue-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue50}" />
     </Style>
-    <Style Class="bg-blue-100" TargetType="VisualElement">
+    <Style Class="bg-blue-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue100}" />
     </Style>
-    <Style Class="bg-blue-200" TargetType="VisualElement">
+    <Style Class="bg-blue-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue200}" />
     </Style>
-    <Style Class="bg-blue-300" TargetType="VisualElement">
+    <Style Class="bg-blue-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue300}" />
     </Style>
-    <Style Class="bg-blue-400" TargetType="VisualElement">
+    <Style Class="bg-blue-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue400}" />
     </Style>
-    <Style Class="bg-blue-500" TargetType="VisualElement">
+    <Style Class="bg-blue-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue500}" />
     </Style>
-    <Style Class="bg-blue-600" TargetType="VisualElement">
+    <Style Class="bg-blue-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue600}" />
     </Style>
-    <Style Class="bg-blue-700" TargetType="VisualElement">
+    <Style Class="bg-blue-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue700}" />
     </Style>
-    <Style Class="bg-blue-800" TargetType="VisualElement">
+    <Style Class="bg-blue-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue800}" />
     </Style>
-    <Style Class="bg-blue-900" TargetType="VisualElement">
+    <Style Class="bg-blue-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue900}" />
     </Style>
-    <Style Class="bg-blue-950" TargetType="VisualElement">
+    <Style Class="bg-blue-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Blue950}" />
     </Style>
 
     <!-- Indigo -->
-    <Style Class="bg-indigo-50" TargetType="VisualElement">
+    <Style Class="bg-indigo-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo50}" />
     </Style>
-    <Style Class="bg-indigo-100" TargetType="VisualElement">
+    <Style Class="bg-indigo-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo100}" />
     </Style>
-    <Style Class="bg-indigo-200" TargetType="VisualElement">
+    <Style Class="bg-indigo-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo200}" />
     </Style>
-    <Style Class="bg-indigo-300" TargetType="VisualElement">
+    <Style Class="bg-indigo-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo300}" />
     </Style>
-    <Style Class="bg-indigo-400" TargetType="VisualElement">
+    <Style Class="bg-indigo-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo400}" />
     </Style>
-    <Style Class="bg-indigo-500" TargetType="VisualElement">
+    <Style Class="bg-indigo-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo500}" />
     </Style>
-    <Style Class="bg-indigo-600" TargetType="VisualElement">
+    <Style Class="bg-indigo-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo600}" />
     </Style>
-    <Style Class="bg-indigo-700" TargetType="VisualElement">
+    <Style Class="bg-indigo-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo700}" />
     </Style>
-    <Style Class="bg-indigo-800" TargetType="VisualElement">
+    <Style Class="bg-indigo-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo800}" />
     </Style>
-    <Style Class="bg-indigo-900" TargetType="VisualElement">
+    <Style Class="bg-indigo-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo900}" />
     </Style>
-    <Style Class="bg-indigo-950" TargetType="VisualElement">
+    <Style Class="bg-indigo-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Indigo950}" />
     </Style>
 
     <!-- Purple -->
-    <Style Class="bg-purple-50" TargetType="VisualElement">
+    <Style Class="bg-purple-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple50}" />
     </Style>
-    <Style Class="bg-purple-100" TargetType="VisualElement">
+    <Style Class="bg-purple-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple100}" />
     </Style>
-    <Style Class="bg-purple-200" TargetType="VisualElement">
+    <Style Class="bg-purple-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple200}" />
     </Style>
-    <Style Class="bg-purple-300" TargetType="VisualElement">
+    <Style Class="bg-purple-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple300}" />
     </Style>
-    <Style Class="bg-purple-400" TargetType="VisualElement">
+    <Style Class="bg-purple-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple400}" />
     </Style>
-    <Style Class="bg-purple-500" TargetType="VisualElement">
+    <Style Class="bg-purple-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple500}" />
     </Style>
-    <Style Class="bg-purple-600" TargetType="VisualElement">
+    <Style Class="bg-purple-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple600}" />
     </Style>
-    <Style Class="bg-purple-700" TargetType="VisualElement">
+    <Style Class="bg-purple-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple700}" />
     </Style>
-    <Style Class="bg-purple-800" TargetType="VisualElement">
+    <Style Class="bg-purple-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple800}" />
     </Style>
-    <Style Class="bg-purple-900" TargetType="VisualElement">
+    <Style Class="bg-purple-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple900}" />
     </Style>
-    <Style Class="bg-purple-950" TargetType="VisualElement">
+    <Style Class="bg-purple-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Purple950}" />
     </Style>
 
     <!-- Pink -->
-    <Style Class="bg-pink-50" TargetType="VisualElement">
+    <Style Class="bg-pink-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink50}" />
     </Style>
-    <Style Class="bg-pink-100" TargetType="VisualElement">
+    <Style Class="bg-pink-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink100}" />
     </Style>
-    <Style Class="bg-pink-200" TargetType="VisualElement">
+    <Style Class="bg-pink-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink200}" />
     </Style>
-    <Style Class="bg-pink-300" TargetType="VisualElement">
+    <Style Class="bg-pink-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink300}" />
     </Style>
-    <Style Class="bg-pink-400" TargetType="VisualElement">
+    <Style Class="bg-pink-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink400}" />
     </Style>
-    <Style Class="bg-pink-500" TargetType="VisualElement">
+    <Style Class="bg-pink-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink500}" />
     </Style>
-    <Style Class="bg-pink-600" TargetType="VisualElement">
+    <Style Class="bg-pink-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink600}" />
     </Style>
-    <Style Class="bg-pink-700" TargetType="VisualElement">
+    <Style Class="bg-pink-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink700}" />
     </Style>
-    <Style Class="bg-pink-800" TargetType="VisualElement">
+    <Style Class="bg-pink-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink800}" />
     </Style>
-    <Style Class="bg-pink-900" TargetType="VisualElement">
+    <Style Class="bg-pink-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink900}" />
     </Style>
-    <Style Class="bg-pink-950" TargetType="VisualElement">
+    <Style Class="bg-pink-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Pink950}" />
     </Style>
 
     <!-- Orange -->
-    <Style Class="bg-orange-50" TargetType="VisualElement">
+    <Style Class="bg-orange-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange50}" />
     </Style>
-    <Style Class="bg-orange-100" TargetType="VisualElement">
+    <Style Class="bg-orange-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange100}" />
     </Style>
-    <Style Class="bg-orange-200" TargetType="VisualElement">
+    <Style Class="bg-orange-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange200}" />
     </Style>
-    <Style Class="bg-orange-300" TargetType="VisualElement">
+    <Style Class="bg-orange-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange300}" />
     </Style>
-    <Style Class="bg-orange-400" TargetType="VisualElement">
+    <Style Class="bg-orange-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange400}" />
     </Style>
-    <Style Class="bg-orange-500" TargetType="VisualElement">
+    <Style Class="bg-orange-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange500}" />
     </Style>
-    <Style Class="bg-orange-600" TargetType="VisualElement">
+    <Style Class="bg-orange-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange600}" />
     </Style>
-    <Style Class="bg-orange-700" TargetType="VisualElement">
+    <Style Class="bg-orange-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange700}" />
     </Style>
-    <Style Class="bg-orange-800" TargetType="VisualElement">
+    <Style Class="bg-orange-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange800}" />
     </Style>
-    <Style Class="bg-orange-900" TargetType="VisualElement">
+    <Style Class="bg-orange-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange900}" />
     </Style>
-    <Style Class="bg-orange-950" TargetType="VisualElement">
+    <Style Class="bg-orange-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Orange950}" />
     </Style>
 
     <!-- Lime -->
-    <Style Class="bg-lime-50" TargetType="VisualElement">
+    <Style Class="bg-lime-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime50}" />
     </Style>
-    <Style Class="bg-lime-100" TargetType="VisualElement">
+    <Style Class="bg-lime-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime100}" />
     </Style>
-    <Style Class="bg-lime-200" TargetType="VisualElement">
+    <Style Class="bg-lime-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime200}" />
     </Style>
-    <Style Class="bg-lime-300" TargetType="VisualElement">
+    <Style Class="bg-lime-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime300}" />
     </Style>
-    <Style Class="bg-lime-400" TargetType="VisualElement">
+    <Style Class="bg-lime-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime400}" />
     </Style>
-    <Style Class="bg-lime-500" TargetType="VisualElement">
+    <Style Class="bg-lime-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime500}" />
     </Style>
-    <Style Class="bg-lime-600" TargetType="VisualElement">
+    <Style Class="bg-lime-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime600}" />
     </Style>
-    <Style Class="bg-lime-700" TargetType="VisualElement">
+    <Style Class="bg-lime-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime700}" />
     </Style>
-    <Style Class="bg-lime-800" TargetType="VisualElement">
+    <Style Class="bg-lime-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime800}" />
     </Style>
-    <Style Class="bg-lime-900" TargetType="VisualElement">
+    <Style Class="bg-lime-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime900}" />
     </Style>
-    <Style Class="bg-lime-950" TargetType="VisualElement">
+    <Style Class="bg-lime-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Lime950}" />
     </Style>
 
     <!-- Emerald -->
-    <Style Class="bg-emerald-50" TargetType="VisualElement">
+    <Style Class="bg-emerald-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald50}" />
     </Style>
-    <Style Class="bg-emerald-100" TargetType="VisualElement">
+    <Style Class="bg-emerald-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald100}" />
     </Style>
-    <Style Class="bg-emerald-200" TargetType="VisualElement">
+    <Style Class="bg-emerald-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald200}" />
     </Style>
-    <Style Class="bg-emerald-300" TargetType="VisualElement">
+    <Style Class="bg-emerald-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald300}" />
     </Style>
-    <Style Class="bg-emerald-400" TargetType="VisualElement">
+    <Style Class="bg-emerald-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald400}" />
     </Style>
-    <Style Class="bg-emerald-500" TargetType="VisualElement">
+    <Style Class="bg-emerald-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald500}" />
     </Style>
-    <Style Class="bg-emerald-600" TargetType="VisualElement">
+    <Style Class="bg-emerald-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald600}" />
     </Style>
-    <Style Class="bg-emerald-700" TargetType="VisualElement">
+    <Style Class="bg-emerald-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald700}" />
     </Style>
-    <Style Class="bg-emerald-800" TargetType="VisualElement">
+    <Style Class="bg-emerald-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald800}" />
     </Style>
-    <Style Class="bg-emerald-900" TargetType="VisualElement">
+    <Style Class="bg-emerald-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald900}" />
     </Style>
-    <Style Class="bg-emerald-950" TargetType="VisualElement">
+    <Style Class="bg-emerald-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Emerald950}" />
     </Style>
 
     <!-- Teal -->
-    <Style Class="bg-teal-50" TargetType="VisualElement">
+    <Style Class="bg-teal-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal50}" />
     </Style>
-    <Style Class="bg-teal-100" TargetType="VisualElement">
+    <Style Class="bg-teal-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal100}" />
     </Style>
-    <Style Class="bg-teal-200" TargetType="VisualElement">
+    <Style Class="bg-teal-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal200}" />
     </Style>
-    <Style Class="bg-teal-300" TargetType="VisualElement">
+    <Style Class="bg-teal-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal300}" />
     </Style>
-    <Style Class="bg-teal-400" TargetType="VisualElement">
+    <Style Class="bg-teal-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal400}" />
     </Style>
-    <Style Class="bg-teal-500" TargetType="VisualElement">
+    <Style Class="bg-teal-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal500}" />
     </Style>
-    <Style Class="bg-teal-600" TargetType="VisualElement">
+    <Style Class="bg-teal-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal600}" />
     </Style>
-    <Style Class="bg-teal-700" TargetType="VisualElement">
+    <Style Class="bg-teal-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal700}" />
     </Style>
-    <Style Class="bg-teal-800" TargetType="VisualElement">
+    <Style Class="bg-teal-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal800}" />
     </Style>
-    <Style Class="bg-teal-900" TargetType="VisualElement">
+    <Style Class="bg-teal-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal900}" />
     </Style>
-    <Style Class="bg-teal-950" TargetType="VisualElement">
+    <Style Class="bg-teal-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Teal950}" />
     </Style>
 
     <!-- Cyan -->
-    <Style Class="bg-cyan-50" TargetType="VisualElement">
+    <Style Class="bg-cyan-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan50}" />
     </Style>
-    <Style Class="bg-cyan-100" TargetType="VisualElement">
+    <Style Class="bg-cyan-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan100}" />
     </Style>
-    <Style Class="bg-cyan-200" TargetType="VisualElement">
+    <Style Class="bg-cyan-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan200}" />
     </Style>
-    <Style Class="bg-cyan-300" TargetType="VisualElement">
+    <Style Class="bg-cyan-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan300}" />
     </Style>
-    <Style Class="bg-cyan-400" TargetType="VisualElement">
+    <Style Class="bg-cyan-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan400}" />
     </Style>
-    <Style Class="bg-cyan-500" TargetType="VisualElement">
+    <Style Class="bg-cyan-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan500}" />
     </Style>
-    <Style Class="bg-cyan-600" TargetType="VisualElement">
+    <Style Class="bg-cyan-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan600}" />
     </Style>
-    <Style Class="bg-cyan-700" TargetType="VisualElement">
+    <Style Class="bg-cyan-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan700}" />
     </Style>
-    <Style Class="bg-cyan-800" TargetType="VisualElement">
+    <Style Class="bg-cyan-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan800}" />
     </Style>
-    <Style Class="bg-cyan-900" TargetType="VisualElement">
+    <Style Class="bg-cyan-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan900}" />
     </Style>
-    <Style Class="bg-cyan-950" TargetType="VisualElement">
+    <Style Class="bg-cyan-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Cyan950}" />
     </Style>
 
     <!-- Sky -->
-    <Style Class="bg-sky-50" TargetType="VisualElement">
+    <Style Class="bg-sky-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky50}" />
     </Style>
-    <Style Class="bg-sky-100" TargetType="VisualElement">
+    <Style Class="bg-sky-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky100}" />
     </Style>
-    <Style Class="bg-sky-200" TargetType="VisualElement">
+    <Style Class="bg-sky-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky200}" />
     </Style>
-    <Style Class="bg-sky-300" TargetType="VisualElement">
+    <Style Class="bg-sky-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky300}" />
     </Style>
-    <Style Class="bg-sky-400" TargetType="VisualElement">
+    <Style Class="bg-sky-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky400}" />
     </Style>
-    <Style Class="bg-sky-500" TargetType="VisualElement">
+    <Style Class="bg-sky-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky500}" />
     </Style>
-    <Style Class="bg-sky-600" TargetType="VisualElement">
+    <Style Class="bg-sky-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky600}" />
     </Style>
-    <Style Class="bg-sky-700" TargetType="VisualElement">
+    <Style Class="bg-sky-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky700}" />
     </Style>
-    <Style Class="bg-sky-800" TargetType="VisualElement">
+    <Style Class="bg-sky-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky800}" />
     </Style>
-    <Style Class="bg-sky-900" TargetType="VisualElement">
+    <Style Class="bg-sky-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky900}" />
     </Style>
-    <Style Class="bg-sky-950" TargetType="VisualElement">
+    <Style Class="bg-sky-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Sky950}" />
     </Style>
 
     <!-- Violet -->
-    <Style Class="bg-violet-50" TargetType="VisualElement">
+    <Style Class="bg-violet-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet50}" />
     </Style>
-    <Style Class="bg-violet-100" TargetType="VisualElement">
+    <Style Class="bg-violet-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet100}" />
     </Style>
-    <Style Class="bg-violet-200" TargetType="VisualElement">
+    <Style Class="bg-violet-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet200}" />
     </Style>
-    <Style Class="bg-violet-300" TargetType="VisualElement">
+    <Style Class="bg-violet-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet300}" />
     </Style>
-    <Style Class="bg-violet-400" TargetType="VisualElement">
+    <Style Class="bg-violet-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet400}" />
     </Style>
-    <Style Class="bg-violet-500" TargetType="VisualElement">
+    <Style Class="bg-violet-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet500}" />
     </Style>
-    <Style Class="bg-violet-600" TargetType="VisualElement">
+    <Style Class="bg-violet-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet600}" />
     </Style>
-    <Style Class="bg-violet-700" TargetType="VisualElement">
+    <Style Class="bg-violet-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet700}" />
     </Style>
-    <Style Class="bg-violet-800" TargetType="VisualElement">
+    <Style Class="bg-violet-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet800}" />
     </Style>
-    <Style Class="bg-violet-900" TargetType="VisualElement">
+    <Style Class="bg-violet-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet900}" />
     </Style>
-    <Style Class="bg-violet-950" TargetType="VisualElement">
+    <Style Class="bg-violet-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Violet950}" />
     </Style>
 
     <!-- Fuchsia -->
-    <Style Class="bg-fuchsia-50" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia50}" />
     </Style>
-    <Style Class="bg-fuchsia-100" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia100}" />
     </Style>
-    <Style Class="bg-fuchsia-200" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia200}" />
     </Style>
-    <Style Class="bg-fuchsia-300" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia300}" />
     </Style>
-    <Style Class="bg-fuchsia-400" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia400}" />
     </Style>
-    <Style Class="bg-fuchsia-500" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia500}" />
     </Style>
-    <Style Class="bg-fuchsia-600" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia600}" />
     </Style>
-    <Style Class="bg-fuchsia-700" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia700}" />
     </Style>
-    <Style Class="bg-fuchsia-800" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia800}" />
     </Style>
-    <Style Class="bg-fuchsia-900" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia900}" />
     </Style>
-    <Style Class="bg-fuchsia-950" TargetType="VisualElement">
+    <Style Class="bg-fuchsia-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Fuchsia950}" />
     </Style>
 
     <!-- Rose -->
-    <Style Class="bg-rose-50" TargetType="VisualElement">
+    <Style Class="bg-rose-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose50}" />
     </Style>
-    <Style Class="bg-rose-100" TargetType="VisualElement">
+    <Style Class="bg-rose-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose100}" />
     </Style>
-    <Style Class="bg-rose-200" TargetType="VisualElement">
+    <Style Class="bg-rose-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose200}" />
     </Style>
-    <Style Class="bg-rose-300" TargetType="VisualElement">
+    <Style Class="bg-rose-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose300}" />
     </Style>
-    <Style Class="bg-rose-400" TargetType="VisualElement">
+    <Style Class="bg-rose-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose400}" />
     </Style>
-    <Style Class="bg-rose-500" TargetType="VisualElement">
+    <Style Class="bg-rose-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose500}" />
     </Style>
-    <Style Class="bg-rose-600" TargetType="VisualElement">
+    <Style Class="bg-rose-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose600}" />
     </Style>
-    <Style Class="bg-rose-700" TargetType="VisualElement">
+    <Style Class="bg-rose-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose700}" />
     </Style>
-    <Style Class="bg-rose-800" TargetType="VisualElement">
+    <Style Class="bg-rose-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose800}" />
     </Style>
-    <Style Class="bg-rose-900" TargetType="VisualElement">
+    <Style Class="bg-rose-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose900}" />
     </Style>
-    <Style Class="bg-rose-950" TargetType="VisualElement">
+    <Style Class="bg-rose-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor" Value="{StaticResource Rose950}" />
     </Style>
 

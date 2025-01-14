@@ -1,0 +1,85 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plugin.Maui.Crosswind.Resources.Spacing.VisualElementStyles">
+
+    <!-- Padding -->
+    <Style Class="p-0" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0" />
+    </Style>
+    <Style Class="p-1" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="4" />
+    </Style>
+    <Style Class="p-2" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="8" />
+    </Style>
+    <Style Class="p-3" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="12" />
+    </Style>
+    <Style Class="p-4" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="16" />
+    </Style>
+    <Style Class="p-5" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="20" />
+    </Style>
+    <Style Class="p-6" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="24" />
+    </Style>
+    <Style Class="p-7" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="28" />
+    </Style>
+    <Style Class="p-8" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="32" />
+    </Style>
+
+    <!-- Single direction Paddings -->
+    <Style Class="px-1" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="4,0,4,0" />
+    </Style>
+    <Style Class="py-1" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,4,0,4" />
+    </Style>
+    <Style Class="px-2" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="8,0,8,0" />
+    </Style>
+    <Style Class="py-2" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,8,0,8" />
+    </Style>
+    <Style Class="px-3" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="12,0,12,0" />
+    </Style>
+    <Style Class="py-3" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,12,0,12" />
+    </Style>
+    <Style Class="px-4" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="16,0,16,0" />
+    </Style>
+    <Style Class="py-4" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,16,0,16" />
+    </Style>
+    <Style Class="px-5" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="20,0,20,0" />
+    </Style>
+    <Style Class="py-5" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,20,0,20" />
+    </Style>
+    <Style Class="px-6" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="24,0,24,0" />
+    </Style>
+    <Style Class="py-6" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,24,0,24" />
+    </Style>
+    <Style Class="px-7" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="28,0,28,0" />
+    </Style>
+    <Style Class="py-7" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,28,0,28" />
+    </Style>
+    <Style Class="px-8" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="32,0,32,0" />
+    </Style>
+    <Style Class="py-8" TargetType="Layout" ApplyToDerivedTypes="True">
+        <Setter Property="Padding" Value="0,32,0,32" />
+    </Style>
+
+
+</ResourceDictionary>

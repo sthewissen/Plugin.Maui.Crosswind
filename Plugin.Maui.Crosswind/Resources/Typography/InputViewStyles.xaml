@@ -42,78 +42,78 @@
     </Style>
 
     <!-- Text Size -->
-    <Style Class="text-xs" TargetType="InputView">
+    <Style Class="text-xs" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource SizeXs}" />
     </Style>
-    <Style Class="text-sm" TargetType="InputView">
+    <Style Class="text-sm" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource SizeSm}" />
     </Style>
-    <Style Class="text-base" TargetType="InputView">
+    <Style Class="text-base" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource SizeMd}" />
     </Style>
-    <Style Class="text-lg" TargetType="InputView">
+    <Style Class="text-lg" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource SizeLg}" />
     </Style>
-    <Style Class="text-xl" TargetType="InputView">
+    <Style Class="text-xl" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource SizeXl}" />
     </Style>
-    <Style Class="text-2xl" TargetType="InputView">
+    <Style Class="text-2xl" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource Size2Xl}" />
     </Style>
-    <Style Class="text-3xl" TargetType="InputView">
+    <Style Class="text-3xl" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource Size3Xl}" />
     </Style>
-    <Style Class="text-4xl" TargetType="InputView">
+    <Style Class="text-4xl" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource Size4Xl}" />
     </Style>
-    <Style Class="text-5xl" TargetType="InputView">
+    <Style Class="text-5xl" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource Size5Xl}" />
     </Style>
-    <Style Class="text-6xl" TargetType="InputView">
+    <Style Class="text-6xl" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontSize" Value="{StaticResource Size6Xl}" />
     </Style>
 
     <!-- Font Type -->
-    <Style Class="font-sans" TargetType="InputView">
+    <Style Class="font-sans" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontFamily" Value="Sans-Serif" />
     </Style>
-    <Style Class="font-serif" TargetType="InputView">
+    <Style Class="font-serif" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontFamily" Value="Serif" />
     </Style>
-    <Style Class="font-mono" TargetType="InputView">
+    <Style Class="font-mono" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontFamily" Value="Monospace" />
     </Style>
 
     <!-- Text Tranforms -->
-    <Style Class="uppercase" TargetType="InputView">
+    <Style Class="uppercase" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="TextTransform" Value="Uppercase" />
     </Style>
-    <Style Class="lowercase" TargetType="InputView">
+    <Style Class="lowercase" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="TextTransform" Value="Lowercase" />
     </Style>
 
     <!-- Letter Spacing -->
-    <Style Class="tracking-tighter" TargetType="InputView">
+    <Style Class="tracking-tighter" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="CharacterSpacing" Value="-0.5" />
     </Style>
-    <Style Class="tracking-tight" TargetType="InputView">
+    <Style Class="tracking-tight" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="CharacterSpacing" Value="-0.25" />
     </Style>
-    <Style Class="tracking-normal" TargetType="InputView">
+    <Style Class="tracking-normal" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="CharacterSpacing" Value="0" />
     </Style>
-    <Style Class="tracking-wide" TargetType="InputView">
+    <Style Class="tracking-wide" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="CharacterSpacing" Value="0.25" />
     </Style>
-    <Style Class="tracking-wider" TargetType="InputView">
+    <Style Class="tracking-wider" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="CharacterSpacing" Value="0.5" />
     </Style>
-    <Style Class="tracking-widest" TargetType="InputView">
+    <Style Class="tracking-widest" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="CharacterSpacing" Value="1.0" />
     </Style>
 
     <!-- Attributes & decorations -->
-    <Style Class="italic" TargetType="InputView">
+    <Style Class="italic" TargetType="InputView" ApplyToDerivedTypes="True">
         <Setter Property="FontAttributes" Value="Italic" />
     </Style>
 

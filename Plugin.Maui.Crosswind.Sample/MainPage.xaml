@@ -15,7 +15,7 @@
 
             <Label
                 Text="Hello, World!"
-                Style="{StaticResource Headline}"
+                StyleClass="bg-cyan-700"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
