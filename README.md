@@ -160,7 +160,7 @@ Directional padding classes provide spacing within an element on specific sides 
 ```
 
 #### Notes
-Due to .NET MAUI's limitations with the `Margin` and `Padding` properties, which sets all four sides (top, bottom, left, and right) as at once, individual margin and padding classes cannot be combined. For example, applying `mx-4` and `my-6` together is not supported, as one will override the other. Instead, use a single class to define the desired margin configuration.
+Due to .NET MAUI's limitations with the `Margin` and `Padding` properties, which sets all four sides (top, bottom, left, and right) at once, individual margin and padding classes cannot be combined. For example, applying `mx-4` and `my-6` together is not supported, as one will override the other. Instead, use a single class to define the desired margin configuration.
 
 ---
 
