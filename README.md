@@ -11,6 +11,7 @@
 Crosswind supports the following broad categories when it comes to styling:
 
 - [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Colors)
+- [Flexbox](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Flexbox)
 - [Sizing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Sizing)
 - [Spacing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Spacing)
 - [Transforms](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Transforms)
@@ -70,6 +71,21 @@ You can easily set text colors using utility classes that map to a predefined se
 ```xml
 <Label StyleClass="text-fuchsia-800" Text="This is an element with nice text colors." />
 ```
+
+----
+
+## Flexbox
+Flexbox utilities in .NET MAUI provide a powerful way to create flexible and responsive layouts. These utilities map closely to the behavior of CSS Flexbox, allowing developers to align, justify, and distribute elements within a container. With support for properties like flex-direction, justify-content, align-items, and more, you can achieve complex layout designs with minimal effort.
+
+### Flex basis classes
+### Flex direction classes
+### Flex wrap classes
+### Flex grow classes
+### Flex shrink classes
+### Justify content classes
+### Align content classes
+### Align items classes
+### Align self classes
 
 ----
 
