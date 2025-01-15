@@ -371,6 +371,47 @@ Directional padding classes provide spacing within an element on specific sides.
 <Button Text="Horizontal and vertical padding" StyleClass="py-2 px-4" />
 ```
 
+### Gap classes
+Gap classes provide spacing between the parts of an element on specific sides. The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. 
+You can combine these with one another. These can be used to set `ColumnSpacing` and `RowSpacing` on a `Grid` or to set `Spacing` on the `HorizontalStackLayout` and `VerticalStackLayout`.
+
+| Class | Effect                                   |
+|---|------------------------------------------|
+|`gap-0`| A value of `0` horizontally and vertically |
+|`gap-1`| A value of `4` horizontally and vertically |
+|`gap-2`| A value of `8` horizontally and vertically |
+|`gap-3`| A value of `12` horizontally and vertically |
+|`gap-4`| A value of `16` horizontally and vertically |
+|`gap-5`| A value of `20` horizontally and vertically |
+|`gap-6`| A value of `24` horizontally and vertically            |
+|`gap-7`| A value of `28` horizontally and vertically            |
+|`gap-8`| A value of `32` horizontally and vertically            |
+|`gap-x-0`| A value of `0` horizontally              |
+|`gap-x-1`| A value of `4` horizontally              |
+|`gap-x-2`| A value of `8` horizontally              |
+|`gap-x-3`| A value of `12` horizontally             |
+|`gap-x-4`| A value of `16` horizontally             |
+|`gap-x-5`| A value of `20` horizontally             |
+|`gap-x-6`| A value of `24` horizontally             |
+|`gap-x-7`| A value of `28` horizontally             |
+|`gap-x-8`| A value of `32` horizontally             |
+|`gap-y-0`| A value of `0` vertically                |
+|`gap-y-1`| A value of `4` vertically                |
+|`gap-y-2`| A value of `8` vertically                |
+|`gap-y-3`| A value of `12` vertically               |
+|`gap-y-4`| A value of `16` vertically               |
+|`gap-y-5`| A value of `20` vertically               |
+|`gap-y-6`| A value of `24` vertically               |
+|`gap-y-7`| A value of `28` vertically               |
+|`gap-y-8`| A value of `32` vertically               |
+
+*Example usage:*
+```xml
+<VerticalStackLayout StyleClass="gap-1">
+   <Label StyleClass="text-red-500" Text="You have a new message!" />
+</VerticalStackLayout>
+```
+
 ---
 
 ## Transforms
