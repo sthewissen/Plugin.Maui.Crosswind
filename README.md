@@ -80,14 +80,113 @@ You can easily set text colors using utility classes that map to a predefined se
 Flexbox utilities in .NET MAUI provide a powerful way to create flexible and responsive layouts. These utilities map closely to the behavior of CSS Flexbox, allowing developers to align, justify, and distribute elements within a container. With support for properties like flex-direction, justify-content, align-items, and more, you can achieve complex layout designs with minimal effort.
 
 ### Flex basis classes
+
+These classes control the initial size of flex items along the flex direction. The `flex-basis` property sets the size of an item before it is adjusted by `flex-grow` or `flex-shrink`.
+
+| Class       | Effect                                                      |
+|-------------|-------------------------------------------------------------|
+| basis-auto  | Sets the flex-basis to `auto`, letting the content size the item. |
+| basis-1    | Sets the flex-basis to `4`.                                  |
+| basis-2    | Sets the flex-basis to `8`.                                  |
+| basis-3    | Sets the flex-basis to `12`.                                 |
+| basis-4    | Sets the flex-basis to `16`.                                 |
+| basis-5    | Sets the flex-basis to `20`.                                 |
+| basis-6    | Sets the flex-basis to `24`.                                 |
+| basis-7    | Sets the flex-basis to `28`.                                 |
+| basis-8    | Sets the flex-basis to `32`.                                 |
+| basis-0    | Sets the flex-basis to `0%`.                                 |
+| basis-1-4  | Sets the flex-basis to `25%`.                                |
+| basis-2-4  | Sets the flex-basis to `50%`.                                |
+| basis-3-4  | Sets the flex-basis to `75%`.                                |
+| basis-full | Sets the flex-basis to `100%`.                               |
+
 ### Flex direction classes
+
+These classes control the direction in which flex items are laid out within a flex container. The `flex-direction` property allows for both horizontal and vertical orientations.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| flex-row          | Sets the flex direction to `row` (default horizontal).    |
+| flex-row-reverse  | Sets the flex direction to `row-reverse` (reverse horizontal). |
+| flex-col          | Sets the flex direction to `column` (vertical).          |
+| flex-col-reverse  | Sets the flex direction to `column-reverse` (reverse vertical). |
+
 ### Flex wrap classes
+
+These classes determine whether flex items are forced into a single line or allowed to wrap onto multiple lines.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| flex-wrap         | Sets `flex-wrap` to `wrap`, allowing items to wrap onto new lines. |
+| flex-wrap-reverse | Sets `flex-wrap` to `wrap-reverse`, wrapping items in reverse order. |
+| flex-nowrap       | Sets `flex-wrap` to `nowrap`, forcing all items onto a single line. |
+
 ### Flex grow classes
+
+These classes control how much a flex item should grow relative to the rest of the items in the container. The `flex-grow` property determines the proportion of available space an item should take up.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| grow              | Sets `flex-grow` to `1`, allowing the item to grow and fill space. |
+| grow-0            | Sets `flex-grow` to `0`, preventing the item from growing. |
+
 ### Flex shrink classes
+
+These classes control how much a flex item should shrink relative to the rest of the items in the container. The `flex-shrink` property determines how items shrink when there is not enough space.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| shrink            | Sets `flex-shrink` to `1`, allowing the item to shrink if necessary. |
+| shrink-0          | Sets `flex-shrink` to `0`, preventing the item from shrinking. |
+
 ### Justify content classes
+
+These classes align flex items along the main axis of the flex container, controlling how items are spaced out or aligned.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| justify-start     | Sets `justify-content` to `flex-start`, aligning items at the start of the container. |
+| justify-end       | Sets `justify-content` to `flex-end`, aligning items at the end of the container. |
+| justify-center    | Sets `justify-content` to `center`, centering items in the container. |
+| justify-between   | Sets `justify-content` to `space-between`, distributing items with equal space between them. |
+| justify-around    | Sets `justify-content` to `space-around`, distributing items with equal space around them. |
+| justify-evenly    | Sets `justify-content` to `space-evenly`, distributing items with equal space around and between them. |
+
 ### Align content classes
+
+These classes align flex lines along the cross axis when there is extra space in the container.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| content-start     | Sets `align-content` to `flex-start`, aligning lines at the start of the container. |
+| content-end       | Sets `align-content` to `flex-end`, aligning lines at the end of the container. |
+| content-center    | Sets `align-content` to `center`, centering lines in the container. |
+| content-between   | Sets `align-content` to `space-between`, distributing lines with equal space between them. |
+| content-around    | Sets `align-content` to `space-around`, distributing lines with equal space around them. |
+| content-evenly    | Sets `align-content` to `space-evenly`, distributing lines with equal space around and between them. |
+
 ### Align items classes
+
+These classes align flex items along the cross axis within the container.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| items-stretch     | Sets `align-items` to `stretch`, making items stretch to fill the container. |
+| items-start       | Sets `align-items` to `flex-start`, aligning items at the start of the cross axis. |
+| items-center      | Sets `align-items` to `center`, centering items along the cross axis. |
+| items-end         | Sets `align-items` to `flex-end`, aligning items at the end of the cross axis. |
+
 ### Align self classes
+
+These classes control how an individual flex item aligns along the cross axis, overriding the `align-items` property for that specific item.
+
+| Class              | Effect                                                   |
+|--------------------|----------------------------------------------------------|
+| self-auto         | Sets `align-self` to `auto`, using the item's default alignment. |
+| self-start        | Sets `align-self` to `flex-start`, aligning the item at the start of the cross axis. |
+| self-end          | Sets `align-self` to `flex-end`, aligning the item at the end of the cross axis. |
+| self-center       | Sets `align-self` to `center`, centering the item along the cross axis. |
+| self-stretch      | Sets `align-self` to `stretch`, making the item stretch to fill the cross axis. |
 
 ----
 
