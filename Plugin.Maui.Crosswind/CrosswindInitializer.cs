@@ -16,10 +16,9 @@ public static class CrosswindInitializer
             // TODO: Borders (Style, Width, Radius, Color)
             // TODO: Word Break
             // TODO: Vertical Align
-            // TODO: Sizing (Width, Height, MaxHeight, MinHeight, MaxWidth, MinWidth, Size)
+            // TODO: Shadows + Shadow Colors
 
-            // Shadows + Shadow Colors
-            Application.Current.Resources.MergedDictionaries.Add(new Resources.Shadows.VisualElementStyles());
+            // Application.Current.Resources.MergedDictionaries.Add(new Resources.Shadows.VisualElementStyles());
         }
     }
 
@@ -27,13 +26,9 @@ public static class CrosswindInitializer
     {
         // Determine path
         var assembly = Assembly.GetExecutingAssembly();
-        var resourcePath = assembly.GetManifestResourceNames().SingleOrDefault(str => str.EndsWith(name));
-
-        if (resourcePath == null)
-            throw new ArgumentException("No valid CSS file found!");
-
-        using var stream = assembly.GetManifestResourceStream(resourcePath);
+        var resourcePath = assembly.GetManifestResourceNames().SingleOrDefault(str => str.EndsWith(name)) ?? throw new ArgumentException("No valid CSS file found!");
+        using var stream = assembly.GetManifestResourceStream(resourcePath) ?? throw new ArgumentException("No valid CSS file found!");
         using var reader = new StreamReader(stream);
-        Application.Current.Resources.Add(StyleSheet.FromReader(reader));
+        Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
     }
 }

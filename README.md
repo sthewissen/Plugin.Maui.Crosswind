@@ -8,10 +8,8 @@
 
 Crosswind supports the following broad categories when it comes to styling:
 
-- [Alignment](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Alignment)
-- [Borders](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Borders)
 - [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Colors)
-- [Shadows](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Shadows)
+- [Sizing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Sizing)
 - [Spacing](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Spacing)
 - [Transforms](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Transforms)
 - [Typography](https://github.com/sthewissen/Plugin.Maui.Crosswind/tree/main#Typography)
@@ -62,8 +60,6 @@ In Crosswind, you can easily set background colors using utility classes that ma
 </VerticalStackLayout>
 ```
 
-### Border color classes
-
 ### Text color classes
 You can easily set text colors using utility classes that map to a predefined set of colors. Each text color class applies a specific color to the foreground of the text element. Please refer to the overview above for the supported colors. You can apply the text color classes in the `StyleClass` property of any element that supports the `TextColor` property (see the compatibilty matrix for typography-related classes below).
 
@@ -73,14 +69,21 @@ You can easily set text colors using utility classes that map to a predefined se
 
 ----
 
+## Sizing
+
+`//TODO`
+
+----
+
 ## Spacing
 The spacing utilities in Crosswind offer a consistent way to apply spacing in or around elements in your .NET MAUI application adhering to a 4 point grid system, ideal for your mobile apps.
 
 ### Margin classes
 Margin classes provide spacing around an element on all sides (`Margin` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `View`.
 
-| Class | Margin Value |
+| Class | Effect |
 |---|---|
+|`m-0`| A value of `0` on all sides |
 |`m-1`| A value of `4` on all sides |
 |`m-2`| A value of `8` on all sides |
 |`m-3`| A value of `12` on all sides |
@@ -105,24 +108,62 @@ Margin classes provide spacing around an element on all sides (`Margin` property
 ### Directional margin classes
 Directional margin classes provide spacing around an element on specific sides (`Margin` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `View`.
 
-| Class | Margin Value |
+| Class | Effect |
 |---|---|
-|`mx-1`| A value of `4` on left and right |
-|`mx-2`| A value of `8` on left and right |
-|`mx-3`| A value of `12` on left and right |
-|`mx-4`| A value of `16` on left and right |
-|`mx-5`| A value of `20` on left and right |
-|`mx-6`| A value of `24` on left and right |
-|`mx-7`| A value of `28` on left and right |
-|`mx-8`| A value of `32` on left and right |
-|`my-1`| A value of `4` on top and bottom |
-|`my-2`| A value of `8` on top and bottom |
-|`my-3`| A value of `12` on top and bottom |
-|`my-4`| A value of `16` on top and bottom |
-|`my-5`| A value of `20` on top and bottom |
-|`my-6`| A value of `24` on top and bottom |
-|`my-7`| A value of `28` on top and bottom |
-|`my-8`| A value of `32` on top and bottom |
+|`mx-0`| A value of `0` on the left and right |
+|`mx-1`| A value of `4` on the left and right |
+|`mx-2`| A value of `8` on the left and right |
+|`mx-3`| A value of `12` on the left and right |
+|`mx-4`| A value of `16` on the left and right |
+|`mx-5`| A value of `20` on the left and right |
+|`mx-6`| A value of `24` on the left and right |
+|`mx-7`| A value of `28` on the left and right |
+|`mx-8`| A value of `32` on the left and right |
+|`my-0`| A value of `0` on the top and bottom |
+|`my-1`| A value of `4` on the top and bottom |
+|`my-2`| A value of `8` on the top and bottom |
+|`my-3`| A value of `12` on the top and bottom |
+|`my-4`| A value of `16` on the top and bottom |
+|`my-5`| A value of `20` on the top and bottom |
+|`my-6`| A value of `24` on the top and bottom |
+|`my-7`| A value of `28` on the top and bottom |
+|`my-8`| A value of `32` on the top and bottom |
+|`ml-0`| A value of `0` on the left side |
+|`ml-1`| A value of `4` on the left side |
+|`ml-2`| A value of `8` on the left side |
+|`ml-3`| A value of `12` on the left side |
+|`ml-4`| A value of `16` on the left side |
+|`ml-5`| A value of `20` on the left side |
+|`ml-6`| A value of `24` on the left side |
+|`ml-7`| A value of `28` on the left side |
+|`ml-8`| A value of `32` on the left side |
+|`mr-0`| A value of `0` on the right side |
+|`mr-1`| A value of `4` on the right side |
+|`mr-2`| A value of `8` on the right side |
+|`mr-3`| A value of `12` on the right side |
+|`mr-4`| A value of `16` on the right side |
+|`mr-5`| A value of `20` on the right side |
+|`mr-6`| A value of `24` on the right side |
+|`mr-7`| A value of `28` on the right side |
+|`mr-8`| A value of `32` on the right side |
+|`mt-0`| A value of `0` on the top side |
+|`mt-1`| A value of `4` on the top side |
+|`mt-2`| A value of `8` on the top side |
+|`mt-3`| A value of `12` on the top side |
+|`mt-4`| A value of `16` on the top side |
+|`mt-5`| A value of `20` on the top side |
+|`mt-6`| A value of `24` on the top side |
+|`mt-7`| A value of `28` on the top side |
+|`mt-8`| A value of `32` on the top side |
+|`mb-0`| A value of `0` on the bottom side |
+|`mb-1`| A value of `4` on the bottom side |
+|`mb-2`| A value of `8` on the bottom side |
+|`mb-3`| A value of `12` on the bottom side |
+|`mb-4`| A value of `16` on the bottom side |
+|`mb-5`| A value of `20` on the bottom side |
+|`mb-6`| A value of `24` on the bottom side |
+|`mb-7`| A value of `28` on the bottom side |
+|`mb-8`| A value of `32` on the bottom side |
 
 *Example usage:*
 ```xml
@@ -130,14 +171,15 @@ Directional margin classes provide spacing around an element on specific sides (
 <Label Text="Horizontal margin" StyleClass="mx-4" />
 
 <!-- Vertical margin -->
-<Button Text="Vertical margin" StyleClass="my-2" />
+<Button Text="Top margin" StyleClass="mt-2" />
 ```
 
 ### Padding classes
 Padding classes provide spacing around an element on all sides (`Padding` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `VisualElement`.
 
-| Class | Padding Value |
+| Class | Effect |
 |---|---|
+|`p-0`| A value of `0` on all sides |
 |`p-1`| A value of `4` on all sides |
 |`p-2`| A value of `8` on all sides |
 |`p-3`| A value of `12` on all sides |
@@ -162,24 +204,62 @@ Padding classes provide spacing around an element on all sides (`Padding` proper
 ### Directional padding classes
 Directional padding classes provide spacing within an element on specific sides (`Padding` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `VisualElement`.
 
-| Class | Padding Value |
+| Class | Effect |
 |---|---|
-|`px-1`| A value of `4` on left and right |
-|`px-2`| A value of `8` on left and right |
-|`px-3`| A value of `12` on left and right |
-|`px-4`| A value of `16` on left and right |
-|`px-5`| A value of `20` on left and right |
-|`px-6`| A value of `24` on left and right |
-|`px-7`| A value of `28` on left and right |
-|`px-8`| A value of `32` on left and right |
-|`py-1`| A value of `4` on top and bottom |
-|`py-2`| A value of `8` on top and bottom |
-|`py-3`| A value of `12` on top and bottom |
-|`py-4`| A value of `16` on top and bottom |
-|`py-5`| A value of `20` on top and bottom |
-|`py-6`| A value of `24` on top and bottom |
-|`py-7`| A value of `28` on top and bottom |
-|`py-8`| A value of `32` on top and bottom |
+|`px-0`| A value of `0` on the left and right |
+|`px-1`| A value of `4` on the left and right |
+|`px-2`| A value of `8` on the left and right |
+|`px-3`| A value of `12` on the left and right |
+|`px-4`| A value of `16` on the left and right |
+|`px-5`| A value of `20` on the left and right |
+|`px-6`| A value of `24` on the left and right |
+|`px-7`| A value of `28` on the left and right |
+|`px-8`| A value of `32` on the left and right |
+|`py-0`| A value of `0` on the top and bottom |
+|`py-1`| A value of `4` on the top and bottom |
+|`py-2`| A value of `8` on the top and bottom |
+|`py-3`| A value of `12` on the top and bottom |
+|`py-4`| A value of `16` on the top and bottom |
+|`py-5`| A value of `20` on the top and bottom |
+|`py-6`| A value of `24` on the top and bottom |
+|`py-7`| A value of `28` on the top and bottom |
+|`py-8`| A value of `32` on the top and bottom |
+|`pl-0`| A value of `0` on the left side |
+|`pl-1`| A value of `4` on the left side |
+|`pl-2`| A value of `8` on the left side |
+|`pl-3`| A value of `12` on the left side |
+|`pl-4`| A value of `16` on the left side |
+|`pl-5`| A value of `20` on the left side |
+|`pl-6`| A value of `24` on the left side |
+|`pl-7`| A value of `28` on the left side |
+|`pl-8`| A value of `32` on the left side |
+|`pr-0`| A value of `0` on the right side |
+|`pr-1`| A value of `4` on the right side |
+|`pr-2`| A value of `8` on the right side |
+|`pr-3`| A value of `12` on the right side |
+|`pr-4`| A value of `16` on the right side |
+|`pr-5`| A value of `20` on the right side |
+|`pr-6`| A value of `24` on the right side |
+|`pr-7`| A value of `28` on the right side |
+|`pr-8`| A value of `32` on the right side |
+|`pt-0`| A value of `0` on the top side |
+|`pt-1`| A value of `4` on the top side |
+|`pt-2`| A value of `8` on the top side |
+|`pt-3`| A value of `12` on the top side |
+|`pt-4`| A value of `16` on the top side |
+|`pt-5`| A value of `20` on the top side |
+|`pt-6`| A value of `24` on the top side |
+|`pt-7`| A value of `28` on the top side |
+|`pt-8`| A value of `32` on the top side |
+|`pb-0`| A value of `0` on the bottom side |
+|`pb-1`| A value of `4` on the bottom side |
+|`pb-2`| A value of `8` on the bottom side |
+|`pb-3`| A value of `12` on the bottom side |
+|`pb-4`| A value of `16` on the bottom side |
+|`pb-5`| A value of `20` on the bottom side |
+|`pb-6`| A value of `24` on the bottom side |
+|`pb-7`| A value of `28` on the bottom side |
+|`pb-8`| A value of `32` on the bottom side |
 
 *Example usage:*
 ```xml
@@ -187,11 +267,8 @@ Directional padding classes provide spacing within an element on specific sides 
 <Label Text="Horizontal padding" StyleClass="px-4" />
 
 <!-- Vertical padding -->
-<Button Text="Vertical padding" StyleClass="py-2" />
+<Button Text="Horizontal and vertical padding" StyleClass="py-2 px-4" />
 ```
-
-### Notes
-Due to .NET MAUI's limitations with the `Margin` and `Padding` properties, which sets all four sides (top, bottom, left, and right) at once, individual margin and padding classes cannot be combined. For example, applying `mx-4` and `my-6` together is not supported, as one will override the other. Instead, use a single class to define the desired margin configuration.
 
 ---
 
@@ -201,7 +278,7 @@ The transform classes provide several useful transformation styles for scaling, 
 ### Rotation classes
 Rotation transformations allow you to rotate an element by a specified angle. These styles apply rotational transformations to your `VisualElement` objects.
 
-| Class | Rotation Value |
+| Class | Effect |
 |---|---|
 |`rotate-0`| Rotate the element `0` degrees |
 |`rotate-45`| Rotate the element `45` degrees |
@@ -216,7 +293,7 @@ Rotation transformations allow you to rotate an element by a specified angle. Th
 ### Scale classes
 Scale transformations change the size of an element along one or more axes. The following styles allow you to apply different scaling factors to your `VisualElement` objects.
 
-| Class | Rotation Value |
+| Class | Effect |
 |---|---|
 |`scale-0`| Scale the element on both axis `0%` (make it invisible) |
 |`scale-50`| Scale the element on both axis `50%` |
@@ -258,7 +335,7 @@ Scale transformations change the size of an element along one or more axes. The 
 ### Translate classes
 Translation transformations move an element along the X and Y axes, shifting its position by a specified number of dp units. The following styles define translations in both directions for your `VisualElement` objects.
 
-| Class | Rotation Value |
+| Class | Effect |
 |---|---|
 |`translate-x-0`| Translate the element on the X-axis `0` dp |
 |`translate-x-1`| Translate the element on the X-axis `4` dp |
@@ -309,6 +386,34 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 
 ## Visibility
 The visibility utilities in Crosswind provide simple classes to control the visibility and transparency of elements in your .NET MAUI application. These classes all target `VisualElement`.
+
+### Opacity classes
+| Class | Effect |
+|---|---|
+|`opacity-0`| An opacity value of `0`. |
+|`opacity-5`| An opacity value of `0.05`. |
+|`opacity-10`| An opacity value of `0.1`. |
+|`opacity-20`| An opacity value of `0.2`. |
+|`opacity-25`| An opacity value of `0.25`. |
+|`opacity-30`| An opacity value of `0.3`. |
+|`opacity-40`| An opacity value of `0.4`. |
+|`opacity-50`| An opacity value of `0.5`. |
+|`opacity-60`| An opacity value of `0.6`. |
+|`opacity-70`| An opacity value of `0.7`. |
+|`opacity-75`| An opacity value of `0.75`. |
+|`opacity-80`| An opacity value of `0.8`. |
+|`opacity-90`| An opacity value of `0.9`. |
+|`opacity-95`| An opacity value of `0.95`. |
+|`opacity-100`| An opacity value of `1`. |
+
+*Example Usage:*
+```xml
+<!-- Almost Hidden Label -->
+<Label Text="This text is almost hidden" StyleClass="opacity-5" />
+
+<!-- Almost Entirely Visible Button -->
+<Button Text="I am almost visible" StyleClass="opacity-90" />
+```
 
 ### Visibility classes
 | Class | Effect |
