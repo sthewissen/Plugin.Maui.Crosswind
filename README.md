@@ -69,9 +69,106 @@ You can easily set text colors using utility classes that map to a predefined se
 
 ----
 
-## Sizing
+## Sizing  
+Use these classes to control the height and width of elements in .NET MAUI.
 
-`//TODO`
+### Size classes
+Define both height and width with the same value for consistent sizing.  
+| **Class**   | **Effect**                              |
+|-------------|-----------------------------------------|
+| `size-0`    | Sets the height and width to `0`.       |
+| `size-1`    | Sets the height and width to `4`.       |
+| `size-2`    | Sets the height and width to `8`.       |
+| `size-3`    | Sets the height and width to `12`.      |
+| `size-4`    | Sets the height and width to `16`.      |
+| `size-5`    | Sets the height and width to `20`.      |
+| `size-6`    | Sets the height and width to `24`.      |
+| `size-7`    | Sets the height and width to `28`.      |
+| `size-8`    | Sets the height and width to `32`.      |
+
+### Width classes
+Adjust the width of an element.  
+| **Class**   | **Effect**                     |
+|-------------|--------------------------------|
+| `w-0`       | Sets the width to `0`.         |
+| `w-1`       | Sets the width to `4`.         |
+| `w-2`       | Sets the width to `8`.         |
+| `w-3`       | Sets the width to `12`.        |
+| `w-4`       | Sets the width to `16`.        |
+| `w-5`       | Sets the width to `20`.        |
+| `w-6`       | Sets the width to `24`.        |
+| `w-7`       | Sets the width to `28`.        |
+| `w-8`       | Sets the width to `32`.        |
+
+### Max Width classes
+Set the maximum width of an element.  
+| **Class**     | **Effect**                            |
+|---------------|---------------------------------------|
+| `max-w-0`     | Sets the maximum width to `0`.        |
+| `max-w-1`     | Sets the maximum width to `4`.        |
+| `max-w-2`     | Sets the maximum width to `8`.        |
+| `max-w-3`     | Sets the maximum width to `12`.       |
+| `max-w-4`     | Sets the maximum width to `16`.       |
+| `max-w-5`     | Sets the maximum width to `20`.       |
+| `max-w-6`     | Sets the maximum width to `24`.       |
+| `max-w-7`     | Sets the maximum width to `28`.       |
+| `max-w-8`     | Sets the maximum width to `32`.       |
+
+### Min Width classes
+Set the minimum width of an element.  
+| **Class**     | **Effect**                            |
+|---------------|---------------------------------------|
+| `min-w-0`     | Sets the minimum width to `0`.        |
+| `min-w-1`     | Sets the minimum width to `4`.        |
+| `min-w-2`     | Sets the minimum width to `8`.        |
+| `min-w-3`     | Sets the minimum width to `12`.       |
+| `min-w-4`     | Sets the minimum width to `16`.       |
+| `min-w-5`     | Sets the minimum width to `20`.       |
+| `min-w-6`     | Sets the minimum width to `24`.       |
+| `min-w-7`     | Sets the minimum width to `28`.       |
+| `min-w-8`     | Sets the minimum width to `32`.       |
+
+### Height classes
+Adjust the height of an element.  
+| **Class**   | **Effect**                     |
+|-------------|--------------------------------|
+| `h-0`       | Sets the height to `0`.        |
+| `h-1`       | Sets the height to `4`.        |
+| `h-2`       | Sets the height to `8`.        |
+| `h-3`       | Sets the height to `12`.       |
+| `h-4`       | Sets the height to `16`.       |
+| `h-5`       | Sets the height to `20`.       |
+| `h-6`       | Sets the height to `24`.       |
+| `h-7`       | Sets the height to `28`.       |
+| `h-8`       | Sets the height to `32`.       |
+
+### Max Height classes
+Set the maximum height of an element.  
+| **Class**     | **Effect**                            |
+|---------------|---------------------------------------|
+| `max-h-0`     | Sets the maximum height to `0`.       |
+| `max-h-1`     | Sets the maximum height to `4`.       |
+| `max-h-2`     | Sets the maximum height to `8`.       |
+| `max-h-3`     | Sets the maximum height to `12`.      |
+| `max-h-4`     | Sets the maximum height to `16`.      |
+| `max-h-5`     | Sets the maximum height to `20`.      |
+| `max-h-6`     | Sets the maximum height to `24`.      |
+| `max-h-7`     | Sets the maximum height to `28`.      |
+| `max-h-8`     | Sets the maximum height to `32`.      |
+
+### Min Height classes
+Set the minimum height of an element.  
+| **Class**     | **Effect**                            |
+|---------------|---------------------------------------|
+| `min-h-0`     | Sets the minimum height to `0`.       |
+| `min-h-1`     | Sets the minimum height to `4`.       |
+| `min-h-2`     | Sets the minimum height to `8`.       |
+| `min-h-3`     | Sets the minimum height to `12`.      |
+| `min-h-4`     | Sets the minimum height to `16`.      |
+| `min-h-5`     | Sets the minimum height to `20`.      |
+| `min-h-6`     | Sets the minimum height to `24`.      |
+| `min-h-7`     | Sets the minimum height to `28`.      |
+| `min-h-8`     | Sets the minimum height to `32`.      |`
 
 ----
 
@@ -366,21 +463,87 @@ Translation transformations move an element along the X and Y axes, shifting its
 
 ## Typography
 
-### Font attributes
+### Font attribute classe
+Add styles like italics to text.
 
-### Font type
+| Class           | Effect                          |
+|-----------------|---------------------------------|
+| `italic`        | Applies italic font style.      |
 
-### Leading
+### Font type classes
+Selects from standard font styles to define the look of your text.
 
-### Text alignment
+| Class       | Effect                     |
+|-------------|----------------------------|
+| `font-sans` | Uses a sans-serif font.    |
+| `font-serif`| Uses a serif font.         |
+| `font-mono` | Uses a monospace font.     |
 
-### Text case
+### Leading classes
+Defines the vertical spacing between lines of text.
 
-### Text decorations
+| Class             | Effect                        |
+|-------------------|-------------------------------|
+| `leading-none`   | Sets line height to `1.0`.      |
+| `leading-tight`  | Sets line height to `1.25`.     |
+| `leading-snug`   | Sets line height to `1.375`.    |
+| `leading-normal` | Sets line height to `1.5`.      |
+| `leading-relaxed`| Sets line height to `1.625`.    |
+| `leading-loose`  | Sets line height to `2.0`.      |
 
-### Text size
+### Text alignment classes
+Controls the horizontal alignment of text within its container.
 
-### Tracking
+| Class          | Effect                               |
+|----------------|--------------------------------------|
+| `text-left`    | Aligns text to the left.             |
+| `text-center`  | Centers text horizontally.           |
+| `text-right`   | Aligns text to the right.            |
+| `text-justify` | Justifies text, aligning both edges. |
+
+### Text case classes
+Changes the case of text to uppercase or lowercase.
+
+| Class        | Effect                      |
+|--------------|-----------------------------|
+| `uppercase`  | Transforms text to uppercase. |
+| `lowercase`  | Transforms text to lowercase. |
+
+### Text decoration classes
+Add styles like underlines or strikethroughs to text.
+
+| Class            | Effect                          |
+|------------------|---------------------------------|
+| `underline`     | Adds an underline decoration.   |
+| `line-through`  | Adds a line-through decoration. |
+
+### Text size classes
+Adjusts the size of the text to suit your design needs.
+
+| Class       | Effect                   |
+|-------------|--------------------------|
+| `text-xs`  | Sets font size to `12`.  |
+| `text-sm`  | Sets font size to `14`.  |
+| `text-md`  | Sets font size to `16`.  |
+| `text-lg`  | Sets font size to `18`.  |
+| `text-xl`  | Sets font size to `20`.  |
+| `text-2xl` | Sets font size to `24`.  |
+| `text-3xl` | Sets font size to `30`.  |
+| `text-4xl` | Sets font size to `36`.  |
+| `text-5xl` | Sets font size to `48`.  |
+| `text-6xl` | Sets font size to `64`.  |
+
+### Tracking classes
+Fine-tunes the spacing between characters in your text.
+
+| Class               | Effect                         |
+|---------------------|--------------------------------|
+| `tracking-tighter` | Sets letter spacing to `-0.5`.   |
+| `tracking-tight`   | Sets letter spacing to `-0.25`.  |
+| `tracking-normal`  | Sets letter spacing to `0`.      |
+| `tracking-wide`    | Sets letter spacing to `0.25`.   |
+| `tracking-wider`   | Sets letter spacing to `0.5`.    |
+| `tracking-widest`  | Sets letter spacing to `1.0`.    |
 
 ### Control Compatibility
 In a XAML-based framework like .NET MAUI, each control has a well-defined set of properties, which can limit the direct application of shared styles across multiple control types. Unlike HTML, where elements can often inherit styles flexibly, XAML requires a more structured approach due to its reliance on specific `TargetType` bindings. Due to the usage of StyleClass, applying a class to a control will never lead to a runtime exception, but it will just fail silently. This section provides a comprehensive compatibility table that outlines which typography classes used in Crosswind are supported by the various different controls that exist in .NET MAUI.
