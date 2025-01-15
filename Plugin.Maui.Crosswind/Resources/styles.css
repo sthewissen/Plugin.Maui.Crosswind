@@ -6,6 +6,8 @@
 
 .bg-black { background-color: #000000; }
 .bg-white { background-color: #ffffff; }
+.bg-dotnet { background-color: #512bd4; }
+.bg-xamarin { background-color: #5596d8; }
 
 .bg-slate-50 { background-color: #f8fafc; }
 .bg-slate-100 { background-color: #f1f5f9; }
@@ -275,6 +277,8 @@
 
 .text-black { color: #000000; }
 .text-white { color: #ffffff; }
+.text-dotnet { color: #512bd4; }
+.text-xamarin { color: #5596d8; }
 
 .text-slate-50 { color: #f8fafc; }
 .text-slate-100 { color: #f1f5f9; }
