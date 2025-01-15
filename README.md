@@ -2,11 +2,13 @@
 
 # Plugin.Maui.Crosswind
  
- A utility-first design framework for .NET MAUI that brings the simplicity and flexibility of utility-based styling to XAML. Inspired by the efficiency of Tailwind CSS, Crosswind offers developers a streamlined way to create modern, consistent UIs. Perfect for rapid development and clean, maintainable design. By using the predefined style classes contained in this library, developers can:
+ A utility-first design framework for .NET MAUI that brings the simplicity and flexibility of utility-based styling to XAML. Inspired by the likes of Tailwind CSS, Crosswind offers developers a streamlined way to create modern, consistent UIs. Perfect for rapid development and clean, maintainable design. By using the predefined style classes contained in this library, developers can:
 
 - **Streamline styling:** Quickly apply consistent styles across your app without duplicating code.
 - **Increase productivity:** Spend less time writing custom styles and more time building features.
-- **Improve maintainability:** Centralized and reusable styles make it easy to update designs and ensure consistency. You aren’t wasting energy inventing in class names. No more adding silly class names like `list-inner-wrapper` just to be able to style something, and no more agonizing over the perfect abstract name for something that’s really just a container.
+- **Improve maintainability:** Centralized and reusable styles to easily update designs and ensure consistency. 
+
+No more adding silly class names like `list-inner-wrapper` just to be able to style something, and no more agonizing over the perfect abstract name for something that’s really just a container.
 
 Crosswind supports the following broad categories when it comes to styling:
 
@@ -29,7 +31,7 @@ No, it is not perfect due to the fundamental differences between how XAML stylin
 
 ## Colors
 
-Crosswind includes the default Tailwind color palette out-of-the-box that is a great starting point if you don't have your own specific branding in mind. These colors can be used in various locations throughout Crosswind, such as background colors, text colors and border colors. The following overview shows all of the out-of-the-box colors you have access to.
+Crosswind includes the default Tailwind CSS color palette out-of-the-box which is a great starting point if you don't have your own specific branding in mind. These colors can be used in various locations throughout Crosswind, such as background colors, text colors, and border colors. The following overview shows all of the out-of-the-box colors you have access to.
 
 |Color|50|100|200|300|400|500|600|700|800|900|950|
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -66,7 +68,7 @@ In Crosswind, you can easily set background colors using utility classes that ma
 ```
 
 ### Text color classes
-You can easily set text colors using utility classes that map to a predefined set of colors. Each text color class applies a specific color to the foreground of the text element. Please refer to the overview above for the supported colors. You can apply the text color classes in the `StyleClass` property of any element that supports the `TextColor` property (see the compatibilty matrix for typography-related classes below).
+You can easily set text colors using utility classes that map to a predefined set of colors. Each text color class applies a specific color to the foreground of the text element. Please refer to the overview above for the supported colors. You can apply the text color classes in the `StyleClass` property of any element that supports the `TextColor` property (see the compatibility matrix for typography-related classes below).
 
 ```xml
 <Label StyleClass="text-fuchsia-800" Text="This is an element with nice text colors." />
@@ -193,7 +195,7 @@ Set the minimum height of an element.
 ----
 
 ## Spacing
-The spacing utilities in Crosswind offer a consistent way to apply spacing in or around elements in your .NET MAUI application adhering to a 4 point grid system, ideal for your mobile apps.
+The spacing utilities in Crosswind offer a consistent way to apply spacing in or around elements in your .NET MAUI application adhering to a 4-point grid system, ideal for your mobile apps.
 
 ### Margin classes
 Margin classes provide spacing around an element on all sides. The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`.
@@ -431,7 +433,7 @@ You can combine these with one another. These can be used to set `ColumnSpacing`
 ---
 
 ## Transforms
-The transform classes provide several useful transformation styles for scaling, rotating, and translating objects in a MAUI application. These transformations can be applied to UI elements to modify their appearance and positioning.
+The transform classes provide several useful transformation styles for scaling, rotating, and translating objects in a .NET MAUI application. These transformations can be applied to UI elements to modify their appearance and positioning.
 
 ### Rotation classes
 Rotation transformations allow you to rotate an element by a specified angle. These styles apply rotational transformations to your objects.
@@ -453,18 +455,18 @@ Scale transformations change the size of an element along one or more axes. The 
 
 | Class | Effect |
 |---|---|
-|`scale-0`| Scale the element on both axis `0%` (make it invisible) |
-|`scale-50`| Scale the element on both axis `50%` |
-|`scale-75`| Scale the element on both axis `75%` |
-|`scale-90`| Scale the element on both axis `90%` |
-|`scale-95`| Scale the element on both axis `95%` |
-|`scale-100`| Scale the element on both axis `100%` |
-|`scale-105`| Scale the element on both axis `105%` |
-|`scale-110`| Scale the element on both axis `110%` |
-|`scale-125`| Scale the element on both axis `125%` |
-|`scale-150`| Scale the element on both axis `150%` |
-|`scale-175`| Scale the element on both axis `175%` |
-|`scale-200`| Scale the element on both axis `200%` |
+|`scale-0`| Scale the element on both axes `0%` (make it invisible) |
+|`scale-50`| Scale the element on both axes `50%` |
+|`scale-75`| Scale the element on both axes `75%` |
+|`scale-90`| Scale the element on both axes `90%` |
+|`scale-95`| Scale the element on both axes `95%` |
+|`scale-100`| Scale the element on both axes `100%` |
+|`scale-105`| Scale the element on both axes `105%` |
+|`scale-110`| Scale the element on both axes `110%` |
+|`scale-125`| Scale the element on both axes `125%` |
+|`scale-150`| Scale the element on both axes `150%` |
+|`scale-175`| Scale the element on both axes `175%` |
+|`scale-200`| Scale the element on both axes `200%` |
 |`scale-x-0`| Scale the element on the X-axis `0%` (make it invisible) |
 |`scale-x-50`| Scale the element on the X-axis `50%` |
 |`scale-x-75`| Scale the element on the X-axis `75%` |
@@ -607,7 +609,7 @@ Fine-tunes the spacing between characters in your text.
 | `tracking-widest`  | Sets letter spacing to `1.0`.    |
 
 ### Control Compatibility
-In a XAML-based framework like .NET MAUI, each control has a well-defined set of properties, which can limit the direct application of shared styles across multiple control types. Unlike HTML, where elements can often inherit styles flexibly, XAML requires a more structured approach due to its reliance on specific `TargetType` bindings. Due to the usage of StyleClass, applying a class to a control will never lead to a runtime exception, but it will just fail silently. This section provides a comprehensive compatibility table that outlines which typography classes used in Crosswind are supported by the various different controls that exist in .NET MAUI.
+In a XAML-based framework like .NET MAUI, each control has a well-defined set of properties, which can limit the direct application of shared styles across multiple control types. Unlike HTML, where elements can often inherit styles flexibly, XAML requires a more structured approach due to its reliance on specific `TargetType` bindings. Due to the usage of StyleClass, applying a class to a control will never lead to a runtime exception, but it will just fail silently. This section provides a comprehensive compatibility table outlining which typography classes used in Crosswind are supported by the various controls that exist in .NET MAUI.
 
 |            | `Button` | `Label` | `InputView`* | `Picker`<br/>`DatePicker`<br/>`TimePicker` | `RadioButton` |
 |-------------|--------|-------|-------|-------|-------|
@@ -620,7 +622,7 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 | Text size | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Tracking | ✅ | ✅ | ✅ | ✅ | ✅ |
 
-*`InputView` covers the `Entry`, `Editor` and `SearchBar` controls.
+*`InputView` covers the `Entry`, `Editor`, and `SearchBar` controls.
 
 ---
 
