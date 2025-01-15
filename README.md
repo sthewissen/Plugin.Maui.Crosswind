@@ -79,7 +79,7 @@ You can easily set text colors using utility classes that map to a predefined se
 The spacing utilities in Crosswind offer a consistent way to apply spacing in or around elements in your .NET MAUI application adhering to a 4 point grid system, ideal for your mobile apps.
 
 ### Margin classes
-Margin classes provide spacing around an element on all sides (`Margin` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `View`.
+Margin classes provide spacing around an element on all sides. The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`.
 
 | Class | Effect |
 |---|---|
@@ -106,7 +106,7 @@ Margin classes provide spacing around an element on all sides (`Margin` property
 ```
 
 ### Directional margin classes
-Directional margin classes provide spacing around an element on specific sides (`Margin` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `View`.
+Directional margin classes provide spacing around an element on specific sides. The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. You can combine these with one another.
 
 | Class | Effect |
 |---|---|
@@ -175,7 +175,7 @@ Directional margin classes provide spacing around an element on specific sides (
 ```
 
 ### Padding classes
-Padding classes provide spacing around an element on all sides (`Padding` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `VisualElement`.
+Padding classes provide spacing around an element on all sides. The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`.
 
 | Class | Effect |
 |---|---|
@@ -202,7 +202,7 @@ Padding classes provide spacing around an element on all sides (`Padding` proper
 ```
 
 ### Directional padding classes
-Directional padding classes provide spacing within an element on specific sides (`Padding` property). The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. These classes all target `VisualElement`.
+Directional padding classes provide spacing within an element on specific sides. The values are defined using a scale ranging from 0 to 8, with each step representing an increment of `4dp`. You can combine these with one another.
 
 | Class | Effect |
 |---|---|
@@ -273,10 +273,10 @@ Directional padding classes provide spacing within an element on specific sides 
 ---
 
 ## Transforms
-The transform classes provide several useful transformation styles for scaling, rotating, and translating objects in a MAUI application. These transformations can be applied to UI elements to modify their appearance and positioning. These classes all target `VisualElement`.
+The transform classes provide several useful transformation styles for scaling, rotating, and translating objects in a MAUI application. These transformations can be applied to UI elements to modify their appearance and positioning.
 
 ### Rotation classes
-Rotation transformations allow you to rotate an element by a specified angle. These styles apply rotational transformations to your `VisualElement` objects.
+Rotation transformations allow you to rotate an element by a specified angle. These styles apply rotational transformations to your objects.
 
 | Class | Effect |
 |---|---|
@@ -291,7 +291,7 @@ Rotation transformations allow you to rotate an element by a specified angle. Th
 |`rotate-360`| Rotate the element `360` degrees |
 
 ### Scale classes
-Scale transformations change the size of an element along one or more axes. The following styles allow you to apply different scaling factors to your `VisualElement` objects.
+Scale transformations change the size of an element along one or more axes. The following styles allow you to apply different scaling factors to your objects.
 
 | Class | Effect |
 |---|---|
@@ -333,7 +333,7 @@ Scale transformations change the size of an element along one or more axes. The 
 |`scale-y-200`| Scale the element on the Y-axis `200%` |
 
 ### Translate classes
-Translation transformations move an element along the X and Y axes, shifting its position by a specified number of dp units. The following styles define translations in both directions for your `VisualElement` objects.
+Translation transformations move an element along the X and Y axes, shifting its position by a specified number of dp units. The following styles define translations in both directions for your objects.
 
 | Class | Effect |
 |---|---|
@@ -366,6 +366,22 @@ Translation transformations move an element along the X and Y axes, shifting its
 
 ## Typography
 
+### Font attributes
+
+### Font type
+
+### Leading
+
+### Text alignment
+
+### Text case
+
+### Text decorations
+
+### Text size
+
+### Tracking
+
 ### Control Compatibility
 In a XAML-based framework like .NET MAUI, each control has a well-defined set of properties, which can limit the direct application of shared styles across multiple control types. Unlike HTML, where elements can often inherit styles flexibly, XAML requires a more structured approach due to its reliance on specific `TargetType` bindings. Due to the usage of StyleClass, applying a class to a control will never lead to a runtime exception, but it will just fail silently. This section provides a comprehensive compatibility table that outlines which Crosswind `StyleClass` definitions are supported by the various different controls that exist in .NET MAUI.
 
@@ -385,7 +401,7 @@ In a XAML-based framework like .NET MAUI, each control has a well-defined set of
 ---
 
 ## Visibility
-The visibility utilities in Crosswind provide simple classes to control the visibility and transparency of elements in your .NET MAUI application. These classes all target `VisualElement`.
+The visibility utilities in Crosswind provide simple classes to control the visibility and transparency of elements in your .NET MAUI application.
 
 ### Opacity classes
 | Class | Effect |
