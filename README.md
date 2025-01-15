@@ -1,3 +1,5 @@
+![Crosswind Logo](https://raw.githubusercontent.com/sthewissen/Plugin.Maui.Crosswind/refs/heads/main/nuget.png)
+
 # Plugin.Maui.Crosswind
  
  A utility-first design framework for .NET MAUI that brings the simplicity and flexibility of utility-based styling to XAML. Inspired by the efficiency of Tailwind CSS, Crosswind offers developers a streamlined way to create modern, consistent UIs. Perfect for rapid development and clean, maintainable design. By using the predefined style classes contained in this library, developers can:
@@ -21,6 +23,8 @@ A picture is worth a thousand words, and seeing Crosswind in action can speak vo
 `// TODO`
 
 ## Is it perfect?
+
+No, it is not perfect due to the fundamental differences between how XAML styling functions in .NET MAUI and how CSS operates. XAML styles in .NET MAUI are deeply tied to the framework's property system, which supports direct property binding and default value inheritance, while CSS is primarily designed for styling web elements and lacks the same level of integration with a declarative UI framework like .NET MAUI. Additionally, not all properties available in XAML have direct CSS equivalents, which means that some styling capabilities, such as animation properties, shadows, or borders, may not map cleanly or be supported at all when using CSS.
 
 ## Colors
 
