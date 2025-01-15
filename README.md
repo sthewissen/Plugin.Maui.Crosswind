@@ -383,7 +383,7 @@ Translation transformations move an element along the X and Y axes, shifting its
 ### Tracking
 
 ### Control Compatibility
-In a XAML-based framework like .NET MAUI, each control has a well-defined set of properties, which can limit the direct application of shared styles across multiple control types. Unlike HTML, where elements can often inherit styles flexibly, XAML requires a more structured approach due to its reliance on specific `TargetType` bindings. Due to the usage of StyleClass, applying a class to a control will never lead to a runtime exception, but it will just fail silently. This section provides a comprehensive compatibility table that outlines which Crosswind `StyleClass` definitions are supported by the various different controls that exist in .NET MAUI.
+In a XAML-based framework like .NET MAUI, each control has a well-defined set of properties, which can limit the direct application of shared styles across multiple control types. Unlike HTML, where elements can often inherit styles flexibly, XAML requires a more structured approach due to its reliance on specific `TargetType` bindings. Due to the usage of StyleClass, applying a class to a control will never lead to a runtime exception, but it will just fail silently. This section provides a comprehensive compatibility table that outlines which typography classes used in Crosswind are supported by the various different controls that exist in .NET MAUI.
 
 |            | `Button` | `Label` | `InputView`* | `Picker`<br/>`DatePicker`<br/>`TimePicker` | `RadioButton` |
 |-------------|--------|-------|-------|-------|-------|
