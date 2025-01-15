@@ -24,6 +24,10 @@ A picture is worth a thousand words, and seeing Crosswind in action can speak vo
 
 ## Is it perfect?
 
+No.
+
+`// TODO`
+
 ## Colors
 
 Crosswind includes the default Tailwind color palette out-of-the-box that is a great starting point if you don't have your own specific branding in mind. These colors can be used in various locations throughout Crosswind, such as background colors, text colors and border colors. The following overview shows all of the out-of-the-box colors you have access to.
