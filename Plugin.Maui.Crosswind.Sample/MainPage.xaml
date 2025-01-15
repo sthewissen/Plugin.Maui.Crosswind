@@ -10,7 +10,7 @@
             <FlexLayout StyleClass="px-3,py-6,bg-slate-200,items-center">
                 <Image StyleClass="shrink-0,size-8,mr-2" Source="dotnet_bot.png" />
                 <VerticalStackLayout StyleClass="gap-1">
-                    <Label StyleClass="text-xl,font-medium,text-black" Text=".NET Bot" />
+                    <Label StyleClass="text-xl,text-dotnet" Text=".NET Bot" />
                     <Label StyleClass="text-red-500" Text="You have a new message!" />
                 </VerticalStackLayout>
             </FlexLayout>
