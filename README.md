@@ -30,3 +30,7 @@ A picture is worth a thousand words, and seeing Crosswind in action can speak vo
 ## Is it perfect?
 
 No, it is not perfect due to the fundamental differences between how XAML styling functions in .NET MAUI and how CSS operates. XAML styles in .NET MAUI are deeply tied to the framework's property system, which supports direct property binding and default value inheritance, while CSS is primarily designed for styling web elements and lacks the same level of integration with a declarative UI framework like .NET MAUI. Additionally, not all properties available in XAML have direct CSS equivalents, which means that some styling capabilities, such as animation properties, shadows, or borders, may not map cleanly or be supported at all when using CSS.
+
+## Learn more
+
+[Check out the wiki](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/) for a full reference of all supported classes.
