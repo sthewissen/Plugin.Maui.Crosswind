@@ -1,6 +1,8 @@
 ![Crosswind Logo](https://raw.githubusercontent.com/sthewissen/Plugin.Maui.Crosswind/refs/heads/main/nuget.png)
 
 # Plugin.Maui.Crosswind
+
+ [![Build](https://github.com/sthewissen/Plugin.Maui.Crosswind/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sthewissen/Plugin.Maui.Crosswind/actions/workflows/ci.yml)
  
  A utility-first design framework for .NET MAUI that brings the simplicity and flexibility of utility-based styling to XAML. Inspired by the likes of Tailwind CSS, Crosswind offers developers a streamlined way to create modern, consistent UIs. Perfect for rapid development and clean, maintainable design. By using the predefined style classes contained in this library, developers can:
 
