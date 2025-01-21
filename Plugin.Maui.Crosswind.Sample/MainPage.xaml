@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             StyleClass="bg-slate-100"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plugin.Maui.Crosswind.Sample.MainPage">
+<ContentPage
+    x:Class="Plugin.Maui.Crosswind.Sample.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    StyleClass="bg-slate-300">
 
     <ScrollView>
         <VerticalStackLayout StyleClass="p-8,gap-6">
-           
-            <FlexLayout StyleClass="px-3,py-6,bg-slate-200,items-center">
-                <Image StyleClass="shrink-0,size-8,mr-2" Source="dotnet_bot.png" />
-                <VerticalStackLayout StyleClass="gap-1">
-                    <Label StyleClass="text-xl,text-dotnet" Text=".NET Bot" />
+
+            <FlexLayout StyleClass="px-3,py-6,bg-slate-300,items-center">
+                <Image Source="dotnet_bot.png" StyleClass="shrink-0,size-8,mr-2" />
+                <VerticalStackLayout StyleClass="gap-0">
+                    <Label StyleClass="text-xl,text-white" Text=".NET Bot" />
                     <Label StyleClass="text-red-500" Text="You have a new message!" />
                 </VerticalStackLayout>
             </FlexLayout>
-            
+
         </VerticalStackLayout>
     </ScrollView>
 

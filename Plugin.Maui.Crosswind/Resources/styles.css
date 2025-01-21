@@ -606,8 +606,289 @@
 .basis-full { flex-basis: 100%; }
 
 /* ======================== */
+/* Shadow classes */
+/* ======================== */
+
+.shadow-sm { -maui-shadow: 0 1 2 rgba(0, 0, 0, 0.05); }
+.shadow { -maui-shadow: 0 1 3 rgba(0, 0, 0, 0.1); }
+.shadow-md { -maui-shadow: 0 4 6 rgba(0, 0, 0, 0.1); }
+.shadow-lg { -maui-shadow: 0 10 15 rgba(0, 0, 0, 0.1); }
+.shadow-xl { -maui-shadow: 0 20 25 rgba(0, 0, 0, 0.1); }
+.shadow-2xl { -maui-shadow: 0 25 50 rgba(0, 0, 0, 0.1); }
+
+.shadow-black { -maui-shadow-color: #000000; }
+.shadow-white { -maui-shadow-color: #ffffff; }
+.shadow-dotnet { -maui-shadow-color: #512bd4; }
+.shadow-xamarin { -maui-shadow-color: #5596d8; }
+
+.shadow-slate-50 { -maui-shadow-color: #f8fafc; }
+.shadow-slate-100 { -maui-shadow-color: #f1f5f9; }
+.shadow-slate-200 { -maui-shadow-color: #e2e8f0; }
+.shadow-slate-300 { -maui-shadow-color: #cbd5e1; }
+.shadow-slate-400 { -maui-shadow-color: #94a3b8; }
+.shadow-slate-500 { -maui-shadow-color: #64748b; }
+.shadow-slate-600 { -maui-shadow-color: #475569; }
+.shadow-slate-700 { -maui-shadow-color: #334155; }
+.shadow-slate-800 { -maui-shadow-color: #1e293b; }
+.shadow-slate-900 { -maui-shadow-color: #0f172a; }
+.shadow-slate-950 { -maui-shadow-color: #020617; }
+
+.shadow-gray-50 { -maui-shadow-color: #f9fafb; }
+.shadow-gray-100 { -maui-shadow-color: #f3f4f6; }
+.shadow-gray-200 { -maui-shadow-color: #e5e7eb; }
+.shadow-gray-300 { -maui-shadow-color: #d1d5db; }
+.shadow-gray-400 { -maui-shadow-color: #9ca3af; }
+.shadow-gray-500 { -maui-shadow-color: #6b7280; }
+.shadow-gray-600 { -maui-shadow-color: #4b5563; }
+.shadow-gray-700 { -maui-shadow-color: #374151; }
+.shadow-gray-800 { -maui-shadow-color: #1f2937; }
+.shadow-gray-900 { -maui-shadow-color: #111827; }
+.shadow-gray-950 { -maui-shadow-color: #030712; }
+
+.shadow-zinc-50 { -maui-shadow-color: #fafafa; }
+.shadow-zinc-100 { -maui-shadow-color: #f4f4f5; }
+.shadow-zinc-200 { -maui-shadow-color: #e4e4e7; }
+.shadow-zinc-300 { -maui-shadow-color: #d4d4d8; }
+.shadow-zinc-400 { -maui-shadow-color: #a1a1aa; }
+.shadow-zinc-500 { -maui-shadow-color: #71717a; }
+.shadow-zinc-600 { -maui-shadow-color: #52525b; }
+.shadow-zinc-700 { -maui-shadow-color: #3f3f46; }
+.shadow-zinc-800 { -maui-shadow-color: #27272a; }
+.shadow-zinc-900 { -maui-shadow-color: #18181b; }
+.shadow-zinc-950 { -maui-shadow-color: #09090b; }
+
+.shadow-neutral-50 { -maui-shadow-color: #fafafa; }
+.shadow-neutral-100 { -maui-shadow-color: #f5f5f5; }
+.shadow-neutral-200 { -maui-shadow-color: #e5e5e5; }
+.shadow-neutral-300 { -maui-shadow-color: #d4d4d4; }
+.shadow-neutral-400 { -maui-shadow-color: #a3a3a3; }
+.shadow-neutral-500 { -maui-shadow-color: #737373; }
+.shadow-neutral-600 { -maui-shadow-color: #525252; }
+.shadow-neutral-700 { -maui-shadow-color: #404040; }
+.shadow-neutral-800 { -maui-shadow-color: #262626; }
+.shadow-neutral-900 { -maui-shadow-color: #171717; }
+.shadow-neutral-950 { -maui-shadow-color: #0a0a0a; }
+
+.shadow-stone-50 { -maui-shadow-color: #fafaf9; }
+.shadow-stone-100 { -maui-shadow-color: #f5f5f4; }
+.shadow-stone-200 { -maui-shadow-color: #e7e5e4; }
+.shadow-stone-300 { -maui-shadow-color: #d6d3d1; }
+.shadow-stone-400 { -maui-shadow-color: #a8a29e; }
+.shadow-stone-500 { -maui-shadow-color: #78716c; }
+.shadow-stone-600 { -maui-shadow-color: #57534e; }
+.shadow-stone-700 { -maui-shadow-color: #44403c; }
+.shadow-stone-800 { -maui-shadow-color: #292524; }
+.shadow-stone-900 { -maui-shadow-color: #1c1917; }
+.shadow-stone-950 { -maui-shadow-color: #0c0a09; }
+
+.shadow-red-50 { -maui-shadow-color: #fef2f2; }
+.shadow-red-100 { -maui-shadow-color: #fee2e2; }
+.shadow-red-200 { -maui-shadow-color: #fecaca; }
+.shadow-red-300 { -maui-shadow-color: #fca5a5; }
+.shadow-red-400 { -maui-shadow-color: #f87171; }
+.shadow-red-500 { -maui-shadow-color: #ef4444; }
+.shadow-red-600 { -maui-shadow-color: #dc2626; }
+.shadow-red-700 { -maui-shadow-color: #b91c1c; }
+.shadow-red-800 { -maui-shadow-color: #991b1b; }
+.shadow-red-900 { -maui-shadow-color: #7f1d1d; }
+.shadow-red-950 { -maui-shadow-color: #450a0a; }
+
+.shadow-orange-50 { -maui-shadow-color: #fff7ed; }
+.shadow-orange-100 { -maui-shadow-color: #ffedd5; }
+.shadow-orange-200 { -maui-shadow-color: #fed7aa; }
+.shadow-orange-300 { -maui-shadow-color: #fdba74; }
+.shadow-orange-400 { -maui-shadow-color: #fb923c; }
+.shadow-orange-500 { -maui-shadow-color: #f97316; }
+.shadow-orange-600 { -maui-shadow-color: #ea580c; }
+.shadow-orange-700 { -maui-shadow-color: #c2410c; }
+.shadow-orange-800 { -maui-shadow-color: #9a3412; }
+.shadow-orange-900 { -maui-shadow-color: #7c2d12; }
+.shadow-orange-950 { -maui-shadow-color: #431407; }
+
+.shadow-amber-50 { -maui-shadow-color: #fffbeb; }
+.shadow-amber-100 { -maui-shadow-color: #fef3c7; }
+.shadow-amber-200 { -maui-shadow-color: #fde68a; }
+.shadow-amber-300 { -maui-shadow-color: #fcd34d; }
+.shadow-amber-400 { -maui-shadow-color: #fbbf24; }
+.shadow-amber-500 { -maui-shadow-color: #f59e0b; }
+.shadow-amber-600 { -maui-shadow-color: #d97706; }
+.shadow-amber-700 { -maui-shadow-color: #b45309; }
+.shadow-amber-800 { -maui-shadow-color: #92400e; }
+.shadow-amber-900 { -maui-shadow-color: #78350f; }
+.shadow-amber-950 { -maui-shadow-color: #451a03; }
+
+.shadow-yellow-50 { -maui-shadow-color: #fefce8; }
+.shadow-yellow-100 { -maui-shadow-color: #fef9c3; }
+.shadow-yellow-200 { -maui-shadow-color: #fef08a; }
+.shadow-yellow-300 { -maui-shadow-color: #fde047; }
+.shadow-yellow-400 { -maui-shadow-color: #facc15; }
+.shadow-yellow-500 { -maui-shadow-color: #eab308; }
+.shadow-yellow-600 { -maui-shadow-color: #ca8a04; }
+.shadow-yellow-700 { -maui-shadow-color: #a16207; }
+.shadow-yellow-800 { -maui-shadow-color: #854d0e; }
+.shadow-yellow-900 { -maui-shadow-color: #713f12; }
+.shadow-yellow-950 { -maui-shadow-color: #422006; }
+
+.shadow-lime-50 { -maui-shadow-color: #f7fee7; }
+.shadow-lime-100 { -maui-shadow-color: #ecfccb; }
+.shadow-lime-200 { -maui-shadow-color: #d9f99d; }
+.shadow-lime-300 { -maui-shadow-color: #bef264; }
+.shadow-lime-400 { -maui-shadow-color: #a3e635; }
+.shadow-lime-500 { -maui-shadow-color: #84cc16; }
+.shadow-lime-600 { -maui-shadow-color: #65a30d; }
+.shadow-lime-700 { -maui-shadow-color: #4d7c0f; }
+.shadow-lime-800 { -maui-shadow-color: #3f6212; }
+.shadow-lime-900 { -maui-shadow-color: #365314; }
+.shadow-lime-950 { -maui-shadow-color: #1a2e05; }
+
+.shadow-green-50 { -maui-shadow-color: #f0fdf4; }
+.shadow-green-100 { -maui-shadow-color: #dcfce7; }
+.shadow-green-200 { -maui-shadow-color: #bbf7d0; }
+.shadow-green-300 { -maui-shadow-color: #86efac; }
+.shadow-green-400 { -maui-shadow-color: #4ade80; }
+.shadow-green-500 { -maui-shadow-color: #22c55e; }
+.shadow-green-600 { -maui-shadow-color: #16a34a; }
+.shadow-green-700 { -maui-shadow-color: #15803d; }
+.shadow-green-800 { -maui-shadow-color: #166534; }
+.shadow-green-900 { -maui-shadow-color: #14532d; }
+.shadow-green-950 { -maui-shadow-color: #052e16; }
+
+.shadow-emerald-50 { -maui-shadow-color: #ecfdf5; }
+.shadow-emerald-100 { -maui-shadow-color: #d1fae5; }
+.shadow-emerald-200 { -maui-shadow-color: #a7f3d0; }
+.shadow-emerald-300 { -maui-shadow-color: #6ee7b7; }
+.shadow-emerald-400 { -maui-shadow-color: #34d399; }
+.shadow-emerald-500 { -maui-shadow-color: #10b981; }
+.shadow-emerald-600 { -maui-shadow-color: #059669; }
+.shadow-emerald-700 { -maui-shadow-color: #047857; }
+.shadow-emerald-800 { -maui-shadow-color: #065f46; }
+.shadow-emerald-900 { -maui-shadow-color: #064e3b; }
+.shadow-emerald-950 { -maui-shadow-color: #022c22; }
+
+.shadow-teal-50 { -maui-shadow-color: #f0fdfa; }
+.shadow-teal-100 { -maui-shadow-color: #ccfbf1; }
+.shadow-teal-200 { -maui-shadow-color: #99f6e4; }
+.shadow-teal-300 { -maui-shadow-color: #5eead4; }
+.shadow-teal-400 { -maui-shadow-color: #2dd4bf; }
+.shadow-teal-500 { -maui-shadow-color: #14b8a6; }
+.shadow-teal-600 { -maui-shadow-color: #0d9488; }
+.shadow-teal-700 { -maui-shadow-color: #0f766e; }
+.shadow-teal-800 { -maui-shadow-color: #115e59; }
+.shadow-teal-900 { -maui-shadow-color: #134e4a; }
+.shadow-teal-950 { -maui-shadow-color: #042f2e; }
+
+.shadow-cyan-50 { -maui-shadow-color: #ecfeff; }
+.shadow-cyan-100 { -maui-shadow-color: #cffafe; }
+.shadow-cyan-200 { -maui-shadow-color: #a5f3fc; }
+.shadow-cyan-300 { -maui-shadow-color: #67e8f9; }
+.shadow-cyan-400 { -maui-shadow-color: #22d3ee; }
+.shadow-cyan-500 { -maui-shadow-color: #06b6d4; }
+.shadow-cyan-600 { -maui-shadow-color: #0891b2; }
+.shadow-cyan-700 { -maui-shadow-color: #0e7490; }
+.shadow-cyan-800 { -maui-shadow-color: #155e75; }
+.shadow-cyan-900 { -maui-shadow-color: #164e63; }
+.shadow-cyan-950 { -maui-shadow-color: #083344; }
+
+.shadow-sky-50 { -maui-shadow-color: #f0f9ff; }
+.shadow-sky-100 { -maui-shadow-color: #e0f2fe; }
+.shadow-sky-200 { -maui-shadow-color: #bae6fd; }
+.shadow-sky-300 { -maui-shadow-color: #7dd3fc; }
+.shadow-sky-400 { -maui-shadow-color: #38bdf8; }
+.shadow-sky-500 { -maui-shadow-color: #0ea5e9; }
+.shadow-sky-600 { -maui-shadow-color: #0284c7; }
+.shadow-sky-700 { -maui-shadow-color: #0369a1; }
+.shadow-sky-800 { -maui-shadow-color: #075985; }
+.shadow-sky-900 { -maui-shadow-color: #0c4a6e; }
+.shadow-sky-950 { -maui-shadow-color: #082f49; }
+
+.shadow-blue-50 { -maui-shadow-color: #eff6ff; }
+.shadow-blue-100 { -maui-shadow-color: #dbeafe; }
+.shadow-blue-200 { -maui-shadow-color: #bfdbfe; }
+.shadow-blue-300 { -maui-shadow-color: #93c5fd; }
+.shadow-blue-400 { -maui-shadow-color: #60a5fa; }
+.shadow-blue-500 { -maui-shadow-color: #3b82f6; }
+.shadow-blue-600 { -maui-shadow-color: #2563eb; }
+.shadow-blue-700 { -maui-shadow-color: #1d4ed8; }
+.shadow-blue-800 { -maui-shadow-color: #1e40af; }
+.shadow-blue-900 { -maui-shadow-color: #1e3a8a; }
+.shadow-blue-950 { -maui-shadow-color: #172554; }
+
+.shadow-indigo-50 { -maui-shadow-color: #eef2ff; }
+.shadow-indigo-100 { -maui-shadow-color: #e0e7ff; }
+.shadow-indigo-200 { -maui-shadow-color: #c7d2fe; }
+.shadow-indigo-300 { -maui-shadow-color: #a5b4fc; }
+.shadow-indigo-400 { -maui-shadow-color: #818cf8; }
+.shadow-indigo-500 { -maui-shadow-color: #6366f1; }
+.shadow-indigo-600 { -maui-shadow-color: #4f46e5; }
+.shadow-indigo-700 { -maui-shadow-color: #4338ca; }
+.shadow-indigo-800 { -maui-shadow-color: #3730a3; }
+.shadow-indigo-900 { -maui-shadow-color: #312e81; }
+.shadow-indigo-950 { -maui-shadow-color: #1e1b4b; }
+
+.shadow-violet-50 { -maui-shadow-color: #f5f3ff; }
+.shadow-violet-100 { -maui-shadow-color: #ede9fe; }
+.shadow-violet-200 { -maui-shadow-color: #ddd6fe; }
+.shadow-violet-300 { -maui-shadow-color: #c4b5fd; }
+.shadow-violet-400 { -maui-shadow-color: #a78bfa; }
+.shadow-violet-500 { -maui-shadow-color: #8b5cf6; }
+.shadow-violet-600 { -maui-shadow-color: #7c3aed; }
+.shadow-violet-700 { -maui-shadow-color: #6d28d9; }
+.shadow-violet-800 { -maui-shadow-color: #5b21b6; }
+.shadow-violet-900 { -maui-shadow-color: #4c1d95; }
+.shadow-violet-950 { -maui-shadow-color: #2e1065; }
+
+.shadow-purple-50 { -maui-shadow-color: #faf5ff; }
+.shadow-purple-100 { -maui-shadow-color: #f3e8ff; }
+.shadow-purple-200 { -maui-shadow-color: #e9d5ff; }
+.shadow-purple-300 { -maui-shadow-color: #d8b4fe; }
+.shadow-purple-400 { -maui-shadow-color: #c084fc; }
+.shadow-purple-500 { -maui-shadow-color: #a855f7; }
+.shadow-purple-600 { -maui-shadow-color: #9333ea; }
+.shadow-purple-700 { -maui-shadow-color: #7e22ce; }
+.shadow-purple-800 { -maui-shadow-color: #6b21a8; }
+.shadow-purple-900 { -maui-shadow-color: #581c87; }
+.shadow-purple-950 { -maui-shadow-color: #3b0764; }
+
+.shadow-fuchsia-50 { -maui-shadow-color: #fdf4ff; }
+.shadow-fuchsia-100 { -maui-shadow-color: #fae8ff; }
+.shadow-fuchsia-200 { -maui-shadow-color: #f5d0fe; }
+.shadow-fuchsia-300 { -maui-shadow-color: #f0abfc; }
+.shadow-fuchsia-400 { -maui-shadow-color: #e879f9; }
+.shadow-fuchsia-500 { -maui-shadow-color: #d946ef; }
+.shadow-fuchsia-600 { -maui-shadow-color: #c026d3; }
+.shadow-fuchsia-700 { -maui-shadow-color: #a21caf; }
+.shadow-fuchsia-800 { -maui-shadow-color: #86198f; }
+.shadow-fuchsia-900 { -maui-shadow-color: #701a75; }
+.shadow-fuchsia-950 { -maui-shadow-color: #4a044e; }
+
+.shadow-pink-50 { -maui-shadow-color: #fdf2f8; }
+.shadow-pink-100 { -maui-shadow-color: #fce7f3; }
+.shadow-pink-200 { -maui-shadow-color: #fbcfe8; }
+.shadow-pink-300 { -maui-shadow-color: #f9a8d4; }
+.shadow-pink-400 { -maui-shadow-color: #f472b6; }
+.shadow-pink-500 { -maui-shadow-color: #ec4899; }
+.shadow-pink-600 { -maui-shadow-color: #db2777; }
+.shadow-pink-700 { -maui-shadow-color: #be185d; }
+.shadow-pink-800 { -maui-shadow-color: #9d174d; }
+.shadow-pink-900 { -maui-shadow-color: #831843; }
+.shadow-pink-950 { -maui-shadow-color: #500724; }
+
+.shadow-rose-50 { -maui-shadow-color: #fff1f2; }
+.shadow-rose-100 { -maui-shadow-color: #ffe4e6; }
+.shadow-rose-200 { -maui-shadow-color: #fecdd3; }
+.shadow-rose-300 { -maui-shadow-color: #fda4af; }
+.shadow-rose-400 { -maui-shadow-color: #fb7185; }
+.shadow-rose-500 { -maui-shadow-color: #f43f5e; }
+.shadow-rose-600 { -maui-shadow-color: #e11d48; }
+.shadow-rose-700 { -maui-shadow-color: #be123c; }
+.shadow-rose-800 { -maui-shadow-color: #9f1239; }
+.shadow-rose-900 { -maui-shadow-color: #881337; }
+.shadow-rose-950 { -maui-shadow-color: #4c0519; }
+
+/* ======================== */
 /* Sizing classes */
 /* ======================== */
+
 .size-0 { height: 0; width: 0; }
 .size-1 { height: 4; width: 4; }
 .size-2 { height: 8; width: 8; }
