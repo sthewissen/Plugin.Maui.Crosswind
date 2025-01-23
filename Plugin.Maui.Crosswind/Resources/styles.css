@@ -1181,25 +1181,25 @@
 
 /* Translation-X */
 .translate-x-0 { transform: translateX(0); }
-.translate-x-1 { transform: translateX(4px); }
-.translate-x-2 { transform: translateX(8px); }
-.translate-x-3 { transform: translateX(12px); }
-.translate-x-4 { transform: translateX(16px); }
-.translate-x-5 { transform: translateX(20px); }
-.translate-x-6 { transform: translateX(24px); }
-.translate-x-7 { transform: translateX(28px); }
-.translate-x-8 { transform: translateX(32px); }
+.translate-x-1 { transform: translateX(4); }
+.translate-x-2 { transform: translateX(8); }
+.translate-x-3 { transform: translateX(12); }
+.translate-x-4 { transform: translateX(16); }
+.translate-x-5 { transform: translateX(20); }
+.translate-x-6 { transform: translateX(24); }
+.translate-x-7 { transform: translateX(28); }
+.translate-x-8 { transform: translateX(32); }
 
 /* Translation-Y */
 .translate-y-0 { transform: translateY(0); }
-.translate-y-1 { transform: translateY(4px); }
-.translate-y-2 { transform: translateY(8px); }
-.translate-y-3 { transform: translateY(12px); }
-.translate-y-4 { transform: translateY(16px); }
-.translate-y-5 { transform: translateY(20px); }
-.translate-y-6 { transform: translateY(24px); }
-.translate-y-7 { transform: translateY(28px); }
-.translate-y-8 { transform: translateY(32px); }
+.translate-y-1 { transform: translateY(4); }
+.translate-y-2 { transform: translateY(8); }
+.translate-y-3 { transform: translateY(12); }
+.translate-y-4 { transform: translateY(16); }
+.translate-y-5 { transform: translateY(20); }
+.translate-y-6 { transform: translateY(24); }
+.translate-y-7 { transform: translateY(28); }
+.translate-y-8 { transform: translateY(32); }
 
 /* ======================== */
 /* Typography classes */
