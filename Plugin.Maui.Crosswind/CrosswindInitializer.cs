@@ -6,20 +6,28 @@ namespace Plugin.Maui.Crosswind;
 
 public static class CrosswindInitializer
 {
-    public static void Init()
+    public static void Init(CrosswindOptions? options = null)
     {
         // Merge Crosswind styles into the app's resource dictionary
         if (Application.Current?.Resources != null)
         {
-            InitCssFromResource("styles.css");
+            var stylesheet = InitCssFromResource("styles.css");
 
-            // TODO: Borders (Style, Width, Radius, Color)
-            // TODO: Word Break
-            // TODO: Vertical Align
+            // Override styles based on options....
+            options ??= new CrosswindOptions();
+
+            // Validate the options, throws an exception if invalid
+            options.Validate();
+
+            stylesheet = CssParser.Parse(options, stylesheet);
+
+            // Take the string and add the styles.
+            using var reader = new StringReader(stylesheet);
+            Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
         }
     }
 
-    private static void InitCssFromResource(string name)
+    private static string InitCssFromResource(string name)
     {
         // Determine path
         var assembly = Assembly.GetExecutingAssembly();
@@ -28,6 +36,6 @@ public static class CrosswindInitializer
         using var reader = new StreamReader(stream);
 
         // Add the stylesheet to the app's resources
-        Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
+        return reader.ReadToEnd();
     }
 }
