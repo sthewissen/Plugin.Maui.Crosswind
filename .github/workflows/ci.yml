@@ -20,4 +20,4 @@ jobs:
       run: dotnet build Plugin.Maui.Crosswind.sln -c Release
 
     - name: Run Tests
-          run: dotnet test Plugin.Maui.Crosswind.Tests/Plugin.Maui.Crosswind.Tests.csproj -c Release --no-build
+      run: dotnet test Plugin.Maui.Crosswind.Tests/Plugin.Maui.Crosswind.Tests.csproj -c Release --no-build
