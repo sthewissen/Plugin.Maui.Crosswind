@@ -1,6 +1,6 @@
 namespace Plugin.Maui.Crosswind.Templates;
 
-public class SpacingTemplate : ICategoryTemplate
+public class SpaceTemplate : ICategoryTemplate
 {
     public string GenerateClasses(string key, object value)
     {

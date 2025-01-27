@@ -37,6 +37,18 @@ public static class CssParser
                 { "5xl", 48 },
                 { "6xl", 64 }
             }
+        },
+        {
+            "colors", new Dictionary<string, object>
+            {
+            }
+        },
+        { "fonts", new Dictionary<string, object>
+            {
+                { "sans-serif", "sans-serif" },
+                { "serif", "serif" },
+                { "mono", "monospace" },
+            }
         }
     };
 
@@ -102,11 +114,11 @@ public static class CssParser
             var values = valueSet.Value;
 
             // Match CSS variables like --spacing-1, --sizing-xs, etc.
-            var regex = new Regex($@"--{category}-(\w+)", RegexOptions.Compiled);
+            var regex = new Regex($@"var\(--{category}([\w-]+)\)", RegexOptions.Compiled);
 
             cssContent = regex.Replace(cssContent, match =>
             {
-                var key = match.Groups[1].Value; // e.g., "1", "xs"
+                var key = match.Groups[1].Value.TrimStart('-'); // e.g., "1", "xs"
                 return values.TryGetValue(key, out var value) ? value.ToString() : match.Value;
             });
         }

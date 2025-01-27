@@ -4,8 +4,10 @@ public static class TemplateRegistry
 {
     private static readonly Dictionary<string, ICategoryTemplate> Templates = new()
     {
-        { "spacing", new SpacingTemplate() },
-        { "sizing", new SizingTemplate() }
+        { "spacing", new SpaceTemplate() },
+        { "sizing", new SizeTemplate() },
+        { "colors", new ColorTemplate() },
+        { "fonts", new FontTemplate() }
     };
 
     public static ICategoryTemplate? GetTemplate(string category)

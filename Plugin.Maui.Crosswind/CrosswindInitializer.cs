@@ -1,11 +1,14 @@
 using Microsoft.Maui.Controls.StyleSheets;
-using System.IO;
 using System.Reflection;
 
 namespace Plugin.Maui.Crosswind;
 
 public static class CrosswindInitializer
 {
+    /// <summary>
+    /// Initialize Crosswind with the default options.
+    /// </summary>
+    /// <param name="options">Custom options to override the default options.</param>
     public static void Init(CrosswindOptions? options = null)
     {
         // Merge Crosswind styles into the app's resource dictionary
@@ -27,6 +30,12 @@ public static class CrosswindInitializer
         }
     }
 
+    /// <summary>
+    /// Initialize Crosswind with our custom CSS stylesheet.
+    /// </summary>
+    /// <param name="name">The name of the CSS file to load.</param>
+    /// <returns>A string of the CSS content.</returns>
+    /// <exception cref="ArgumentException">An exception is thrown if the CSS file is not found.</exception>
     private static string InitCssFromResource(string name)
     {
         // Determine path

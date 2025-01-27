@@ -1,9 +1,9 @@
 namespace Plugin.Maui.Crosswind.Templates;
 
-public class SizingTemplate : ICategoryTemplate
+public class SizeTemplate : ICategoryTemplate
 {
     public string GenerateClasses(string key, object value)
     {
-        return "";
+        return $".text-{key} {{ font-size: {value}; }}\n";
     }
 }
