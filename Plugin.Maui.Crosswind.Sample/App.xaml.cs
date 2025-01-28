@@ -1,4 +1,6 @@
-﻿namespace Plugin.Maui.Crosswind.Sample;
+﻿using Plugin.Maui.Crosswind.Configuration;
+
+namespace Plugin.Maui.Crosswind.Sample;
 
 public partial class App : Application
 {
@@ -6,7 +8,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		CrosswindInitializer.Init();
+		CrosswindInitializer.Init(new CrosswindOptionsBuilder().Build());
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)

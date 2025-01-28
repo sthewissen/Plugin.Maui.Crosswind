@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Maui.Crosswind", "Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Maui.Crosswind.Sample", "Plugin.Maui.Crosswind.Sample\Plugin.Maui.Crosswind.Sample.csproj", "{81F7C431-A403-4342-845F-27282F443AB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Maui.Crosswind.Tests", "Plugin.Maui.Crosswind.Tests\Plugin.Maui.Crosswind.Tests.csproj", "{97422085-6002-4A79-B1D8-B0905D953EE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{81F7C431-A403-4342-845F-27282F443AB3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{81F7C431-A403-4342-845F-27282F443AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F7C431-A403-4342-845F-27282F443AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97422085-6002-4A79-B1D8-B0905D953EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97422085-6002-4A79-B1D8-B0905D953EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97422085-6002-4A79-B1D8-B0905D953EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97422085-6002-4A79-B1D8-B0905D953EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
