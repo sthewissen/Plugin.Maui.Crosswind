@@ -22,6 +22,9 @@ Crosswind supports the following broad categories when it comes to styling:
 - [Typography](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Typography)
 - [Visibility](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Visibility)
 
+## Custom configuration
+Crosswind allows you to customize every aspect of its configuration, from spacing and sizing to colors and fonts. With its flexible API, you can override defaults, add new values, or define entirely custom palettes. Learn more about custom configuration in the [extended documentation](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Configuration).
+
 ## Crosswind in action
 A picture is worth a thousand words, and seeing Crosswind in action can speak volumes about how it simplifies your UI styling. Below are examples of how you can create beautiful, consistent layouts in .NET MAUI using Crosswind classes. Each example includes a visual and the corresponding XAML code to show you just how easy it is to use.
 
