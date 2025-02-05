@@ -57,11 +57,12 @@ namespace Plugin.Maui.Crosswind.Tests
                 .AddColors(colors =>
                 {
                     colors.AddCustom("primary", "#FF0000");
-                    colors.AddCustom("secondary", new Dictionary<int, string>
-                        {
-                            { 100, "#FFCCCC" },
-                            { 200, "#FF9999" }
-                        });
+                    
+                    colors.AddPalette("secondary", palette => 
+                    {
+                        palette.AddShade(100, "#FFCCCC");
+                        palette.AddShade(200, "#FF9999");
+                    });
                 });
 
             // Act & Assert

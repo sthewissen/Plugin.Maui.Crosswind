@@ -15,9 +15,13 @@ public class ColorOptions
         return this;
     }
 
-    public ColorOptions AddCustom(string key, Dictionary<int, string> values)
+    public ColorOptions AddPalette(string key, Action<PaletteOptions> configure)
     {
-        _values[key] = values;
+        var paletteOptions = new PaletteOptions();
+        configure(paletteOptions);
+                
+        _values[key] = paletteOptions.GetShades();
+        
         return this;
     }
 

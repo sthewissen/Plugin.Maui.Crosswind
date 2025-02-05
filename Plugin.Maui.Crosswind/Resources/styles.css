@@ -1,4 +1,293 @@
 /* ======================== */
+/* Borders */
+/* ======================== */
+
+/* .border-0 { border-width: 0; }
+.border { border-width: 1; }
+.border-2 { border-width: 2; }
+.border-4 { border-width: 4; }
+.border-8 { border-width: 8; }
+
+.rounded-none { border-radius: 0; }
+.rounded-sm { border-radius: 2; }
+.rounded { border-radius: 4; }
+.rounded-md { border-radius: 6; }
+.rounded-lg { border-radius: 8; }
+.rounded-xl { border-radius: 12; }
+.rounded-2xl { border-radius: 16; }
+.rounded-3xl { border-radius: 24; }
+.rounded-full { border-radius: 9999; }
+
+.border-black { border-color: #000000; }
+.border-white { border-color: #FFFFFF; }
+.border-dotnet { border-color: #512bd4; }
+.border-xamarin { border-color: #5596d8; }
+
+.border-slate-50 { border-color: #f8fafc; }
+.border-slate-100 { border-color: #f1f5f9; }
+.border-slate-200 { border-color: #e2e8f0; }
+.border-slate-300 { border-color: #cbd5e1; }
+.border-slate-400 { border-color: #94a3b8; }
+.border-slate-500 { border-color: #64748b; }
+.border-slate-600 { border-color: #475569; }
+.border-slate-700 { border-color: #334155; }
+.border-slate-800 { border-color: #1e293b; }
+.border-slate-900 { border-color: #0f172a; }
+.border-slate-950 { border-color: #020617; }
+
+.border-gray-50 { border-color: #f9fafb; }
+.border-gray-100 { border-color: #f3f4f6; }
+.border-gray-200 { border-color: #e5e7eb; }
+.border-gray-300 { border-color: #d1d5db; }
+.border-gray-400 { border-color: #9ca3af; }
+.border-gray-500 { border-color: #6b7280; }
+.border-gray-600 { border-color: #4b5563; }
+.border-gray-700 { border-color: #374151; }
+.border-gray-800 { border-color: #1f2937; }
+.border-gray-900 { border-color: #111827; }
+.border-gray-950 { border-color: #030712; }
+
+.border-zinc-50 { border-color: #fafafa; }
+.border-zinc-100 { border-color: #f4f4f5; }
+.border-zinc-200 { border-color: #e4e4e7; }
+.border-zinc-300 { border-color: #d4d4d8; }
+.border-zinc-400 { border-color: #a1a1aa; }
+.border-zinc-500 { border-color: #71717a; }
+.border-zinc-600 { border-color: #52525b; }
+.border-zinc-700 { border-color: #3f3f46; }
+.border-zinc-800 { border-color: #27272a; }
+.border-zinc-900 { border-color: #18181b; }
+.border-zinc-950 { border-color: #09090b; }
+
+.border-neutral-50 { border-color: #fafafa; }
+.border-neutral-100 { border-color: #f5f5f5; }
+.border-neutral-200 { border-color: #e5e5e5; }
+.border-neutral-300 { border-color: #d4d4d4; }
+.border-neutral-400 { border-color: #a3a3a3; }
+.border-neutral-500 { border-color: #737373; }
+.border-neutral-600 { border-color: #525252; }
+.border-neutral-700 { border-color: #404040; }
+.border-neutral-800 { border-color: #262626; }
+.border-neutral-900 { border-color: #171717; }
+.border-neutral-950 { border-color: #0a0a0a; }
+
+.border-stone-50 { border-color: #fafaf9; }
+.border-stone-100 { border-color: #f5f5f4; }
+.border-stone-200 { border-color: #e7e5e4; }
+.border-stone-300 { border-color: #d6d3d1; }
+.border-stone-400 { border-color: #a8a29e; }
+.border-stone-500 { border-color: #78716c; }
+.border-stone-600 { border-color: #57534e; }
+.border-stone-700 { border-color: #44403c; }
+.border-stone-800 { border-color: #292524; }
+.border-stone-900 { border-color: #1c1917; }
+.border-stone-950 { border-color: #0c0a09; }
+
+.border-red-50 { border-color: #fef2f2; }
+.border-red-100 { border-color: #fee2e2; }
+.border-red-200 { border-color: #fecaca; }
+.border-red-300 { border-color: #fca5a5; }
+.border-red-400 { border-color: #f87171; }
+.border-red-500 { border-color: #ef4444; }
+.border-red-600 { border-color: #dc2626; }
+.border-red-700 { border-color: #b91c1c; }
+.border-red-800 { border-color: #991b1b; }
+.border-red-900 { border-color: #7f1d1d; }
+.border-red-950 { border-color: #450a0a; }
+
+.border-orange-50 { border-color: #fff7ed; }
+.border-orange-100 { border-color: #ffedd5; }
+.border-orange-200 { border-color: #fed7aa; }
+.border-orange-300 { border-color: #fdba74; }
+.border-orange-400 { border-color: #fb923c; }
+.border-orange-500 { border-color: #f97316; }
+.border-orange-600 { border-color: #ea580c; }
+.border-orange-700 { border-color: #c2410c; }
+.border-orange-800 { border-color: #9a3412; }
+.border-orange-900 { border-color: #7c2d12; }
+.border-orange-950 { border-color: #431407; }
+
+.border-amber-50 { border-color: #fffbeb; }
+.border-amber-100 { border-color: #fef3c7; }
+.border-amber-200 { border-color: #fde68a; }
+.border-amber-300 { border-color: #fcd34d; }
+.border-amber-400 { border-color: #fbbf24; }
+.border-amber-500 { border-color: #f59e0b; }
+.border-amber-600 { border-color: #d97706; }
+.border-amber-700 { border-color: #b45309; }
+.border-amber-800 { border-color: #92400e; }
+.border-amber-900 { border-color: #78350f; }
+.border-amber-950 { border-color: #451a03; }
+
+.border-yellow-50 { border-color: #fefce8; }
+.border-yellow-100 { border-color: #fef9c3; }
+.border-yellow-200 { border-color: #fef08a; }
+.border-yellow-300 { border-color: #fde047; }
+.border-yellow-400 { border-color: #facc15; }
+.border-yellow-500 { border-color: #eab308; }
+.border-yellow-600 { border-color: #ca8a04; }
+.border-yellow-700 { border-color: #a16207; }
+.border-yellow-800 { border-color: #854d0e; }
+.border-yellow-900 { border-color: #713f12; }
+.border-yellow-950 { border-color: #422006; }
+
+.border-lime-50 { border-color: #f7fee7; }
+.border-lime-100 { border-color: #ecfccb; }
+.border-lime-200 { border-color: #d9f99d; }
+.border-lime-300 { border-color: #bef264; }
+.border-lime-400 { border-color: #a3e635; }
+.border-lime-500 { border-color: #84cc16; }
+.border-lime-600 { border-color: #65a30d; }
+.border-lime-700 { border-color: #4d7c0f; }
+.border-lime-800 { border-color: #3f6212; }
+.border-lime-900 { border-color: #365314; }
+.border-lime-950 { border-color: #1a2e05; }
+
+.border-green-50 { border-color: #f0fdf4; }
+.border-green-100 { border-color: #dcfce7; }
+.border-green-200 { border-color: #bbf7d0; }
+.border-green-300 { border-color: #86efac; }
+.border-green-400 { border-color: #4ade80; }
+.border-green-500 { border-color: #22c55e; }
+.border-green-600 { border-color: #16a34a; }
+.border-green-700 { border-color: #15803d; }
+.border-green-800 { border-color: #166534; }
+.border-green-900 { border-color: #14532d; }
+.border-green-950 { border-color: #052e16; }
+
+.border-emerald-50 { border-color: #ecfdf5; }
+.border-emerald-100 { border-color: #d1fae5; }
+.border-emerald-200 { border-color: #a7f3d0; }
+.border-emerald-300 { border-color: #6ee7b7; }
+.border-emerald-400 { border-color: #34d399; }
+.border-emerald-500 { border-color: #10b981; }
+.border-emerald-600 { border-color: #059669; }
+.border-emerald-700 { border-color: #047857; }
+.border-emerald-800 { border-color: #065f46; }
+.border-emerald-900 { border-color: #064e3b; }
+.border-emerald-950 { border-color: #022c22; }
+
+.border-teal-50 { border-color: #f0fdfa; }
+.border-teal-100 { border-color: #ccfbf1; }
+.border-teal-200 { border-color: #99f6e4; }
+.border-teal-300 { border-color: #5eead4; }
+.border-teal-400 { border-color: #2dd4bf; }
+.border-teal-500 { border-color: #14b8a6; }
+.border-teal-600 { border-color: #0d9488; }
+.border-teal-700 { border-color: #0f766e; }
+.border-teal-800 { border-color: #115e59; }
+.border-teal-900 { border-color: #134e4a; }
+.border-teal-950 { border-color: #042f2e; }
+
+.border-cyan-50 { border-color: #ecfeff; }
+.border-cyan-100 { border-color: #cffafe; }
+.border-cyan-200 { border-color: #a5f3fc; }
+.border-cyan-300 { border-color: #67e8f9; }
+.border-cyan-400 { border-color: #22d3ee; }
+.border-cyan-500 { border-color: #06b6d4; }
+.border-cyan-600 { border-color: #0891b2; }
+.border-cyan-700 { border-color: #0e7490; }
+.border-cyan-800 { border-color: #155e75; }
+.border-cyan-900 { border-color: #164e63; }
+.border-cyan-950 { border-color: #083344; }
+
+.border-sky-50 { border-color: #f0f9ff; }
+.border-sky-100 { border-color: #e0f2fe; }
+.border-sky-200 { border-color: #bae6fd; }
+.border-sky-300 { border-color: #7dd3fc; }
+.border-sky-400 { border-color: #38bdf8; }
+.border-sky-500 { border-color: #0ea5e9; }
+.border-sky-600 { border-color: #0284c7; }
+.border-sky-700 { border-color: #0369a1; }
+.border-sky-800 { border-color: #075985; }
+.border-sky-900 { border-color: #0c4a6e; }
+.border-sky-950 { border-color: #082f49; }
+
+.border-blue-50 { border-color: #eff6ff; }
+.border-blue-100 { border-color: #dbeafe; }
+.border-blue-200 { border-color: #bfdbfe; }
+.border-blue-300 { border-color: #93c5fd; }
+.border-blue-400 { border-color: #60a5fa; }
+.border-blue-500 { border-color: #3b82f6; }
+.border-blue-600 { border-color: #2563eb; }
+.border-blue-700 { border-color: #1d4ed8; }
+.border-blue-800 { border-color: #1e40af; }
+.border-blue-900 { border-color: #1e3a8a; }
+.border-blue-950 { border-color: #172554; }
+
+.border-indigo-50 { border-color: #eef2ff; }
+.border-indigo-100 { border-color: #e0e7ff; }
+.border-indigo-200 { border-color: #c7d2fe; }
+.border-indigo-300 { border-color: #a5b4fc; }
+.border-indigo-400 { border-color: #818cf8; }
+.border-indigo-500 { border-color: #6366f1; }
+.border-indigo-600 { border-color: #4f46e5; }
+.border-indigo-700 { border-color: #4338ca; }
+.border-indigo-800 { border-color: #3730a3; }
+.border-indigo-900 { border-color: #312e81; }
+.border-indigo-950 { border-color: #1e1b4b; }
+
+.border-violet-50 { border-color: #f5f3ff; }
+.border-violet-100 { border-color: #ede9fe; }
+.border-violet-200 { border-color: #ddd6fe; }
+.border-violet-300 { border-color: #c4b5fd; }
+.border-violet-400 { border-color: #a78bfa; }
+.border-violet-500 { border-color: #8b5cf6; }
+.border-violet-600 { border-color: #7c3aed; }
+.border-violet-700 { border-color: #6d28d9; }
+.border-violet-800 { border-color: #5b21b6; }
+.border-violet-900 { border-color: #4c1d95; }
+.border-violet-950 { border-color: #2e1065; }
+
+.border-purple-50 { border-color: #faf5ff; }
+.border-purple-100 { border-color: #f3e8ff; }
+.border-purple-200 { border-color: #e9d5ff; }
+.border-purple-300 { border-color: #d8b4fe; }
+.border-purple-400 { border-color: #c084fc; }
+.border-purple-500 { border-color: #a855f7; }
+.border-purple-600 { border-color: #9333ea; }
+.border-purple-700 { border-color: #7e22ce; }
+.border-purple-800 { border-color: #6b21a8; }
+.border-purple-900 { border-color: #581c87; }
+.border-purple-950 { border-color: #3b0764; }
+
+.border-fuchsia-50 { border-color: #fdf4ff; }
+.border-fuchsia-100 { border-color: #fae8ff; }
+.border-fuchsia-200 { border-color: #f5d0fe; }
+.border-fuchsia-300 { border-color: #f0abfc; }
+.border-fuchsia-400 { border-color: #e879f9; }
+.border-fuchsia-500 { border-color: #d946ef; }
+.border-fuchsia-600 { border-color: #c026d3; }
+.border-fuchsia-700 { border-color: #a21caf; }
+.border-fuchsia-800 { border-color: #86198f; }
+.border-fuchsia-900 { border-color: #701a75; }
+.border-fuchsia-950 { border-color: #4a044e; }
+
+.border-pink-50 { border-color: #fdf2f8; }
+.border-pink-100 { border-color: #fce7f3; }
+.border-pink-200 { border-color: #fbcfe8; }
+.border-pink-300 { border-color: #f9a8d4; }
+.border-pink-400 { border-color: #f472b6; }
+.border-pink-500 { border-color: #ec4899; }
+.border-pink-600 { border-color: #db2777; }
+.border-pink-700 { border-color: #be185d; }
+.border-pink-800 { border-color: #9d174d; }
+.border-pink-900 { border-color: #831843; }
+.border-pink-950 { border-color: #500724; }
+
+.border-rose-50 { border-color: #fff1f2; }
+.border-rose-100 { border-color: #ffe4e6; }
+.border-rose-200 { border-color: #fecdd3; }
+.border-rose-300 { border-color: #fda4af; }
+.border-rose-400 { border-color: #fb7185; }
+.border-rose-500 { border-color: #f43f5e; }
+.border-rose-600 { border-color: #e11d48; }
+.border-rose-700 { border-color: #be123c; }
+.border-rose-800 { border-color: #9f1239; }
+.border-rose-900 { border-color: #881337; }
+.border-rose-950 { border-color: #4c0519; } */
+
+/* ======================== */
 /* Colors */
 /* ======================== */
 

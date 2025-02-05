@@ -27,6 +27,12 @@ public static class CrosswindInitializer
             // Take the string and add the styles.
             using var reader = new StringReader(stylesheet);
             Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
+
+            // Add some more styles that can't be done through CSS atm.
+            Application.Current?.Resources.MergedDictionaries.Add(new Resources.BorderStyles());
+            
+            // This doesn't work atm, as per https://github.com/dotnet/maui/issues/19560
+            // Application.Current?.Resources.MergedDictionaries.Add(new Resources.ShadowStyles());
         }
     }
 

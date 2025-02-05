@@ -1,0 +1,297 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plugin.Maui.Crosswind.Resources.BorderStyles">
+
+    <!-- Radius -->
+    <Style Class="rounded-none" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 0" />
+    </Style>
+
+    <Style Class="rounded-sm" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 2" />
+    </Style>
+
+    <Style Class="rounded" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 4" />
+    </Style>
+
+    <Style Class="rounded-md" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 6" />
+    </Style>
+
+    <Style Class="rounded-lg" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 8" />
+    </Style>
+
+    <Style Class="rounded-xl" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 12" />
+    </Style>
+
+    <Style Class="rounded-2xl" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 16" />
+    </Style>
+
+    <Style Class="rounded-3xl" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 24" />
+    </Style>
+
+    <Style Class="rounded-full" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeShape" Value="RoundRectangle 9999" />
+    </Style>
+
+    <!-- Border Width -->
+    <Style Class="border-0" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeThickness" Value="0" />
+    </Style>
+
+    <Style Class="border" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+
+    <Style Class="border-2" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+
+    <Style Class="border-4" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeThickness" Value="4" />
+    </Style>
+
+    <Style Class="border-8" TargetType="Border" ApplyToDerivedTypes="True">
+        <Setter Property="StrokeThickness" Value="8" />
+    </Style>
+
+    <!-- Colors, this really hurts me, but for lack of better options atm... -->
+    <Style Class="border-white" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ffffff" /></Style>
+    <Style Class="border-black" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#000000" /></Style>
+    <Style Class="border-xamarin" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#5596d8" /></Style>
+    <Style Class="border-dotnet" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#512bd4" /></Style>
+
+    <Style Class="border-slate-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f8fafc" /></Style>
+    <Style Class="border-slate-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f1f5f9" /></Style>
+    <Style Class="border-slate-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e2e8f0" /></Style>
+    <Style Class="border-slate-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#cbd5e1" /></Style>
+    <Style Class="border-slate-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#94a3b8" /></Style>
+    <Style Class="border-slate-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#64748b" /></Style>
+    <Style Class="border-slate-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#475569" /></Style>
+    <Style Class="border-slate-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#334155" /></Style>
+    <Style Class="border-slate-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1e293b" /></Style>
+    <Style Class="border-slate-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0f172a" /></Style>
+    <Style Class="border-slate-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#020617" /></Style>
+
+    <Style Class="border-gray-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f9fafb" /></Style>
+    <Style Class="border-gray-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f3f4f6" /></Style>
+    <Style Class="border-gray-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e5e7eb" /></Style>
+    <Style Class="border-gray-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d1d5db" /></Style>
+    <Style Class="border-gray-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#9ca3af" /></Style>
+    <Style Class="border-gray-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#6b7280" /></Style>
+    <Style Class="border-gray-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#4b5563" /></Style>
+    <Style Class="border-gray-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#374151" /></Style>
+    <Style Class="border-gray-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1f2937" /></Style>
+    <Style Class="border-gray-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#111827" /></Style>
+    <Style Class="border-gray-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#030712" /></Style>
+
+    <Style Class="border-zinc-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fafafa" /></Style>
+    <Style Class="border-zinc-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f4f4f5" /></Style>
+    <Style Class="border-zinc-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e4e4e7" /></Style>
+    <Style Class="border-zinc-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d4d4d8" /></Style>
+    <Style Class="border-zinc-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a1a1aa" /></Style>
+    <Style Class="border-zinc-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#71717a" /></Style>
+    <Style Class="border-zinc-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#52525b" /></Style>
+    <Style Class="border-zinc-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#3f3f46" /></Style>
+    <Style Class="border-zinc-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#27272a" /></Style>
+    <Style Class="border-zinc-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#18181b" /></Style>
+    <Style Class="border-zinc-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#09090b" /></Style>
+
+    <Style Class="border-neutral-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fafafa" /></Style>
+    <Style Class="border-neutral-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f5f5f5" /></Style>
+    <Style Class="border-neutral-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e5e5e5" /></Style>
+    <Style Class="border-neutral-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d4d4d4" /></Style>
+    <Style Class="border-neutral-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a3a3a3" /></Style>
+    <Style Class="border-neutral-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#737373" /></Style>
+    <Style Class="border-neutral-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#525252" /></Style>
+    <Style Class="border-neutral-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#404040" /></Style>
+    <Style Class="border-neutral-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#262626" /></Style>
+    <Style Class="border-neutral-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#171717" /></Style>
+    <Style Class="border-neutral-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0a0a0a" /></Style>
+
+    <Style Class="border-stone-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fafaf9" /></Style>
+    <Style Class="border-stone-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f5f5f4" /></Style>
+    <Style Class="border-stone-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e7e5e4" /></Style>
+    <Style Class="border-stone-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d6d3d1" /></Style>
+    <Style Class="border-stone-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a8a29e" /></Style>
+    <Style Class="border-stone-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#78716c" /></Style>
+    <Style Class="border-stone-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#57534e" /></Style>
+    <Style Class="border-stone-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#44403c" /></Style>
+    <Style Class="border-stone-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#292524" /></Style>
+    <Style Class="border-stone-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1c1917" /></Style>
+    <Style Class="border-stone-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0c0a09" /></Style>
+
+    <Style Class="border-red-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fef2f2" /></Style>
+    <Style Class="border-red-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fee2e2" /></Style>
+    <Style Class="border-red-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fecaca" /></Style>
+    <Style Class="border-red-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fca5a5" /></Style>
+    <Style Class="border-red-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f87171" /></Style>
+    <Style Class="border-red-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ef4444" /></Style>
+    <Style Class="border-red-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#dc2626" /></Style>
+    <Style Class="border-red-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#b91c1c" /></Style>
+    <Style Class="border-red-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#991b1b" /></Style>
+    <Style Class="border-red-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#7f1d1d" /></Style>
+    <Style Class="border-red-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#450a0a" /></Style>
+
+    <Style Class="border-orange-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fff7ed" /></Style>
+    <Style Class="border-orange-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ffedd5" /></Style>
+    <Style Class="border-orange-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fed7aa" /></Style>
+    <Style Class="border-orange-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fdba74" /></Style>
+    <Style Class="border-orange-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fb923c" /></Style>
+    <Style Class="border-orange-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f97316" /></Style>
+    <Style Class="border-orange-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ea580c" /></Style>
+    <Style Class="border-orange-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#c2410c" /></Style>
+    <Style Class="border-orange-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#9a3412" /></Style>
+    <Style Class="border-orange-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#7c2d12" /></Style>
+    <Style Class="border-orange-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#431407" /></Style>
+
+    <Style Class="border-amber-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fffbeb" /></Style>
+    <Style Class="border-amber-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fef3c7" /></Style>
+    <Style Class="border-amber-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fde68a" /></Style>
+    <Style Class="border-amber-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fcd34d" /></Style>
+    <Style Class="border-amber-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fbbf24" /></Style>
+    <Style Class="border-amber-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f59e0b" /></Style>
+    <Style Class="border-amber-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d97706" /></Style>
+    <Style Class="border-amber-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#b45309" /></Style>
+    <Style Class="border-amber-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#92400e" /></Style>
+    <Style Class="border-amber-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#78350f" /></Style>
+    <Style Class="border-amber-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#451a03" /></Style>
+
+    <Style Class="border-yellow-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fefce8" /></Style>
+    <Style Class="border-yellow-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fef9c3" /></Style>
+    <Style Class="border-yellow-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fef08a" /></Style>
+    <Style Class="border-yellow-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#fde047" /></Style>
+    <Style Class="border-yellow-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#facc15" /></Style>
+    <Style Class="border-yellow-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#eab308" /></Style>
+    <Style Class="border-yellow-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ca8a04" /></Style>
+    <Style Class="border-yellow-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a16207" /></Style>
+    <Style Class="border-yellow-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#854d0e" /></Style>
+    <Style Class="border-yellow-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#713f12" /></Style>
+    <Style Class="border-yellow-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#422006" /></Style>
+
+    <Style Class="border-lime-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f7fee7" /></Style>
+    <Style Class="border-lime-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ecfccb" /></Style>
+    <Style Class="border-lime-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d9f99d" /></Style>
+    <Style Class="border-lime-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#bef264" /></Style>
+    <Style Class="border-lime-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a3e635" /></Style>
+    <Style Class="border-lime-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#84cc16" /></Style>
+    <Style Class="border-lime-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#65a30d" /></Style>
+    <Style Class="border-lime-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#4d7c0f" /></Style>
+    <Style Class="border-lime-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#3f6212" /></Style>
+    <Style Class="border-lime-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#365314" /></Style>
+    <Style Class="border-lime-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1a2e05" /></Style>
+
+    <Style Class="border-green-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f0fdf4" /></Style>
+    <Style Class="border-green-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#dcfce7" /></Style>
+    <Style Class="border-green-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#bbf7d0" /></Style>
+    <Style Class="border-green-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#86efac" /></Style>
+    <Style Class="border-green-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#4ade80" /></Style>
+    <Style Class="border-green-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#22c55e" /></Style>
+    <Style Class="border-green-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#16a34a" /></Style>
+    <Style Class="border-green-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#15803d" /></Style>
+    <Style Class="border-green-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#166534" /></Style>
+    <Style Class="border-green-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#14532d" /></Style>
+    <Style Class="border-green-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#052e16" /></Style>
+
+    <Style Class="border-emerald-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ecfdf5" /></Style>
+    <Style Class="border-emerald-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d1fae5" /></Style>
+    <Style Class="border-emerald-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a7f3d0" /></Style>
+    <Style Class="border-emerald-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#6ee7b7" /></Style>
+    <Style Class="border-emerald-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#34d399" /></Style>
+    <Style Class="border-emerald-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#10b981" /></Style>
+    <Style Class="border-emerald-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#059669" /></Style>
+    <Style Class="border-emerald-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#047857" /></Style>
+    <Style Class="border-emerald-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#065f46" /></Style>
+    <Style Class="border-emerald-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#064e3b" /></Style>
+    <Style Class="border-emerald-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#022c22" /></Style>
+
+    <Style Class="border-teal-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f0fdfa" /></Style>
+    <Style Class="border-teal-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ccfbf1" /></Style>
+    <Style Class="border-teal-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#99f6e4" /></Style>
+    <Style Class="border-teal-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#5eead4" /></Style>
+    <Style Class="border-teal-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#2dd4bf" /></Style>
+    <Style Class="border-teal-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#14b8a6" /></Style>
+    <Style Class="border-teal-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0d9488" /></Style>
+    <Style Class="border-teal-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0f766e" /></Style>
+    <Style Class="border-teal-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#115e59" /></Style>
+    <Style Class="border-teal-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#134e4a" /></Style>
+    <Style Class="border-teal-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#042f2e" /></Style>
+
+    <Style Class="border-cyan-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ecfeff" /></Style>
+    <Style Class="border-cyan-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#cffafe" /></Style>
+    <Style Class="border-cyan-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a5f3fc" /></Style>
+    <Style Class="border-cyan-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#67e8f9" /></Style>
+    <Style Class="border-cyan-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#22d3ee" /></Style>
+    <Style Class="border-cyan-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#06b6d4" /></Style>
+    <Style Class="border-cyan-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0891b2" /></Style>
+    <Style Class="border-cyan-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0e7490" /></Style>
+    <Style Class="border-cyan-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#155e75" /></Style>
+    <Style Class="border-cyan-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#164e63" /></Style>
+    <Style Class="border-cyan-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#083344" /></Style>
+
+    <Style Class="border-sky-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f0f9ff" /></Style>
+    <Style Class="border-sky-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e0f2fe" /></Style>
+    <Style Class="border-sky-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#bae6fd" /></Style>
+    <Style Class="border-sky-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#7dd3fc" /></Style>
+    <Style Class="border-sky-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#38bdf8" /></Style>
+    <Style Class="border-sky-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0ea5e9" /></Style>
+    <Style Class="border-sky-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0284c7" /></Style>
+    <Style Class="border-sky-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0369a1" /></Style>
+    <Style Class="border-sky-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#075985" /></Style>
+    <Style Class="border-sky-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#0c4a6e" /></Style>
+    <Style Class="border-sky-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#082f49" /></Style>
+
+    <Style Class="border-blue-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#eff6ff" /></Style>
+    <Style Class="border-blue-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#dbeafe" /></Style>
+    <Style Class="border-blue-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#bfdbfe" /></Style>
+    <Style Class="border-blue-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#93c5fd" /></Style>
+    <Style Class="border-blue-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#60a5fa" /></Style>
+    <Style Class="border-blue-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#3b82f6" /></Style>
+    <Style Class="border-blue-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#2563eb" /></Style>
+    <Style Class="border-blue-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1d4ed8" /></Style>
+    <Style Class="border-blue-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1e40af" /></Style>
+    <Style Class="border-blue-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1e3a8a" /></Style>
+    <Style Class="border-blue-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#172554" /></Style>
+
+    <Style Class="border-indigo-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#eef2ff" /></Style>
+    <Style Class="border-indigo-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e0e7ff" /></Style>
+    <Style Class="border-indigo-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#c7d2fe" /></Style>
+    <Style Class="border-indigo-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a5b4fc" /></Style>
+    <Style Class="border-indigo-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#818cf8" /></Style>
+    <Style Class="border-indigo-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#6366f1" /></Style>
+    <Style Class="border-indigo-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#4f46e5" /></Style>
+    <Style Class="border-indigo-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#4338ca" /></Style>
+    <Style Class="border-indigo-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#3730a3" /></Style>
+    <Style Class="border-indigo-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#312e81" /></Style>
+    <Style Class="border-indigo-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#1e1b4b" /></Style>
+
+    <Style Class="border-violet-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f5f3ff" /></Style>
+    <Style Class="border-violet-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ede9fe" /></Style>
+    <Style Class="border-violet-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#ddd6fe" /></Style>
+    <Style Class="border-violet-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#c4b5fd" /></Style>
+    <Style Class="border-violet-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a78bfa" /></Style>
+    <Style Class="border-violet-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#8b5cf6" /></Style>
+    <Style Class="border-violet-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#7c3aed" /></Style>
+    <Style Class="border-violet-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#6d28d9" /></Style>
+    <Style Class="border-violet-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#5b21b6" /></Style>
+    <Style Class="border-violet-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#4c1d95" /></Style>
+    <Style Class="border-violet-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#2e1065" /></Style>
+
+    <Style Class="border-purple-50" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#faf5ff" /></Style>
+    <Style Class="border-purple-100" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#f3e8ff" /></Style>
+    <Style Class="border-purple-200" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#e9d5ff" /></Style>
+    <Style Class="border-purple-300" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#d8b4fe" /></Style>
+    <Style Class="border-purple-400" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#c084fc" /></Style>
+    <Style Class="border-purple-500" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#a855f7" /></Style>
+    <Style Class="border-purple-600" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#9333ea" /></Style>
+    <Style Class="border-purple-700" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#7e22ce" /></Style>
+    <Style Class="border-purple-800" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#6b21a8" /></Style>
+    <Style Class="border-purple-900" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#581c87" /></Style>
+    <Style Class="border-purple-950" TargetType="Border" ApplyToDerivedTypes="True"><Setter Property="Stroke" Value="#3b0764" /></Style>
+
+</ResourceDictionary>

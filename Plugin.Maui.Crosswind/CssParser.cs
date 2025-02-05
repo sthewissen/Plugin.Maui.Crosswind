@@ -119,7 +119,7 @@ public static class CssParser
             cssContent = regex.Replace(cssContent, match =>
             {
                 var key = match.Groups[1].Value.TrimStart('-'); // e.g., "1", "xs"
-                return values.TryGetValue(key, out var value) ? value.ToString() : match.Value;
+                return values.TryGetValue(key, out var value) ? value?.ToString() ?? match.Value : match.Value;
             });
         }
 

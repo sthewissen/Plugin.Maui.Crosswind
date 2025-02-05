@@ -1,9 +1,4 @@
 ﻿using Plugin.Maui.Crosswind.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Plugin.Maui.Crosswind.Tests;
 
@@ -27,21 +22,22 @@ public class CssParserColorTests
         // Assert
         Assert.Contains(".bg-white { background-color: #ffffff; }", result);
         Assert.Contains(".text-white { color: #ffffff; }", result);
+        Assert.Contains(".border-white { border-color: #ffffff; }", result);
     }
 
     [Fact]
-    public void ParseCss_ShouldGenerateClassesForNestedColors()
+    public void ParseCss_ShouldGenerateClassesForPaletteColors()
     {
         // Arrange
         var cssContent = string.Empty;
         var options = new CrosswindOptionsBuilder()
             .AddColors(colors =>
             {
-                colors.AddCustom("tahiti", new Dictionary<int, string>
+                colors.AddPalette("tahiti", palette =>
                 {
-                    { 100, "#cffafe" },
-                    { 200, "#a5f3fc" },
-                    { 300, "#67e8f9" }
+                    palette.AddShade(100, "#cffafe");
+                    palette.AddShade(200, "#a5f3fc");
+                    palette.AddShade(300, "#67e8f9");
                 });
             })
            .Build();
@@ -52,21 +48,24 @@ public class CssParserColorTests
         // Assert
         Assert.Contains(".bg-tahiti-100 { background-color: #cffafe; }", result);
         Assert.Contains(".text-tahiti-100 { color: #cffafe; }", result);
+        Assert.Contains(".border-tahiti-100 { border-color: #cffafe; }", result);
         Assert.Contains(".bg-tahiti-200 { background-color: #a5f3fc; }", result);
         Assert.Contains(".text-tahiti-200 { color: #a5f3fc; }", result);
+        Assert.Contains(".border-tahiti-200 { border-color: #a5f3fc; }", result);
         Assert.Contains(".bg-tahiti-300 { background-color: #67e8f9; }", result);
         Assert.Contains(".text-tahiti-300 { color: #67e8f9; }", result);
+        Assert.Contains(".border-tahiti-300 { border-color: #67e8f9; }", result);
     }
 
     [Fact]
-    public void ParseCss_ShouldIgnoreColorsWithEmptyDictionary()
+    public void ParseCss_ShouldIgnoreColorsWithEmptyPalette()
     {
         // Arrange
         var cssContent = string.Empty;
         var options = new CrosswindOptionsBuilder()
             .AddColors(colors =>
             {
-                colors.AddCustom("empty", new Dictionary<int, string>());
+                colors.AddPalette("empty", palette => { });
             })
             .Build();
 
@@ -76,20 +75,21 @@ public class CssParserColorTests
         // Assert
         Assert.DoesNotContain(".bg-empty", result);
         Assert.DoesNotContain(".text-empty", result);
+        Assert.DoesNotContain(".border-empty", result);
     }
 
     [Fact]
-    public void ParseCss_ShouldHandleColorsWithNonSequentialKeys()
+    public void ParseCss_ShouldHandlePaletteWithNonSequentialKeys()
     {
         // Arrange
         var cssContent = string.Empty;
         var options = new CrosswindOptionsBuilder()
             .AddColors(colors =>
             {
-                colors.AddCustom("custom", new Dictionary<int, string>
+                colors.AddPalette("custom", palette =>
                 {
-                    { 50, "#f9fafb" },
-                    { 900, "#1c1917" }
+                    palette.AddShade(50, "#f9fafb");
+                    palette.AddShade(900, "#1c1917");
                 });
             })
             .Build();
@@ -100,12 +100,14 @@ public class CssParserColorTests
         // Assert
         Assert.Contains(".bg-custom-50 { background-color: #f9fafb; }", result);
         Assert.Contains(".text-custom-50 { color: #f9fafb; }", result);
+        Assert.Contains(".border-custom-50 { border-color: #f9fafb; }", result);
         Assert.Contains(".bg-custom-900 { background-color: #1c1917; }", result);
         Assert.Contains(".text-custom-900 { color: #1c1917; }", result);
+        Assert.Contains(".border-custom-900 { border-color: #1c1917; }", result);
     }
 
     [Fact]
-    public void ParseCss_ShouldHandleMultipleColorsAndCategories()
+    public void ParseCss_ShouldHandleMultipleColorsAndPalettes()
     {
         // Arrange
         var cssContent = string.Empty;
@@ -113,11 +115,11 @@ public class CssParserColorTests
             .AddColors(colors =>
             {
                 colors.AddCustom("white", "#ffffff");
-                colors.AddCustom("tahiti", new Dictionary<int, string>
-                {
-                    { 100, "#cffafe" }
-                });
-            }) 
+                colors.AddPalette("tahiti", palette =>
+               {
+                   palette.AddShade(100, "#cffafe");
+               });
+            })
             .Build();
 
         // Act
@@ -126,7 +128,9 @@ public class CssParserColorTests
         // Assert
         Assert.Contains(".bg-white { background-color: #ffffff; }", result);
         Assert.Contains(".text-white { color: #ffffff; }", result);
+        Assert.Contains(".border-white { border-color: #ffffff; }", result);
         Assert.Contains(".bg-tahiti-100 { background-color: #cffafe; }", result);
         Assert.Contains(".text-tahiti-100 { color: #cffafe; }", result);
+        Assert.Contains(".border-tahiti-100 { border-color: #cffafe; }", result);
     }
 }

@@ -7,7 +7,8 @@ public class ColorTemplate : ICategoryTemplate
         if (value is string color)
         {
             return  $".bg-{key} {{ background-color: {color}; }}\n" +
-                    $".text-{key} {{ color: {color}; }}\n";
+                    $".text-{key} {{ color: {color}; }}\n" +
+                    $".border-{key} {{ border-color: {color}; }}\n";
         }
         else if (value is Dictionary<int, string> dictionary)
         {
@@ -16,7 +17,8 @@ public class ColorTemplate : ICategoryTemplate
             foreach(var item in dictionary)
             {
                 result += $".bg-{key}-{item.Key} {{ background-color: {item.Value}; }}\n" +
-                          $".text-{key}-{item.Key} {{ color: {item.Value}; }}\n";
+                          $".text-{key}-{item.Key} {{ color: {item.Value}; }}\n" +
+                          $".border-{key}-{item.Key} {{ border-color: {item.Value}; }}\n";
             }
 
             return result;
