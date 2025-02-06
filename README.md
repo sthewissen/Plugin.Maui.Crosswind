@@ -16,6 +16,7 @@ No more adding silly class names like `list-inner-wrapper` just to be able to st
 
 Crosswind supports the following broad categories when it comes to styling:
 
+- [Borders](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Borders) ⚠️
 - [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Colors)
 - [Flexbox](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Flexbox)
 - [Sizing](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Sizing)
