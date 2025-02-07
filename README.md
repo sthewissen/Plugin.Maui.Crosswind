@@ -19,7 +19,7 @@ Crosswind supports the following broad categories when it comes to styling:
 - [Borders](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Borders) ⚠️
 - [Colors](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Colors)
 - [Flexbox](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Flexbox)
-- [Shadows](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Shadows)
+- [Shadows](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Shadows) ⚠️
 - [Sizing](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Sizing)
 - [Spacing](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Spacing)
 - [Transforms](https://github.com/sthewissen/Plugin.Maui.Crosswind/wiki/Transforms)
