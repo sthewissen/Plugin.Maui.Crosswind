@@ -6,7 +6,13 @@ public static class MauiProgram
 	{
 		var builder = MauiApp.CreateBuilder();
 		builder
-			.UseMauiApp<App>();
+			.UseMauiApp<App>()
+			.ConfigureFonts(fonts =>
+			{
+				fonts.AddFont("RethinkSans-Regular.ttf", "RethinkSans-Regular");
+				fonts.AddFont("RethinkSans-Semibold.ttf", "RethinkSans-SemiBold");
+				fonts.AddFont("RethinkSans-Bold.ttf", "RethinkSans-Bold");
+			});
 
 		return builder.Build();
 	}

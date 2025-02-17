@@ -8,7 +8,14 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		CrosswindInitializer.Init(new CrosswindOptionsBuilder().Build());
+		CrosswindInitializer.Init(new CrosswindOptionsBuilder()
+			.AddFonts(options =>
+			{
+				options.AddCustom("bold", "RethinkSans-Bold");
+				options.AddCustom("regular", "RethinkSans-Regular");
+				options.AddCustom("semibold", "RethinkSans-SemiBold");
+			})
+			.Build());
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)
