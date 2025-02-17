@@ -2,7 +2,7 @@
 /* Borders */
 /* ======================== */
 
-/* .border-0 { border-width: 0; }
+.border-0 { border-width: 0; }
 .border { border-width: 1; }
 .border-2 { border-width: 2; }
 .border-4 { border-width: 4; }
@@ -285,7 +285,7 @@
 .border-rose-700 { border-color: #be123c; }
 .border-rose-800 { border-color: #9f1239; }
 .border-rose-900 { border-color: #881337; }
-.border-rose-950 { border-color: #4c0519; } */
+.border-rose-950 { border-color: #4c0519; }
 
 /* ======================== */
 /* Colors */
