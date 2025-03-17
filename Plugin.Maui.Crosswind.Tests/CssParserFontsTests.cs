@@ -1,4 +1,4 @@
-﻿using Plugin.Maui.Crosswind.Configuration;
+using Plugin.Maui.Crosswind.Configuration;
 
 namespace Plugin.Maui.Crosswind.Tests;
 
@@ -19,7 +19,7 @@ public class CssParserFontsTests
         var result = CssParser.Parse(options, cssContent);
 
         // Assert
-        Assert.Contains(".font-primary { font-family: 'Comic Sans MS'; }", result); // Custom fonts class
+        Assert.Contains(".font-primary { font-family: Comic Sans MS; }", result); // Custom fonts class
     }
 
     [Fact]
@@ -48,9 +48,9 @@ public class CssParserFontsTests
     {
         // Arrange
         var cssContent = @"
-            .font-sans { font-family: 'var(--fonts-sans-serif)'; }
-            .font-serif { font-family: 'var(--fonts-serif)'; }
-            .font-mono { font-family: 'var(--fonts-mono)'; }
+            .font-sans { font-family: var(--fonts-sans-serif); }
+            .font-serif { font-family: var(--fonts-serif); }
+            .font-mono { font-family: var(--fonts-mono); }
         ";
         var options = new CrosswindOptionsBuilder()
             .AddFonts(fonts =>
@@ -65,9 +65,9 @@ public class CssParserFontsTests
         var result = CssParser.Parse(options, cssContent);
 
         // Assert
-        Assert.Contains(".font-sans { font-family: 'Arial'; }", result);
-        Assert.Contains(".font-serif { font-family: 'Times New Roman'; }", result);
-        Assert.Contains(".font-mono { font-family: 'Courier New'; }", result);
+        Assert.Contains(".font-sans { font-family: Arial; }", result);
+        Assert.Contains(".font-serif { font-family: Times New Roman; }", result);
+        Assert.Contains(".font-mono { font-family: Courier New; }", result);
     }
 
     [Fact]
@@ -75,9 +75,9 @@ public class CssParserFontsTests
     {
         // Arrange
         var cssContent = @"
-            .font-sans { font-family: 'var(--fonts-sans-serif)'; }
-            .font-serif { font-family: 'var(--fonts-serif)'; }
-            .font-mono { font-family: 'var(--fonts-mono)'; }
+            .font-sans { font-family: var(--fonts-sans-serif); }
+            .font-serif { font-family: var(--fonts-serif); }
+            .font-mono { font-family: var(--fonts-mono); }
         ";
         var options = new CrosswindOptionsBuilder().Build();
 
@@ -85,9 +85,9 @@ public class CssParserFontsTests
         var result = CssParser.Parse(options, cssContent);
 
         // Assert
-        Assert.Contains(".font-sans { font-family: 'sans-serif'; }", result);
-        Assert.Contains(".font-serif { font-family: 'serif'; }", result); // Default value
-        Assert.Contains(".font-mono { font-family: 'monospace'; }", result); // Default value
+        Assert.Contains(".font-sans { font-family: sans-serif; }", result);
+        Assert.Contains(".font-serif { font-family: serif; }", result); // Default value
+        Assert.Contains(".font-mono { font-family: monospace; }", result); // Default value
     }
 
     [Fact]
@@ -109,9 +109,9 @@ public class CssParserFontsTests
     {
         // Arrange
         var cssContent = @"
-            .font-sans { font-family: 'var(--fonts-sans-serif)'; }
-            .font-serif { font-family: 'var(--fonts-serif)'; }
-            .font-mono { font-family: 'var(--fonts-mono)'; }
+            .font-sans { font-family: var(--fonts-sans-serif); }
+            .font-serif { font-family: var(--fonts-serif); }
+            .font-mono { font-family: var(--fonts-mono); }
         ";
 
         var options = new CrosswindOptionsBuilder()
@@ -125,9 +125,9 @@ public class CssParserFontsTests
         var result = CssParser.Parse(options, cssContent);
 
         // Assert
-        Assert.Contains(".font-mono { font-family: 'CustomMonoFont'; }", result);
-        Assert.Contains(".font-sans { font-family: 'sans-serif'; }", result); // Default value
-        Assert.Contains(".font-serif { font-family: 'serif'; }", result); // Default value
+        Assert.Contains(".font-mono { font-family: CustomMonoFont; }", result);
+        Assert.Contains(".font-sans { font-family: sans-serif; }", result); // Default value
+        Assert.Contains(".font-serif { font-family: serif; }", result); // Default value
     }
 
     [Fact]
