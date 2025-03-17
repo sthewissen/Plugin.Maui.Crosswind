@@ -1,4 +1,4 @@
-> :warning: **This package is still in preview**: Its functionality relies heavily on pending pull requests in the .NET MAUI repository, specifically [#27180 Shadow support](https://github.com/dotnet/maui/pull/27180) and [#27529 Border support](https://github.com/dotnet/maui/pull/27529). As a result, some features may not work as expected until these changes are merged. However, all other functionalities in the package are fully operational.
+> :warning: **This package requires .NET MAUI 9.0.50 SR5**: Its functionality relies heavily on various pull requests that were included in this service release.
 
 ![Crosswind Logo](https://raw.githubusercontent.com/sthewissen/Plugin.Maui.Crosswind/refs/heads/main/nuget.png)
 
