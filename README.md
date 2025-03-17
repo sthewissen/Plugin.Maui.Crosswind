@@ -1,4 +1,4 @@
-> :warning: **This package requires .NET MAUI 9.0.50 SR5**: Its functionality relies heavily on various pull requests that were included in this service release.
+> :warning: **This package requires .NET MAUI 9.0.50 SR5**: Its functionality relies heavily on various pull requests that were included in this service release. Unexpected behavior on versions prior to this version will not be supported.
 
 ![Crosswind Logo](https://raw.githubusercontent.com/sthewissen/Plugin.Maui.Crosswind/refs/heads/main/nuget.png)
 
