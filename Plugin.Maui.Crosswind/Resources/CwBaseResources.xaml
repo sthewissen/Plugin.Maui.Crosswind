@@ -4,841 +4,1902 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <!-- Background colors -->
+    
+    <!--  Background colors  -->
 
-    <Style Class="bg-black" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-black"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#000000" />
     </Style>
-    <Style Class="bg-white" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-white"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ffffff" />
     </Style>
-    <Style Class="bg-dotnet" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-dotnet"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#512bd4" />
     </Style>
-    <Style Class="bg-xamarin" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-xamarin"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#5596d8" />
     </Style>
 
-    <Style Class="bg-slate-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f8fafc" />
     </Style>
-    <Style Class="bg-slate-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f1f5f9" />
     </Style>
-    <Style Class="bg-slate-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e2e8f0" />
     </Style>
-    <Style Class="bg-slate-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#cbd5e1" />
     </Style>
-    <Style Class="bg-slate-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#94a3b8" />
     </Style>
-    <Style Class="bg-slate-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#64748b" />
     </Style>
-    <Style Class="bg-slate-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#475569" />
     </Style>
-    <Style Class="bg-slate-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#334155" />
     </Style>
-    <Style Class="bg-slate-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1e293b" />
     </Style>
-    <Style Class="bg-slate-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0f172a" />
     </Style>
-    <Style Class="bg-slate-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-slate-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#020617" />
     </Style>
 
-    <Style Class="bg-gray-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f9fafb" />
     </Style>
-    <Style Class="bg-gray-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f3f4f6" />
     </Style>
-    <Style Class="bg-gray-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e5e7eb" />
     </Style>
-    <Style Class="bg-gray-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d1d5db" />
     </Style>
-    <Style Class="bg-gray-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#9ca3af" />
     </Style>
-    <Style Class="bg-gray-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#6b7280" />
     </Style>
-    <Style Class="bg-gray-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4b5563" />
     </Style>
-    <Style Class="bg-gray-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#374151" />
     </Style>
-    <Style Class="bg-gray-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1f2937" />
     </Style>
-    <Style Class="bg-gray-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#111827" />
     </Style>
-    <Style Class="bg-gray-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-gray-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#030712" />
     </Style>
 
-    <Style Class="bg-zinc-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fafafa" />
     </Style>
-    <Style Class="bg-zinc-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f4f4f5" />
     </Style>
-    <Style Class="bg-zinc-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e4e4e7" />
     </Style>
-    <Style Class="bg-zinc-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d4d4d8" />
     </Style>
-    <Style Class="bg-zinc-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a1a1aa" />
     </Style>
-    <Style Class="bg-zinc-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#71717a" />
     </Style>
-    <Style Class="bg-zinc-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#52525b" />
     </Style>
-    <Style Class="bg-zinc-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#3f3f46" />
     </Style>
-    <Style Class="bg-zinc-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#27272a" />
     </Style>
-    <Style Class="bg-zinc-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#18181b" />
     </Style>
-    <Style Class="bg-zinc-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-zinc-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#09090b" />
     </Style>
 
-    <Style Class="bg-neutral-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fafafa" />
     </Style>
-    <Style Class="bg-neutral-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f5f5f5" />
     </Style>
-    <Style Class="bg-neutral-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e5e5e5" />
     </Style>
-    <Style Class="bg-neutral-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d4d4d4" />
     </Style>
-    <Style Class="bg-neutral-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a3a3a3" />
     </Style>
-    <Style Class="bg-neutral-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#737373" />
     </Style>
-    <Style Class="bg-neutral-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#525252" />
     </Style>
-    <Style Class="bg-neutral-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#404040" />
     </Style>
-    <Style Class="bg-neutral-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#262626" />
     </Style>
-    <Style Class="bg-neutral-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#171717" />
     </Style>
-    <Style Class="bg-neutral-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-neutral-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0a0a0a" />
     </Style>
 
-    <Style Class="bg-stone-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fafaf9" />
     </Style>
-    <Style Class="bg-stone-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f5f5f4" />
     </Style>
-    <Style Class="bg-stone-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e7e5e4" />
     </Style>
-    <Style Class="bg-stone-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d6d3d1" />
     </Style>
-    <Style Class="bg-stone-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a8a29e" />
     </Style>
-    <Style Class="bg-stone-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#78716c" />
     </Style>
-    <Style Class="bg-stone-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#57534e" />
     </Style>
-    <Style Class="bg-stone-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#44403c" />
     </Style>
-    <Style Class="bg-stone-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#292524" />
     </Style>
-    <Style Class="bg-stone-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1c1917" />
     </Style>
-    <Style Class="bg-stone-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-stone-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0c0a09" />
     </Style>
 
-    <Style Class="bg-red-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fef2f2" />
     </Style>
-    <Style Class="bg-red-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fee2e2" />
     </Style>
-    <Style Class="bg-red-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fecaca" />
     </Style>
-    <Style Class="bg-red-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fca5a5" />
     </Style>
-    <Style Class="bg-red-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f87171" />
     </Style>
-    <Style Class="bg-red-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ef4444" />
     </Style>
-    <Style Class="bg-red-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#dc2626" />
     </Style>
-    <Style Class="bg-red-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#b91c1c" />
     </Style>
-    <Style Class="bg-red-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#991b1b" />
     </Style>
-    <Style Class="bg-red-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#7f1d1d" />
     </Style>
-    <Style Class="bg-red-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-red-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#450a0a" />
     </Style>
 
-    <Style Class="bg-orange-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fff7ed" />
     </Style>
-    <Style Class="bg-orange-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ffedd5" />
     </Style>
-    <Style Class="bg-orange-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fed7aa" />
     </Style>
-    <Style Class="bg-orange-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fdba74" />
     </Style>
-    <Style Class="bg-orange-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fb923c" />
     </Style>
-    <Style Class="bg-orange-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f97316" />
     </Style>
-    <Style Class="bg-orange-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ea580c" />
     </Style>
-    <Style Class="bg-orange-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#c2410c" />
     </Style>
-    <Style Class="bg-orange-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#9a3412" />
     </Style>
-    <Style Class="bg-orange-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#7c2d12" />
     </Style>
-    <Style Class="bg-orange-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-orange-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#431407" />
     </Style>
 
-    <Style Class="bg-amber-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fffbeb" />
     </Style>
-    <Style Class="bg-amber-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fef3c7" />
     </Style>
-    <Style Class="bg-amber-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fde68a" />
     </Style>
-    <Style Class="bg-amber-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fcd34d" />
     </Style>
-    <Style Class="bg-amber-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fbbf24" />
     </Style>
-    <Style Class="bg-amber-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f59e0b" />
     </Style>
-    <Style Class="bg-amber-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d97706" />
     </Style>
-    <Style Class="bg-amber-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#b45309" />
     </Style>
-    <Style Class="bg-amber-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#92400e" />
     </Style>
-    <Style Class="bg-amber-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#78350f" />
     </Style>
-    <Style Class="bg-amber-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-amber-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#451a03" />
     </Style>
 
-    <Style Class="bg-yellow-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fefce8" />
     </Style>
-    <Style Class="bg-yellow-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fef9c3" />
     </Style>
-    <Style Class="bg-yellow-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fef08a" />
     </Style>
-    <Style Class="bg-yellow-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fde047" />
     </Style>
-    <Style Class="bg-yellow-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#facc15" />
     </Style>
-    <Style Class="bg-yellow-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#eab308" />
     </Style>
-    <Style Class="bg-yellow-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ca8a04" />
     </Style>
-    <Style Class="bg-yellow-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a16207" />
     </Style>
-    <Style Class="bg-yellow-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#854d0e" />
     </Style>
-    <Style Class="bg-yellow-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#713f12" />
     </Style>
-    <Style Class="bg-yellow-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-yellow-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#422006" />
     </Style>
 
-    <Style Class="bg-lime-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f7fee7" />
     </Style>
-    <Style Class="bg-lime-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ecfccb" />
     </Style>
-    <Style Class="bg-lime-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d9f99d" />
     </Style>
-    <Style Class="bg-lime-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#bef264" />
     </Style>
-    <Style Class="bg-lime-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a3e635" />
     </Style>
-    <Style Class="bg-lime-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#84cc16" />
     </Style>
-    <Style Class="bg-lime-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#65a30d" />
     </Style>
-    <Style Class="bg-lime-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4d7c0f" />
     </Style>
-    <Style Class="bg-lime-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#3f6212" />
     </Style>
-    <Style Class="bg-lime-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#365314" />
     </Style>
-    <Style Class="bg-lime-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-lime-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1a2e05" />
     </Style>
 
-    <Style Class="bg-green-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f0fdf4" />
     </Style>
-    <Style Class="bg-green-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#dcfce7" />
     </Style>
-    <Style Class="bg-green-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#bbf7d0" />
     </Style>
-    <Style Class="bg-green-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#86efac" />
     </Style>
-    <Style Class="bg-green-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4ade80" />
     </Style>
-    <Style Class="bg-green-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#22c55e" />
     </Style>
-    <Style Class="bg-green-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#16a34a" />
     </Style>
-    <Style Class="bg-green-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#15803d" />
     </Style>
-    <Style Class="bg-green-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#166534" />
     </Style>
-    <Style Class="bg-green-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#14532d" />
     </Style>
-    <Style Class="bg-green-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-green-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#052e16" />
     </Style>
 
-    <Style Class="bg-emerald-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ecfdf5" />
     </Style>
-    <Style Class="bg-emerald-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d1fae5" />
     </Style>
-    <Style Class="bg-emerald-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a7f3d0" />
     </Style>
-    <Style Class="bg-emerald-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#6ee7b7" />
     </Style>
-    <Style Class="bg-emerald-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#34d399" />
     </Style>
-    <Style Class="bg-emerald-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#10b981" />
     </Style>
-    <Style Class="bg-emerald-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#059669" />
     </Style>
-    <Style Class="bg-emerald-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#047857" />
     </Style>
-    <Style Class="bg-emerald-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#065f46" />
     </Style>
-    <Style Class="bg-emerald-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#064e3b" />
     </Style>
-    <Style Class="bg-emerald-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-emerald-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#022c22" />
     </Style>
 
-    <Style Class="bg-teal-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f0fdfa" />
     </Style>
-    <Style Class="bg-teal-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ccfbf1" />
     </Style>
-    <Style Class="bg-teal-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#99f6e4" />
     </Style>
-    <Style Class="bg-teal-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#5eead4" />
     </Style>
-    <Style Class="bg-teal-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#2dd4bf" />
     </Style>
-    <Style Class="bg-teal-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#14b8a6" />
     </Style>
-    <Style Class="bg-teal-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0d9488" />
     </Style>
-    <Style Class="bg-teal-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0f766e" />
     </Style>
-    <Style Class="bg-teal-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#115e59" />
     </Style>
-    <Style Class="bg-teal-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#134e4a" />
     </Style>
-    <Style Class="bg-teal-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-teal-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#042f2e" />
     </Style>
 
-    <Style Class="bg-cyan-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ecfeff" />
     </Style>
-    <Style Class="bg-cyan-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#cffafe" />
     </Style>
-    <Style Class="bg-cyan-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a5f3fc" />
     </Style>
-    <Style Class="bg-cyan-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#67e8f9" />
     </Style>
-    <Style Class="bg-cyan-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#22d3ee" />
     </Style>
-    <Style Class="bg-cyan-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#06b6d4" />
     </Style>
-    <Style Class="bg-cyan-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0891b2" />
     </Style>
-    <Style Class="bg-cyan-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0e7490" />
     </Style>
-    <Style Class="bg-cyan-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#155e75" />
     </Style>
-    <Style Class="bg-cyan-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#164e63" />
     </Style>
-    <Style Class="bg-cyan-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-cyan-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#083344" />
     </Style>
 
-    <Style Class="bg-sky-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f0f9ff" />
     </Style>
-    <Style Class="bg-sky-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e0f2fe" />
     </Style>
-    <Style Class="bg-sky-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#bae6fd" />
     </Style>
-    <Style Class="bg-sky-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#7dd3fc" />
     </Style>
-    <Style Class="bg-sky-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#38bdf8" />
     </Style>
-    <Style Class="bg-sky-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0ea5e9" />
     </Style>
-    <Style Class="bg-sky-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0284c7" />
     </Style>
-    <Style Class="bg-sky-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0369a1" />
     </Style>
-    <Style Class="bg-sky-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#075985" />
     </Style>
-    <Style Class="bg-sky-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#0c4a6e" />
     </Style>
-    <Style Class="bg-sky-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-sky-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#082f49" />
     </Style>
 
-    <Style Class="bg-blue-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#eff6ff" />
     </Style>
-    <Style Class="bg-blue-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#dbeafe" />
     </Style>
-    <Style Class="bg-blue-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#bfdbfe" />
     </Style>
-    <Style Class="bg-blue-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#93c5fd" />
     </Style>
-    <Style Class="bg-blue-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#60a5fa" />
     </Style>
-    <Style Class="bg-blue-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#3b82f6" />
     </Style>
-    <Style Class="bg-blue-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#2563eb" />
     </Style>
-    <Style Class="bg-blue-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1d4ed8" />
     </Style>
-    <Style Class="bg-blue-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1e40af" />
     </Style>
-    <Style Class="bg-blue-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1e3a8a" />
     </Style>
-    <Style Class="bg-blue-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-blue-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#172554" />
     </Style>
 
-    <Style Class="bg-indigo-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#eef2ff" />
     </Style>
-    <Style Class="bg-indigo-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e0e7ff" />
     </Style>
-    <Style Class="bg-indigo-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#c7d2fe" />
     </Style>
-    <Style Class="bg-indigo-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a5b4fc" />
     </Style>
-    <Style Class="bg-indigo-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#818cf8" />
     </Style>
-    <Style Class="bg-indigo-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#6366f1" />
     </Style>
-    <Style Class="bg-indigo-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4f46e5" />
     </Style>
-    <Style Class="bg-indigo-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4338ca" />
     </Style>
-    <Style Class="bg-indigo-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#3730a3" />
     </Style>
-    <Style Class="bg-indigo-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#312e81" />
     </Style>
-    <Style Class="bg-indigo-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-indigo-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#1e1b4b" />
     </Style>
 
-    <Style Class="bg-violet-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f5f3ff" />
     </Style>
-    <Style Class="bg-violet-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ede9fe" />
     </Style>
-    <Style Class="bg-violet-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ddd6fe" />
     </Style>
-    <Style Class="bg-violet-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#c4b5fd" />
     </Style>
-    <Style Class="bg-violet-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a78bfa" />
     </Style>
-    <Style Class="bg-violet-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#8b5cf6" />
     </Style>
-    <Style Class="bg-violet-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#7c3aed" />
     </Style>
-    <Style Class="bg-violet-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#6d28d9" />
     </Style>
-    <Style Class="bg-violet-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#5b21b6" />
     </Style>
-    <Style Class="bg-violet-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4c1d95" />
     </Style>
-    <Style Class="bg-violet-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-violet-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#2e1065" />
     </Style>
 
-    <Style Class="bg-purple-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#faf5ff" />
     </Style>
-    <Style Class="bg-purple-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f3e8ff" />
     </Style>
-    <Style Class="bg-purple-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e9d5ff" />
     </Style>
-    <Style Class="bg-purple-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d8b4fe" />
     </Style>
-    <Style Class="bg-purple-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#c084fc" />
     </Style>
-    <Style Class="bg-purple-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a855f7" />
     </Style>
-    <Style Class="bg-purple-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#9333ea" />
     </Style>
-    <Style Class="bg-purple-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#7e22ce" />
     </Style>
-    <Style Class="bg-purple-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#6b21a8" />
     </Style>
-    <Style Class="bg-purple-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#581c87" />
     </Style>
-    <Style Class="bg-purple-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-purple-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#3b0764" />
     </Style>
 
-    <Style Class="bg-fuchsia-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fdf4ff" />
     </Style>
-    <Style Class="bg-fuchsia-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fae8ff" />
     </Style>
-    <Style Class="bg-fuchsia-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f5d0fe" />
     </Style>
-    <Style Class="bg-fuchsia-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f0abfc" />
     </Style>
-    <Style Class="bg-fuchsia-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e879f9" />
     </Style>
-    <Style Class="bg-fuchsia-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#d946ef" />
     </Style>
-    <Style Class="bg-fuchsia-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#c026d3" />
     </Style>
-    <Style Class="bg-fuchsia-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#a21caf" />
     </Style>
-    <Style Class="bg-fuchsia-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#86198f" />
     </Style>
-    <Style Class="bg-fuchsia-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#701a75" />
     </Style>
-    <Style Class="bg-fuchsia-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-fuchsia-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4a044e" />
     </Style>
 
-    <Style Class="bg-pink-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fdf2f8" />
     </Style>
-    <Style Class="bg-pink-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fce7f3" />
     </Style>
-    <Style Class="bg-pink-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fbcfe8" />
     </Style>
-    <Style Class="bg-pink-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f9a8d4" />
     </Style>
-    <Style Class="bg-pink-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f472b6" />
     </Style>
-    <Style Class="bg-pink-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ec4899" />
     </Style>
-    <Style Class="bg-pink-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#db2777" />
     </Style>
-    <Style Class="bg-pink-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#be185d" />
     </Style>
-    <Style Class="bg-pink-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#9d174d" />
     </Style>
-    <Style Class="bg-pink-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#831843" />
     </Style>
-    <Style Class="bg-pink-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-pink-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#500724" />
     </Style>
 
-    <Style Class="bg-rose-50" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-50"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fff1f2" />
     </Style>
-    <Style Class="bg-rose-100" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-100"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#ffe4e6" />
     </Style>
-    <Style Class="bg-rose-200" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-200"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fecdd3" />
     </Style>
-    <Style Class="bg-rose-300" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-300"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fda4af" />
     </Style>
-    <Style Class="bg-rose-400" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-400"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#fb7185" />
     </Style>
-    <Style Class="bg-rose-500" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-500"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#f43f5e" />
     </Style>
-    <Style Class="bg-rose-600" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-600"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#e11d48" />
     </Style>
-    <Style Class="bg-rose-700" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-700"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#be123c" />
     </Style>
-    <Style Class="bg-rose-800" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-800"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#9f1239" />
     </Style>
-    <Style Class="bg-rose-900" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-900"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#881337" />
     </Style>
-    <Style Class="bg-rose-950" TargetType="VisualElement" ApplyToDerivedTypes="True">
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="bg-rose-950"
+        TargetType="VisualElement">
         <Setter Property="BackgroundColor" Value="#4c0519" />
     </Style>
 
-<!-- Scale -->
-<Style Class="scale-0" TargetType="VisualElement"   ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0" /><Setter Property="ScaleY" Value="0" /></Style>
-<Style Class="scale-50" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.5" /><Setter Property="ScaleY" Value="0.5" /></Style>
-<Style Class="scale-75" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.75" /><Setter Property="ScaleY" Value="0.75" /></Style>
-<Style Class="scale-90" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.9" /><Setter Property="ScaleY" Value="0.9" /></Style>
-<Style Class="scale-95" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.95" /><Setter Property="ScaleY" Value="0.95" /></Style>
-<Style Class="scale-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1" /><Setter Property="ScaleY" Value="1" /></Style>
-<Style Class="scale-105" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.05" /><Setter Property="ScaleY" Value="1.05" /></Style>
-<Style Class="scale-110" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.1" /><Setter Property="ScaleY" Value="1.1" /></Style>
-<Style Class="scale-125" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.25" /><Setter Property="ScaleY" Value="1.25" /></Style>
-<Style Class="scale-150" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.5" /><Setter Property="ScaleY" Value="1.5" /></Style>
-<Style Class="scale-175" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.75" /><Setter Property="ScaleY" Value="1.75" /></Style>
-<Style Class="scale-200" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="2" /><Setter Property="ScaleY" Value="2" /></Style>
+    <!--  Scale  -->
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-0"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0" />
+        <Setter Property="ScaleY" Value="0" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-50"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.5" />
+        <Setter Property="ScaleY" Value="0.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-75"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.75" />
+        <Setter Property="ScaleY" Value="0.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-90"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.9" />
+        <Setter Property="ScaleY" Value="0.9" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-95"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.95" />
+        <Setter Property="ScaleY" Value="0.95" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-100"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1" />
+        <Setter Property="ScaleY" Value="1" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-105"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.05" />
+        <Setter Property="ScaleY" Value="1.05" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-110"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.1" />
+        <Setter Property="ScaleY" Value="1.1" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-125"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.25" />
+        <Setter Property="ScaleY" Value="1.25" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-150"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.5" />
+        <Setter Property="ScaleY" Value="1.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-175"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.75" />
+        <Setter Property="ScaleY" Value="1.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-200"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="2" />
+        <Setter Property="ScaleY" Value="2" />
+    </Style>
 
-<!-- Scale-X -->
-<Style Class="scale-x-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0" /></Style>
-<Style Class="scale-x-50" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.5" /></Style>
-<Style Class="scale-x-75" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.75" /></Style>
-<Style Class="scale-x-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.9" /></Style>
-<Style Class="scale-x-95" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.95" /></Style>
-<Style Class="scale-x-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1" /></Style>
-<Style Class="scale-x-105" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.05" /></Style>
-<Style Class="scale-x-110" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.1" /></Style>
-<Style Class="scale-x-125" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.25" /></Style>
-<Style Class="scale-x-150" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.5" /></Style>
-<Style Class="scale-x-175" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.75" /></Style>
-<Style Class="scale-x-200" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="2" /></Style>
+    <!--  Scale-X  -->
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-0"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-50"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-75"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-90"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.9" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-95"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="0.95" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-100"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-105"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.05" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-110"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.1" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-125"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.25" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-150"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-175"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="1.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-x-200"
+        TargetType="VisualElement">
+        <Setter Property="ScaleX" Value="2" />
+    </Style>
 
-<!-- Scale-Y -->
-<Style Class="scale-y-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0" /></Style>
-<Style Class="scale-y-50" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.5" /></Style>
-<Style Class="scale-y-75" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.75" /></Style>
-<Style Class="scale-y-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.9" /></Style>
-<Style Class="scale-y-95" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.95" /></Style>
-<Style Class="scale-y-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1" /></Style>
-<Style Class="scale-y-105" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.05" /></Style>
-<Style Class="scale-y-110" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.1" /></Style>
-<Style Class="scale-y-125" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.25" /></Style>
-<Style Class="scale-y-150" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.5" /></Style>
-<Style Class="scale-y-175" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.75" /></Style>
-<Style Class="scale-y-200" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="2" /></Style>
+    <!--  Scale-Y  -->
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-0"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="0" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-50"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="0.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-75"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="0.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-90"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="0.9" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-95"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="0.95" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-100"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="1" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-105"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="1.05" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-110"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="1.1" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-125"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="1.25" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-150"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="1.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-175"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="1.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="scale-y-200"
+        TargetType="VisualElement">
+        <Setter Property="ScaleY" Value="2" />
+    </Style>
 
-<!-- Rotation -->
-<Style Class="rotate-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="0" /></Style>
-<Style Class="rotate-45" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="45" /></Style>
-<Style Class="rotate-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="90" /></Style>
-<Style Class="rotate-135" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="135" /></Style>
-<Style Class="rotate-180" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="180" /></Style>
-<Style Class="rotate-225" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="225" /></Style>
-<Style Class="rotate-270" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="270" /></Style>
-<Style Class="rotate-315" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="315" /></Style>
-<Style Class="rotate-360" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="360" /></Style>
+    <!--  Rotation  -->
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-0"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="0" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-45"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="45" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-90"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="90" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-135"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="135" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-180"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="180" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-225"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="225" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-270"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="270" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-315"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="315" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="rotate-360"
+        TargetType="VisualElement">
+        <Setter Property="Rotation" Value="360" />
+    </Style>
 
-<!-- Visibility -->
-<Style Class="hidden" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="IsVisible" Value="True" /></Style>
-<Style Class="block" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="IsVisible" Value="False" /></Style>
+    <!--  Visibility  -->
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="hidden"
+        TargetType="VisualElement">
+        <Setter Property="IsVisible" Value="True" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="block"
+        TargetType="VisualElement">
+        <Setter Property="IsVisible" Value="False" />
+    </Style>
 
-<!-- Opacity -->
-<Style Class="opacity-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0" /></Style>
-<Style Class="opacity-5" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.05" /></Style>
-<Style Class="opacity-10" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.10" /></Style>
-<Style Class="opacity-20" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.2" /></Style>
-<Style Class="opacity-25" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.25" /></Style>
-<Style Class="opacity-30" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.3" /></Style>
-<Style Class="opacity-40" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.4" /></Style>
-<Style Class="opacity-50" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.5" /></Style>
-<Style Class="opacity-60" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.6" /></Style>
-<Style Class="opacity-70" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.7" /></Style>
-<Style Class="opacity-75" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.75" /></Style>
-<Style Class="opacity-80" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.8" /></Style>
-<Style Class="opacity-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.9" /></Style>
-<Style Class="opacity-95" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.95" /></Style>
-<Style Class="opacity-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="1" /></Style>
+    <!--  Opacity  -->
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-0"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-5"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.05" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-10"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.10" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-20"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.2" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-25"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.25" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-30"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.3" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-40"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.4" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-50"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.5" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-60"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.6" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-70"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.7" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-75"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.75" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-80"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.8" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-90"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.9" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-95"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="0.95" />
+    </Style>
+    <Style
+        ApplyToDerivedTypes="True"
+        Class="opacity-100"
+        TargetType="VisualElement">
+        <Setter Property="Opacity" Value="1" />
+    </Style>
 
 </ResourceDictionary>
