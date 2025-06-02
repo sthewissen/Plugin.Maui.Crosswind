@@ -7,6 +7,8 @@ namespace Plugin.Maui.Crosswind;
 /// </summary>
 public partial class CrosswindOptions : Dictionary<string, Dictionary<string, object>>
 {
+    public bool UseCss { get; set; } = true;
+
     // Schema defining valid keys and their allowed value types
     private static readonly Dictionary<string, Type[]> Schema = new()
     {
