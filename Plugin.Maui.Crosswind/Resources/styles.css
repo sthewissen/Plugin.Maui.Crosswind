@@ -1499,6 +1499,11 @@
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 .text-justify { text-align: justify; }
+.text-top { text-align: top; }
+.text-bottom { text-align: bottom; }
+.text-middle { text-align: middle; }
+.text-start { text-align: start; }
+.text-end { text-align: end; }
 
 /* Text Size */
 .text-xs { font-size: var(--sizing-xs); }
