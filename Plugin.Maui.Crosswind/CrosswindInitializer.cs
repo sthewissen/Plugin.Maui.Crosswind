@@ -14,19 +14,26 @@ public static class CrosswindInitializer
         // Merge Crosswind styles into the app's resource dictionary
         if (Application.Current?.Resources != null)
         {
-            var stylesheet = InitCssFromResource("styles.css");
-
             // Override styles based on options....
             options ??= new CrosswindOptions();
 
             // Validate the options, throws an exception if invalid
             options.Validate();
 
-            stylesheet = CssParser.Parse(options, stylesheet);
-
-            // Take the string and add the styles.
-            using var reader = new StringReader(stylesheet);
-            Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
+            if(options.UseCss)
+            {
+                var stylesheet = InitCssFromResource("styles.css");
+                stylesheet = CssParser.Parse(options, stylesheet);
+    
+                // Take the string and add the styles.
+                using var reader = new StringReader(stylesheet);
+                Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
+            }
+            else
+            {
+                // TODO: Use the Resource Dictionary approach
+                
+            }
         }
     }
 
