@@ -767,4 +767,78 @@
         <Setter Property="BackgroundColor" Value="#4c0519" />
     </Style>
 
+<!-- Scale -->
+<Style Class="scale-0" TargetType="VisualElement"   ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0" /><Setter Property="ScaleY" Value="0" /></Style>
+<Style Class="scale-50" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.5" /><Setter Property="ScaleY" Value="0.5" /></Style>
+<Style Class="scale-75" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.75" /><Setter Property="ScaleY" Value="0.75" /></Style>
+<Style Class="scale-90" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.9" /><Setter Property="ScaleY" Value="0.9" /></Style>
+<Style Class="scale-95" TargetType="VisualElement"  ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.95" /><Setter Property="ScaleY" Value="0.95" /></Style>
+<Style Class="scale-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1" /><Setter Property="ScaleY" Value="1" /></Style>
+<Style Class="scale-105" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.05" /><Setter Property="ScaleY" Value="1.05" /></Style>
+<Style Class="scale-110" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.1" /><Setter Property="ScaleY" Value="1.1" /></Style>
+<Style Class="scale-125" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.25" /><Setter Property="ScaleY" Value="1.25" /></Style>
+<Style Class="scale-150" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.5" /><Setter Property="ScaleY" Value="1.5" /></Style>
+<Style Class="scale-175" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.75" /><Setter Property="ScaleY" Value="1.75" /></Style>
+<Style Class="scale-200" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="2" /><Setter Property="ScaleY" Value="2" /></Style>
+
+<!-- Scale-X -->
+<Style Class="scale-x-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0" /></Style>
+<Style Class="scale-x-50" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.5" /></Style>
+<Style Class="scale-x-75" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.75" /></Style>
+<Style Class="scale-x-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.9" /></Style>
+<Style Class="scale-x-95" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="0.95" /></Style>
+<Style Class="scale-x-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1" /></Style>
+<Style Class="scale-x-105" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.05" /></Style>
+<Style Class="scale-x-110" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.1" /></Style>
+<Style Class="scale-x-125" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.25" /></Style>
+<Style Class="scale-x-150" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.5" /></Style>
+<Style Class="scale-x-175" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="1.75" /></Style>
+<Style Class="scale-x-200" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleX" Value="2" /></Style>
+
+<!-- Scale-Y -->
+<Style Class="scale-y-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0" /></Style>
+<Style Class="scale-y-50" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.5" /></Style>
+<Style Class="scale-y-75" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.75" /></Style>
+<Style Class="scale-y-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.9" /></Style>
+<Style Class="scale-y-95" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="0.95" /></Style>
+<Style Class="scale-y-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1" /></Style>
+<Style Class="scale-y-105" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.05" /></Style>
+<Style Class="scale-y-110" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.1" /></Style>
+<Style Class="scale-y-125" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.25" /></Style>
+<Style Class="scale-y-150" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.5" /></Style>
+<Style Class="scale-y-175" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="1.75" /></Style>
+<Style Class="scale-y-200" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="ScaleY" Value="2" /></Style>
+
+<!-- Rotation -->
+<Style Class="rotate-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="0" /></Style>
+<Style Class="rotate-45" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="45" /></Style>
+<Style Class="rotate-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="90" /></Style>
+<Style Class="rotate-135" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="135" /></Style>
+<Style Class="rotate-180" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="180" /></Style>
+<Style Class="rotate-225" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="225" /></Style>
+<Style Class="rotate-270" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="270" /></Style>
+<Style Class="rotate-315" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="315" /></Style>
+<Style Class="rotate-360" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Rotation" Value="360" /></Style>
+
+<!-- Visibility -->
+<Style Class="hidden" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="IsVisible" Value="True" /></Style>
+<Style Class="block" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="IsVisible" Value="False" /></Style>
+
+<!-- Opacity -->
+<Style Class="opacity-0" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0" /></Style>
+<Style Class="opacity-5" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.05" /></Style>
+<Style Class="opacity-10" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.10" /></Style>
+<Style Class="opacity-20" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.2" /></Style>
+<Style Class="opacity-25" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.25" /></Style>
+<Style Class="opacity-30" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.3" /></Style>
+<Style Class="opacity-40" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.4" /></Style>
+<Style Class="opacity-50" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.5" /></Style>
+<Style Class="opacity-60" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.6" /></Style>
+<Style Class="opacity-70" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.7" /></Style>
+<Style Class="opacity-75" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.75" /></Style>
+<Style Class="opacity-80" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.8" /></Style>
+<Style Class="opacity-90" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.9" /></Style>
+<Style Class="opacity-95" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="0.95" /></Style>
+<Style Class="opacity-100" TargetType="VisualElement" ApplyToDerivedTypes="True"><Setter Property="Opacity" Value="1" /></Style>
+
 </ResourceDictionary>
