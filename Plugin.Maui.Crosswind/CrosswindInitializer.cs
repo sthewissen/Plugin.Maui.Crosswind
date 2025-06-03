@@ -20,21 +20,54 @@ public static class CrosswindInitializer
             // Validate the options, throws an exception if invalid
             options.Validate();
 
-            if(options.UseCss)
-            {
-                var stylesheet = InitCssFromResource("styles.css");
-                stylesheet = CssParser.Parse(options, stylesheet);
+            // Always add the CSS, it's our main method of styling.
+            var stylesheet = InitCssFromResource("styles.css");
+            stylesheet = CssParser.Parse(options, stylesheet);
     
-                // Take the string and add the styles.
-                using var reader = new StringReader(stylesheet);
-                Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
-            }
-            else
+            // Take the string and add the styles.
+            using var reader = new StringReader(stylesheet);
+            Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
+           
+            // Create a resource dictionary for all of our variables.
+            PopulateVariables(options);
+            
+            // Add the dictionary containing fixes for CSS.
+            Application.Current?.Resources.MergedDictionaries.Add(new CwFixedResources());
+        }
+    }
+
+    private static void PopulateVariables(CrosswindOptions options)
+    {
+        var dictionaryVariables = new CwVariables();
+        
+        // Go through the defaults
+        foreach (var category in Constants.Defaults)
+        {
+            var categoryName = category.Key;
+            foreach (var entry in category.Value)
             {
-                // TODO: Use the Resource Dictionary approach
-                
+                var key = $"CW_{categoryName}_{entry.Key}";
+
+                switch (entry.Value)
+                {
+                    case double d:
+                        dictionaryVariables.Add(key, d);
+                        break;
+                    case string s:
+                        dictionaryVariables.Add(key, s);
+                        break;
+                    // Add more cases if you extend the data model later
+                    default:
+                        // Optionally handle unsupported types
+                        break;
+                }
             }
         }
+        
+        // TODO: Check options for overrides + additions
+        
+        
+        Application.Current?.Resources.MergedDictionaries.Add(dictionaryVariables);
     }
 
     /// <summary>
