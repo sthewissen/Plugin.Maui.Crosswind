@@ -52,6 +52,15 @@
 		</Compile>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Resources\CwFixedResources.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\CwVariables.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 	<!-- Package additions -->
 	<ItemGroup>
 		<None Include="..\nuget.png" PackagePath="icon.png" Pack="true" />
