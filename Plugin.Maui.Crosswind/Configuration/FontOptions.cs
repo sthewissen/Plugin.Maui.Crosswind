@@ -8,7 +8,7 @@ public class FontOptions
     {
         _values = new Dictionary<string, object>
         {
-            { "sans-serif", "sans-serif" },
+            { "sans", "sans-serif" },
             { "serif", "serif" },
             { "mono", "monospace" }
         };
