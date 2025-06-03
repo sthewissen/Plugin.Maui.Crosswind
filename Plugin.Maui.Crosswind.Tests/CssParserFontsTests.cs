@@ -31,7 +31,7 @@ public class CssParserFontsTests
             .AddFonts(fonts =>
             {
                 fonts.AddCustom("primary", "Comic Sans MS");
-                fonts.AddCustom("sans-serif", "Wingdings");
+                fonts.AddCustom("sans", "Wingdings");
             })
             .Build();
 
@@ -48,14 +48,14 @@ public class CssParserFontsTests
     {
         // Arrange
         var cssContent = @"
-            .font-sans { font-family: var(--fonts-sans-serif); }
+            .font-sans { font-family: var(--fonts-sans); }
             .font-serif { font-family: var(--fonts-serif); }
             .font-mono { font-family: var(--fonts-mono); }
         ";
         var options = new CrosswindOptionsBuilder()
             .AddFonts(fonts =>
             {
-                fonts.AddCustom("sans-serif", "Arial");
+                fonts.AddCustom("sans", "Arial");
                 fonts.AddCustom("serif", "Times New Roman");
                 fonts.AddCustom("mono", "Courier New");
             })
@@ -75,7 +75,7 @@ public class CssParserFontsTests
     {
         // Arrange
         var cssContent = @"
-            .font-sans { font-family: var(--fonts-sans-serif); }
+            .font-sans { font-family: var(--fonts-sans); }
             .font-serif { font-family: var(--fonts-serif); }
             .font-mono { font-family: var(--fonts-mono); }
         ";
@@ -97,7 +97,7 @@ public class CssParserFontsTests
             .AddFonts(fonts =>
             {
                 fonts.AddCustom("inv$alid", "SomeFont");
-                fonts.AddCustom("sans-serif", "Arial");
+                fonts.AddCustom("sans", "Arial");
             });
 
         // Act
@@ -109,7 +109,7 @@ public class CssParserFontsTests
     {
         // Arrange
         var cssContent = @"
-            .font-sans { font-family: var(--fonts-sans-serif); }
+            .font-sans { font-family: var(--fonts-sans); }
             .font-serif { font-family: var(--fonts-serif); }
             .font-mono { font-family: var(--fonts-mono); }
         ";
@@ -137,7 +137,7 @@ public class CssParserFontsTests
         var builder = new CrosswindOptionsBuilder()
             .AddFonts(fonts =>
             {
-                fonts.AddCustom("sans-serif", null);
+                fonts.AddCustom("sans", null);
             });
 
         // Act & Assert
