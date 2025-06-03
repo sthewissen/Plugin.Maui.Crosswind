@@ -39,7 +39,7 @@ public class Constants
         },
         { "fonts", new Dictionary<string, object>
             {
-                { "sans-serif", "sans-serif" },
+                { "sans", "sans-serif" },
                 { "serif", "serif" },
                 { "mono", "monospace" },
             }

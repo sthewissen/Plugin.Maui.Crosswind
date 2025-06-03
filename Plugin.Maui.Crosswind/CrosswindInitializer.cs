@@ -32,13 +32,13 @@ public static class CrosswindInitializer
             PopulateVariables(options);
             
             // Add the dictionary containing fixes for CSS.
-            Application.Current?.Resources.MergedDictionaries.Add(new CwFixedResources());
+            Application.Current?.Resources.MergedDictionaries.Add(new Resources.CwFixedResources());
         }
     }
 
     private static void PopulateVariables(CrosswindOptions options)
     {
-        var dictionaryVariables = new CwVariables();
+        var dictionaryVariables = new Resources.CwVariables();
         
         // Go through the defaults
         foreach (var category in Constants.Defaults)
@@ -46,7 +46,7 @@ public static class CrosswindInitializer
             var categoryName = category.Key;
             foreach (var entry in category.Value)
             {
-                var key = $"CW_{categoryName}_{entry.Key}";
+                var key = $"cw_{categoryName}_{entry.Key}";
 
                 switch (entry.Value)
                 {
@@ -56,7 +56,7 @@ public static class CrosswindInitializer
                     case string s:
                         dictionaryVariables.Add(key, s);
                         break;
-                    // Add more cases if you extend the data model later
+                    // Add more cases if we extend the data model later
                     default:
                         // Optionally handle unsupported types
                         break;
@@ -64,8 +64,34 @@ public static class CrosswindInitializer
             }
         }
         
-        // TODO: Check options for overrides + additions
-        
+        // Check options for overrides + additions
+        foreach (var category in options)
+        {
+            foreach (var entry in category.Value)
+            {
+                var key = $"cw_{category.Key}_{entry.Key.Replace("-", "_")}";
+
+                switch (entry.Value)
+                {
+                    case double d:
+                        dictionaryVariables[key] = d;
+                        break;
+                    case string s:
+                        dictionaryVariables[key] = s;
+                        break;
+                    case Dictionary<int, string> dict:
+                        foreach (var item in dict)
+                        {
+                            dictionaryVariables[$"{key}_{item.Key}"] = item.Value;
+                        }
+                        break;
+                    // Add more cases if we extend the data model later
+                    default:
+                        // Optionally handle unsupported types
+                        break;
+                }
+            }
+        }
         
         Application.Current?.Resources.MergedDictionaries.Add(dictionaryVariables);
     }
