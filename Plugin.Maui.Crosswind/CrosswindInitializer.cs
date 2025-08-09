@@ -92,8 +92,17 @@ public static class CrosswindInitializer
                 }
             }
         }
-        
-        Application.Current?.Resources.MergedDictionaries.Add(dictionaryVariables);
+
+        // Add the variables dictionary, and add it first.
+		var dictionaries = Application.Current.Resources.MergedDictionaries.ToList();
+		
+		Application.Current?.Resources.MergedDictionaries.Clear();
+		Application.Current?.Resources.MergedDictionaries.Add(dictionaryVariables);
+
+		foreach (var item in dictionaries)
+		{
+			Application.Current?.Resources.MergedDictionaries.Add(item);
+		}
     }
 
     /// <summary>
