@@ -63,13 +63,19 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 		<Compile Update="Resources\CwFixedResources.xaml.cs">
-			<DependentUpon>CwBasic.xaml</DependentUpon>
+			<DependentUpon>CwFixedResources.xaml</DependentUpon>
 		</Compile>
 		<MauiXaml Update="Resources\CwVariables.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		<Compile Update="Resources\CwVariables.xaml.cs">
-			<DependentUpon>CwBasic.xaml</DependentUpon>
+			<DependentUpon>CwVariables.xaml</DependentUpon>
+		</Compile>
+		<MauiXaml Update="Resources\CwColors.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<Compile Update="Resources\CwColors.xaml.cs">
+			<DependentUpon>CwColors.xaml</DependentUpon>
 		</Compile>
 	</ItemGroup>
 
