@@ -1,6 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plugin.Maui.Crosswind.Resources.CwVariables">
+<ResourceDictionary
+    x:Class="Plugin.Maui.Crosswind.Resources.CwVariables"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  Spacing Variables - Can be overridden by users  -->
+    <x:Double x:Key="cw_spacing_0">0</x:Double>
+    <x:Double x:Key="cw_spacing_1">4</x:Double>
+    <x:Double x:Key="cw_spacing_2">8</x:Double>
+    <x:Double x:Key="cw_spacing_3">12</x:Double>
+    <x:Double x:Key="cw_spacing_4">16</x:Double>
+    <x:Double x:Key="cw_spacing_5">20</x:Double>
+    <x:Double x:Key="cw_spacing_6">24</x:Double>
+    <x:Double x:Key="cw_spacing_7">28</x:Double>
+    <x:Double x:Key="cw_spacing_8">32</x:Double>
+
+    <!--  Font Size Variables - Can be overridden by users  -->
+    <x:Double x:Key="cw_sizing_xs">12</x:Double>
+    <x:Double x:Key="cw_sizing_sm">14</x:Double>
+    <x:Double x:Key="cw_sizing_md">16</x:Double>
+    <x:Double x:Key="cw_sizing_lg">18</x:Double>
+    <x:Double x:Key="cw_sizing_xl">20</x:Double>
+    <x:Double x:Key="cw_sizing_2xl">24</x:Double>
+    <x:Double x:Key="cw_sizing_3xl">30</x:Double>
+    <x:Double x:Key="cw_sizing_4xl">36</x:Double>
+    <x:Double x:Key="cw_sizing_5xl">48</x:Double>
+    <x:Double x:Key="cw_sizing_6xl">60</x:Double>
+
+    <!--  Font Family Variables - Can be overridden by users  -->
+    <OnPlatform x:Key="cw_fonts_sans_serif" x:TypeArguments="x:String">
+        <On Platform="iOS">-apple-system</On>
+        <On Platform="Android">sans-serif</On>
+        <On Platform="WinUI">Segoe UI</On>
+        <On Platform="MacCatalyst">-apple-system</On>
+    </OnPlatform>
+
+    <OnPlatform x:Key="cw_fonts_serif" x:TypeArguments="x:String">
+        <On Platform="iOS">Georgia</On>
+        <On Platform="Android">serif</On>
+        <On Platform="WinUI">Georgia</On>
+        <On Platform="MacCatalyst">Georgia</On>
+    </OnPlatform>
+
+    <OnPlatform x:Key="cw_fonts_monospace" x:TypeArguments="x:String">
+        <On Platform="iOS">Courier</On>
+        <On Platform="Android">monospace</On>
+        <On Platform="WinUI">Consolas</On>
+        <On Platform="MacCatalyst">Courier</On>
+    </OnPlatform>
+
 
 </ResourceDictionary>

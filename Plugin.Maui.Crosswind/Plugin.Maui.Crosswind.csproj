@@ -53,12 +53,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Resources\CwBasic.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+		<Compile Update="Resources\CwBasic.xaml.cs">
+			<DependentUpon>CwBasic.xaml</DependentUpon>
+		</Compile>
 	  <MauiXaml Update="Resources\CwFixedResources.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Resources\CwVariables.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+		<Compile Update="Resources\CwFixedResources.xaml.cs">
+			<DependentUpon>CwBasic.xaml</DependentUpon>
+		</Compile>
+		<MauiXaml Update="Resources\CwVariables.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<Compile Update="Resources\CwVariables.xaml.cs">
+			<DependentUpon>CwBasic.xaml</DependentUpon>
+		</Compile>
 	</ItemGroup>
 
 	<!-- Package additions -->

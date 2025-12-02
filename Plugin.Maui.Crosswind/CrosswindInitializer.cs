@@ -27,9 +27,9 @@ public static class CrosswindInitializer
             // Take the string and add the styles.
             using var reader = new StringReader(stylesheet);
             Application.Current?.Resources.Add(StyleSheet.FromReader(reader));
-           
+
             // Create a resource dictionary for all of our variables.
-            PopulateVariables(options);
+            // PopulateVariables(options);
             
             // Add the dictionary containing fixes for CSS.
             Application.Current?.Resources.MergedDictionaries.Add(new Resources.CwFixedResources());
